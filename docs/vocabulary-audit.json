@@ -1,0 +1,6456 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "id": "eggrolls-jlpt10k",
+    "title": "egg rolls JLPT N1–N5 詞彙牌組",
+    "author": "egg rolls",
+    "traditionalChineseContributor": "ShihHsing Chen",
+    "repository": "https://github.com/5mdld/anki-jlpt-decks",
+    "revision": "853798a4dec3630cad1984aa1c7edab31b09d109",
+    "license": "CC-BY-NC-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "language": "zh-Hant-TW",
+    "files": [
+      {
+        "path": "notes.csv",
+        "url": "https://raw.githubusercontent.com/5mdld/anki-jlpt-decks/853798a4dec3630cad1984aa1c7edab31b09d109/deck-source/notes.csv",
+        "bytes": 6593640,
+        "sha256": "30e9350c92c7bdeaf0f4c0317c9a0f659eb32e606a69870176deff159559eb1a"
+      },
+      {
+        "path": "LICENSE",
+        "url": "https://raw.githubusercontent.com/5mdld/anki-jlpt-decks/853798a4dec3630cad1984aa1c7edab31b09d109/LICENSE",
+        "bytes": 19346,
+        "sha256": "3711f963c05d0be80d53e5923308a6dee31b203da23435c9cfb7c7b6e4dd5e19"
+      },
+      {
+        "path": "README.md",
+        "url": "https://raw.githubusercontent.com/5mdld/anki-jlpt-decks/853798a4dec3630cad1984aa1c7edab31b09d109/README.md",
+        "bytes": 25075,
+        "sha256": "d0dbf94148d4af79e262a20004f654d32c68587ed1f61a28527ebedc4dc3d243"
+      }
+    ]
+  },
+  "scope": "依上游社群整理的 N5–N1 參考詞彙；不是 JLPT 官方清單，亦不保證涵蓋考試全部詞彙。",
+  "rawCount": 10641,
+  "rawByLevel": {
+    "N5": 807,
+    "N4": 757,
+    "N3": 1817,
+    "N2": 3215,
+    "N1": 4045
+  },
+  "uniqueCount": 10629,
+  "uniqueByLevel": {
+    "N5": 805,
+    "N4": 755,
+    "N3": 1813,
+    "N2": 3212,
+    "N1": 4044
+  },
+  "removedDuplicateRows": 12,
+  "duplicateGroupCount": 12,
+  "duplicates": [
+    {
+      "id": "jlpt-0ac038632611f11f2209",
+      "word": "本",
+      "kana": "ほん",
+      "retainedLevel": "N5",
+      "sourceLevels": [
+        "N5",
+        "N2"
+      ],
+      "sources": [
+        {
+          "sourceId": "0b651736-2ed7-11ef-a183-99ad05e145f0",
+          "sourceLevel": "N5",
+          "sourceRow": 845,
+          "meaning": "書本，書籍"
+        },
+        {
+          "sourceId": "0c446b2a-2ed7-11ef-a183-99ad05e145f0",
+          "sourceLevel": "N2",
+          "sourceRow": 5802,
+          "meaning": "本……，我……"
+        }
+      ]
+    },
+    {
+      "id": "jlpt-317542d02c5ef8f162f1",
+      "word": "先",
+      "kana": "さき",
+      "retainedLevel": "N5",
+      "sourceLevels": [
+        "N5",
+        "N4"
+      ],
+      "sources": [
+        {
+          "sourceId": "0bbecf24-2ed7-11ef-a183-99ad05e145f0",
+          "sourceLevel": "N5",
+          "sourceRow": 3178,
+          "meaning": "動作所及的對象或地點"
+        },
+        {
+          "sourceId": "0b5e0e96-2ed7-11ef-a183-99ad05e145f0",
+          "sourceLevel": "N4",
+          "sourceRow": 647,
+          "meaning": "頂，尖；前方；先"
+        }
+      ]
+    },
+    {
+      "id": "jlpt-38c7365e9765504310a0",
+      "word": "込む",
+      "kana": "こむ",
+      "retainedLevel": "N4",
+      "sourceLevels": [
+        "N4",
+        "N3"
+      ],
+      "sources": [
+        {
+          "sourceId": "0b582076-2ed7-11ef-a183-99ad05e145f0",
+          "sourceLevel": "N4",
+          "sourceRow": 475,
+          "meaning": "（混）擁擠；（込）費事，精巧"
+        },
+        {
+          "sourceId": "0c182f4c-2ed7-11ef-a183-99ad05e145f0",
+          "sourceLevel": "N3",
+          "sourceRow": 5020,
+          "meaning": "進入……；充分……"
+        }
+      ]
+    },
+    {
+      "id": "jlpt-3a3f0db40cea0b88718d",
+      "word": "ロック",
+      "kana": "ロック",
+      "retainedLevel": "N3",
+      "sourceLevels": [
+        "N3"
+      ],
+      "sources": [
+        {
+          "sourceId": "3a114dac-06d6-11f0-a977-0589cb933c5e",
+          "sourceLevel": "N3",
+          "sourceRow": 10388,
+          "meaning": "岩石；搖滾（樂）"
+        },
+        {
+          "sourceId": "49afb45e-b061-11ef-b775-e7560ea47657",
+          "sourceLevel": "N3",
+          "sourceRow": 9821,
+          "meaning": "鎖"
+        }
+      ]
+    },
+    {
+      "id": "jlpt-47d0b5a0a0284467f6ec",
+      "word": "たたえる",
+      "kana": "たたえる",
+      "retainedLevel": "N1",
+      "sourceLevels": [
+        "N1"
+      ],
+      "sources": [
+        {
+          "sourceId": "0cddfe84-2ed7-11ef-a183-99ad05e145f0",
+          "sourceLevel": "N1",
+          "sourceRow": 7923,
+          "meaning": "裝滿；洋溢"
+        },
+        {
+          "sourceId": "74a520ba-58c5-11f0-942b-0d708af8d6f5",
+          "sourceLevel": "N1",
+          "sourceRow": 10458,
+          "meaning": "讚揚，稱讚，誇獎，表彰"
+        }
+      ]
+    },
+    {
+      "id": "jlpt-56e4ae127cead7f3eed0",
+      "word": "あれ",
+      "kana": "あれ",
+      "retainedLevel": "N5",
+      "sourceLevels": [
+        "N5"
+      ],
+      "sources": [
+        {
+          "sourceId": "0b694e64-2ed7-11ef-a183-99ad05e145f0",
+          "sourceLevel": "N5",
+          "sourceRow": 950,
+          "meaning": "（表示驚訝、奇怪）哎呀，哎喲"
+        },
+        {
+          "sourceId": "0b493e76-2ed7-11ef-a183-99ad05e145f0",
+          "sourceLevel": "N5",
+          "sourceRow": 75,
+          "meaning": "（表示離雙方都有距離的）那個；（指之前發生過的，你和對方都熟悉的事情）那時"
+        }
+      ]
+    },
+    {
+      "id": "jlpt-7212b8cd0ed88bc5c371",
+      "word": "まく",
+      "kana": "まく",
+      "retainedLevel": "N2",
+      "sourceLevels": [
+        "N2"
+      ],
+      "sources": [
+        {
+          "sourceId": "0bc56096-2ed7-11ef-a183-99ad05e145f0",
+          "sourceLevel": "N2",
+          "sourceRow": 3276,
+          "meaning": "撒，灑，散發；甩掉（跟蹤）"
+        },
+        {
+          "sourceId": "0b967b14-2ed7-11ef-a183-99ad05e145f0",
+          "sourceLevel": "N2",
+          "sourceRow": 2087,
+          "meaning": "播種"
+        }
+      ]
+    },
+    {
+      "id": "jlpt-8bd3cb8b24ffba3fcb10",
+      "word": "作り",
+      "kana": "つくり",
+      "retainedLevel": "N3",
+      "sourceLevels": [
+        "N3"
+      ],
+      "sources": [
+        {
+          "sourceId": "0bcf1f50-2ed7-11ef-a183-99ad05e145f0",
+          "sourceLevel": "N3",
+          "sourceRow": 3459,
+          "meaning": "構造，樣式；（つくり）體格；裝作"
+        },
+        {
+          "sourceId": "0bbe8154-2ed7-11ef-a183-99ad05e145f0",
+          "sourceLevel": "N3",
+          "sourceRow": 3169,
+          "meaning": "（用……）做的"
+        }
+      ]
+    },
+    {
+      "id": "jlpt-aa5c51e59685a7fcc7fb",
+      "word": "ミス",
+      "kana": "ミス",
+      "retainedLevel": "N2",
+      "sourceLevels": [
+        "N2"
+      ],
+      "sources": [
+        {
+          "sourceId": "0b96f7ba-2ed7-11ef-a183-99ad05e145f0",
+          "sourceLevel": "N2",
+          "sourceRow": 2102,
+          "meaning": "錯誤，失誤，失敗"
+        },
+        {
+          "sourceId": "0ca2b630-2ed7-11ef-a183-99ad05e145f0",
+          "sourceLevel": "N2",
+          "sourceRow": 7328,
+          "meaning": "小姐；選美大賽的冠軍"
+        }
+      ]
+    },
+    {
+      "id": "jlpt-acc6dcfb8567a9a7baec",
+      "word": "ああ",
+      "kana": "ああ",
+      "retainedLevel": "N5",
+      "sourceLevels": [
+        "N5"
+      ],
+      "sources": [
+        {
+          "sourceId": "0b68dbc8-2ed7-11ef-a183-99ad05e145f0",
+          "sourceLevel": "N5",
+          "sourceRow": 937,
+          "meaning": "那樣，那麼"
+        },
+        {
+          "sourceId": "0b48b5e6-2ed7-11ef-a183-99ad05e145f0",
+          "sourceLevel": "N5",
+          "sourceRow": 59,
+          "meaning": "（悲傷、快樂或驚訝時）啊，哎呀；（答應時）啊"
+        }
+      ]
+    },
+    {
+      "id": "jlpt-be4dd938687b2a257fa5",
+      "word": "たまる",
+      "kana": "たまる",
+      "retainedLevel": "N3",
+      "sourceLevels": [
+        "N3"
+      ],
+      "sources": [
+        {
+          "sourceId": "0cf973f8-2ed7-11ef-a183-99ad05e145f0",
+          "sourceLevel": "N3",
+          "sourceRow": 8223,
+          "meaning": "存；積累"
+        },
+        {
+          "sourceId": "0bca17d0-2ed7-11ef-a183-99ad05e145f0",
+          "sourceLevel": "N3",
+          "sourceRow": 3367,
+          "meaning": "忍耐，忍受"
+        }
+      ]
+    },
+    {
+      "id": "jlpt-c363d802e2bc335dcd5a",
+      "word": "ホーム",
+      "kana": "ホーム",
+      "retainedLevel": "N4",
+      "sourceLevels": [
+        "N4"
+      ],
+      "sources": [
+        {
+          "sourceId": "5b7dc2a8-054c-11f0-80d4-175b5d01d6a0",
+          "sourceLevel": "N4",
+          "sourceRow": 10387,
+          "meaning": "站台，月台"
+        },
+        {
+          "sourceId": "0b962e5c-2ed7-11ef-a183-99ad05e145f0",
+          "sourceLevel": "N4",
+          "sourceRow": 2079,
+          "meaning": "家；療養院，招待所"
+        }
+      ]
+    }
+  ],
+  "missingRequiredFields": [],
+  "missingExamples": [
+    {
+      "id": "jlpt-7fc81b0ddd17b89fb8e5",
+      "word": "二",
+      "level": "N5",
+      "sourceId": "0cf8f306-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-1bedf722c04a58fa218d",
+      "word": "三",
+      "level": "N5",
+      "sourceId": "0cf8ca5c-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-b066e78531d60a4661c3",
+      "word": "四",
+      "level": "N5",
+      "sourceId": "0cf8d25e-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-d4473f87e438c0a5ba32",
+      "word": "五",
+      "level": "N5",
+      "sourceId": "0cf8c19c-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-06ef406f5569339223e1",
+      "word": "六",
+      "level": "N5",
+      "sourceId": "0cf916a6-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-eda9a40b0c9108b0c4cb",
+      "word": "七",
+      "level": "N5",
+      "sourceId": "0cf8da74-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-f6ed7c17c0d5bb3cb164",
+      "word": "八",
+      "level": "N5",
+      "sourceId": "0cf9047c-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-d33ed6be2a486443821f",
+      "word": "九",
+      "level": "N5",
+      "sourceId": "0cf8b9a4-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-877b9ba07a479f23af36",
+      "word": "十",
+      "level": "N5",
+      "sourceId": "0cf8e2c6-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-48c23a8107d7ea5acf6f",
+      "word": "二十",
+      "level": "N5",
+      "sourceId": "0b6274f4-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-277587e6fa0780885e34",
+      "word": "一つ",
+      "level": "N5",
+      "sourceId": "0b51b59c-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-bb85f028d94439bdea3f",
+      "word": "二つ",
+      "level": "N5",
+      "sourceId": "0b626c84-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-8b887bc8af0c7c28fc48",
+      "word": "三つ",
+      "level": "N5",
+      "sourceId": "0b591fee-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-947395f42397cea73915",
+      "word": "四つ",
+      "level": "N5",
+      "sourceId": "0b59647c-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-084edf1fdd10c54bd40b",
+      "word": "五つ",
+      "level": "N5",
+      "sourceId": "0b573814-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-df70a01acaec8c0ff4b7",
+      "word": "六つ",
+      "level": "N5",
+      "sourceId": "0b67a78a-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-f6bc974a7405656462fc",
+      "word": "七つ",
+      "level": "N5",
+      "sourceId": "0b5a56e8-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-6c9351ae67e6dab8b254",
+      "word": "八つ",
+      "level": "N5",
+      "sourceId": "0b636c56-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-0d0163a40587b65d48de",
+      "word": "九つ",
+      "level": "N5",
+      "sourceId": "0b563216-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-d921e51f8a8f904f8399",
+      "word": "十",
+      "level": "N5",
+      "sourceId": "9eeed41a-1437-11f0-82f9-432c3c480d85"
+    },
+    {
+      "id": "jlpt-367ca325e078e7029380",
+      "word": "一日",
+      "level": "N5",
+      "sourceId": "0b51de96-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-56d52b7869ab2c9c3ad9",
+      "word": "二日",
+      "level": "N5",
+      "sourceId": "0b6297c2-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-b0489d42833929613197",
+      "word": "三日",
+      "level": "N5",
+      "sourceId": "0b5928a4-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-13ea3220cde0d4be6e2f",
+      "word": "四日",
+      "level": "N5",
+      "sourceId": "0b596c9c-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-a02edbda9f4c0c12f283",
+      "word": "五日",
+      "level": "N5",
+      "sourceId": "0b574886-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-7b23512104620967d892",
+      "word": "六日",
+      "level": "N5",
+      "sourceId": "0b67bc84-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-0655c242d1db76f31168",
+      "word": "七日",
+      "level": "N5",
+      "sourceId": "0b5a6782-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-f50fcf40e898ba5de88e",
+      "word": "八日",
+      "level": "N5",
+      "sourceId": "0b637494-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-9acbf1542642c1b99f29",
+      "word": "九日",
+      "level": "N5",
+      "sourceId": "0b563a40-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-da2913ad7e4cba12ec80",
+      "word": "十日",
+      "level": "N5",
+      "sourceId": "0b5b4580-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-61c02e7f4acc5da3e5a0",
+      "word": "月曜日",
+      "level": "N5",
+      "sourceId": "0b56ab1a-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-9ba01fdc98978fb1be9c",
+      "word": "火曜日",
+      "level": "N5",
+      "sourceId": "0b53c846-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-2c216f91511681696dd5",
+      "word": "水曜日",
+      "level": "N5",
+      "sourceId": "0b5d5064-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-8b1ba4846f9734cec101",
+      "word": "木曜日",
+      "level": "N5",
+      "sourceId": "0b65ea08-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-8f0a38919b77ef754c78",
+      "word": "金曜日",
+      "level": "N5",
+      "sourceId": "0b560f20-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-440290628fd622bf558c",
+      "word": "土曜日",
+      "level": "N5",
+      "sourceId": "0b61c900-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-b7519a0f57a78ffcb562",
+      "word": "日曜日",
+      "level": "N5",
+      "sourceId": "0b62c0ee-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-ed82bb95d4cc42b60bfd",
+      "word": "一月",
+      "level": "N5",
+      "sourceId": "6760a674-6693-11ef-a5bb-d570c87de451"
+    },
+    {
+      "id": "jlpt-6eed6b905b8e61da3681",
+      "word": "二月",
+      "level": "N5",
+      "sourceId": "65623c00-679e-11ef-89c9-3b0955f1365d"
+    },
+    {
+      "id": "jlpt-6fcaf66208f11ae3843f",
+      "word": "三月",
+      "level": "N5",
+      "sourceId": "656f04a8-679e-11ef-89c9-3b0955f1365d"
+    },
+    {
+      "id": "jlpt-7dddc1af4eb59b103c25",
+      "word": "四月",
+      "level": "N5",
+      "sourceId": "657bb644-679e-11ef-89c9-3b0955f1365d"
+    },
+    {
+      "id": "jlpt-2850d52ee4d218c1a768",
+      "word": "五月",
+      "level": "N5",
+      "sourceId": "658873ca-679e-11ef-89c9-3b0955f1365d"
+    },
+    {
+      "id": "jlpt-8ffa8462a4794c870312",
+      "word": "六月",
+      "level": "N5",
+      "sourceId": "65952d22-679e-11ef-89c9-3b0955f1365d"
+    },
+    {
+      "id": "jlpt-36a561c028a5cd508426",
+      "word": "七月",
+      "level": "N5",
+      "sourceId": "65a1e076-679e-11ef-89c9-3b0955f1365d"
+    },
+    {
+      "id": "jlpt-9f36975aada6b24d7908",
+      "word": "八月",
+      "level": "N5",
+      "sourceId": "65ae992e-679e-11ef-89c9-3b0955f1365d"
+    },
+    {
+      "id": "jlpt-7d4ec17d27f02697c947",
+      "word": "九月",
+      "level": "N5",
+      "sourceId": "65bb426e-679e-11ef-89c9-3b0955f1365d"
+    },
+    {
+      "id": "jlpt-cacf3a45ed07f39542eb",
+      "word": "十月",
+      "level": "N5",
+      "sourceId": "65c809fe-679e-11ef-89c9-3b0955f1365d"
+    },
+    {
+      "id": "jlpt-4dd90c580e827c9831ad",
+      "word": "十一月",
+      "level": "N5",
+      "sourceId": "65d4c7f2-679e-11ef-89c9-3b0955f1365d"
+    },
+    {
+      "id": "jlpt-960be8ae7c29ca0a4cff",
+      "word": "十二月",
+      "level": "N5",
+      "sourceId": "65e18802-679e-11ef-89c9-3b0955f1365d"
+    },
+    {
+      "id": "jlpt-336eb0ee43c68cdcd9d2",
+      "word": "パパ",
+      "level": "N3",
+      "sourceId": "2735be2e-4b55-11f1-a630-0ddc817ad47e"
+    },
+    {
+      "id": "jlpt-f9eb212fb36c3d52b2c4",
+      "word": "人差し指",
+      "level": "N3",
+      "sourceId": "0bd41a28-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-a3a233f18e3a8dca3adc",
+      "word": "親指",
+      "level": "N3",
+      "sourceId": "0bacc95a-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-2e32875a7f420a832519",
+      "word": "居間",
+      "level": "N3",
+      "sourceId": "0b9fa446-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-bc6f3cc401b514121bdb",
+      "word": "明後日",
+      "level": "N3",
+      "sourceId": "0c13b048-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-09b3c6d3cd826d6e7dab",
+      "word": "敬語",
+      "level": "N3",
+      "sourceId": "0b787a06-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-6a1719a840877dd7b706",
+      "word": "一昨日",
+      "level": "N3",
+      "sourceId": "0b72c458-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-ebf726896862461a8d2c",
+      "word": "小指",
+      "level": "N3",
+      "sourceId": "0baa8316-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-cbee09d8ca608cb8c32d",
+      "word": "ブーツ",
+      "level": "N3",
+      "sourceId": "c090be0a-4b98-11f1-b0cd-b78500d69791"
+    },
+    {
+      "id": "jlpt-13f715ad675a09881047",
+      "word": "中指",
+      "level": "N3",
+      "sourceId": "0b84cebe-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-4fa8f629dbadd2d6894f",
+      "word": "漁師",
+      "level": "N3",
+      "sourceId": "0bf96efe-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-abe476539443c6128f6b",
+      "word": "ピクニック",
+      "level": "N3",
+      "sourceId": "a4aa6cb4-4ce1-11f1-90a9-0fc8163987fc"
+    },
+    {
+      "id": "jlpt-875cdf1811f3cc174252",
+      "word": "オリンピック",
+      "level": "N3",
+      "sourceId": "0b6a5b42-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-071fa1b1f19cc02546e6",
+      "word": "和室",
+      "level": "N3",
+      "sourceId": "c319dfb6-4ce8-11f1-90a9-0fc8163987fc"
+    },
+    {
+      "id": "jlpt-528e746552150c98f8d7",
+      "word": "朝刊",
+      "level": "N3",
+      "sourceId": "0c0ab646-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-dd734e70eb76f75c5b5b",
+      "word": "院生",
+      "level": "N3",
+      "sourceId": "0b997062-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-091853b798ec6201b3b4",
+      "word": "昨日",
+      "level": "N3",
+      "sourceId": "0ba5be80-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-0b6a4b39ba5f8896dbae",
+      "word": "上半身",
+      "level": "N2",
+      "sourceId": "0bd305b6-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-41d0b0f37307d2158a45",
+      "word": "後者",
+      "level": "N2",
+      "sourceId": "0bfc62a8-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-cee1e2cfc17a2d80d689",
+      "word": "髪型",
+      "level": "N2",
+      "sourceId": "0bdc792a-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-839cc5cc51db74c5808f",
+      "word": "前者",
+      "level": "N2",
+      "sourceId": "0c074614-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-3128d07129b4dcb49a5e",
+      "word": "パジャマ",
+      "level": "N2",
+      "sourceId": "0bf0ffee-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-34ce7b171b18c6333e83",
+      "word": "校長",
+      "level": "N2",
+      "sourceId": "0b7a95ac-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-be57f340403c67a2a128",
+      "word": "劇場",
+      "level": "N2",
+      "sourceId": "0bfb1650-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-81f6214dbc5eb683e4cd",
+      "word": "さみしい",
+      "level": "N2",
+      "sourceId": "49b13162-b061-11ef-b775-e7560ea47657"
+    },
+    {
+      "id": "jlpt-972643e6a600f71ff56d",
+      "word": "差出人",
+      "level": "N2",
+      "sourceId": "0bce8aa4-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-69d3fe9ffbc879653667",
+      "word": "長距離",
+      "level": "N2",
+      "sourceId": "0bd91ff0-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-4e42f8c9b520992d48a2",
+      "word": "書店",
+      "level": "N2",
+      "sourceId": "0baa17dc-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-3a69c288e5388cdafa31",
+      "word": "長方形",
+      "level": "N2",
+      "sourceId": "0bb26dec-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-c396e047e0a3f83451b1",
+      "word": "題名",
+      "level": "N2",
+      "sourceId": "0c095602-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-59c428829602f274dd1f",
+      "word": "緑茶",
+      "level": "N2",
+      "sourceId": "0be27686-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-5419ffef83600593981a",
+      "word": "航空機",
+      "level": "N2",
+      "sourceId": "0bcdbdae-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-135acb207737e0684820",
+      "word": "リットル",
+      "level": "N2",
+      "sourceId": "0b71e074-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-29de63f51dd5667e9fab",
+      "word": "細菌",
+      "level": "N2",
+      "sourceId": "0c689fe0-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-cffda74fd9192265774c",
+      "word": "弊社",
+      "level": "N2",
+      "sourceId": "0bdedd00-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-79822eae871b4802b860",
+      "word": "インプット",
+      "level": "N2",
+      "sourceId": "c7becfe2-4dae-11f1-b81c-a57127b838b2"
+    },
+    {
+      "id": "jlpt-0496104e240dc0f10349",
+      "word": "拝啓",
+      "level": "N2",
+      "sourceId": "0bdc15b6-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-f9aa09f0a95b9792338c",
+      "word": "ガーデニング",
+      "level": "N2",
+      "sourceId": "889a82b8-4e79-11f1-beee-f9338ab5b368"
+    },
+    {
+      "id": "jlpt-4cb03bbc9f5d21023121",
+      "word": "アウトプット",
+      "level": "N2",
+      "sourceId": "88d93d96-4e79-11f1-beee-f9338ab5b368"
+    },
+    {
+      "id": "jlpt-925841cdfb47c945b78a",
+      "word": "再来月",
+      "level": "N2",
+      "sourceId": "0b58a3e8-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-a1a4b88a49d4f48d29d6",
+      "word": "話し手",
+      "level": "N2",
+      "sourceId": "0be30b0a-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-5fe3e02a87b948e7f964",
+      "word": "下着",
+      "level": "N1",
+      "sourceId": "0b7428ac-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-10feb3d63f20ceb137c6",
+      "word": "中年",
+      "level": "N1",
+      "sourceId": "0bb1d7ba-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-a494fa827516d94c6b6f",
+      "word": "悪人",
+      "level": "N1",
+      "sourceId": "0c559ddc-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-fed7e82436d7c7aec69d",
+      "word": "女房",
+      "level": "N1",
+      "sourceId": "0b7f6280-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-45164a0ae98e2da0c752",
+      "word": "雄",
+      "level": "N1",
+      "sourceId": "0c45ef18-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-d4971d7a5d585891a189",
+      "word": "上級生",
+      "level": "N1",
+      "sourceId": "b9876f9e-692e-11ef-95f0-b30e867324a9"
+    },
+    {
+      "id": "jlpt-9169e9fee9b165a70b70",
+      "word": "雌",
+      "level": "N1",
+      "sourceId": "0c6ad2d8-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-09863ef94c361b2bc3c7",
+      "word": "洗面台",
+      "level": "N1",
+      "sourceId": "0be87018-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-7501dd21a276626cef7f",
+      "word": "働き者",
+      "level": "N1",
+      "sourceId": "0c0d33a8-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-7dcb4c7ce0149801d4f9",
+      "word": "学長",
+      "level": "N1",
+      "sourceId": "0bc9b42a-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-9f0f16a24930c7bc8f75",
+      "word": "オーストラリア",
+      "level": "N1",
+      "sourceId": "0b4a018a-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-64a9d2554490f215b046",
+      "word": "低学年",
+      "level": "N1",
+      "sourceId": "7a39bc48-679e-11ef-89c9-3b0955f1365d"
+    },
+    {
+      "id": "jlpt-d156b7ff118312b3d3d1",
+      "word": "入れ物",
+      "level": "N1",
+      "sourceId": "0bdbbbac-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-2fb0825e11bea8671bba",
+      "word": "ミュージシャン",
+      "level": "N1",
+      "sourceId": "0ca2fab4-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-ccf23ddce448dd16a51b",
+      "word": "高学年",
+      "level": "N1",
+      "sourceId": "b9714822-692e-11ef-95f0-b30e867324a9"
+    },
+    {
+      "id": "jlpt-ce69e6bfa2cc75e9773a",
+      "word": "ナルシスト",
+      "level": "N1",
+      "sourceId": "e1c5d926-57b9-11f0-a71e-995f04a60375"
+    },
+    {
+      "id": "jlpt-56ec31b5a5608c81471a",
+      "word": "コアラ",
+      "level": "N1",
+      "sourceId": "6d575d94-b061-11ef-b775-e7560ea47657"
+    },
+    {
+      "id": "jlpt-faab68c19bdf75c284ea",
+      "word": "社会科学",
+      "level": "N1",
+      "sourceId": "0bd10842-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-aa992f61aeb5db6714d2",
+      "word": "大脳",
+      "level": "N1",
+      "sourceId": "88cdba8e-4e79-11f1-beee-f9338ab5b368"
+    },
+    {
+      "id": "jlpt-8853cde52b5316d6f480",
+      "word": "成虫",
+      "level": "N1",
+      "sourceId": "b97d5d74-692e-11ef-95f0-b30e867324a9"
+    },
+    {
+      "id": "jlpt-023d32d6055155f57e66",
+      "word": "夏至",
+      "level": "N1",
+      "sourceId": "b96f87ee-692e-11ef-95f0-b30e867324a9"
+    },
+    {
+      "id": "jlpt-4687c85dab67a46fc1c2",
+      "word": "前略",
+      "level": "N1",
+      "sourceId": "b97ce77c-692e-11ef-95f0-b30e867324a9"
+    },
+    {
+      "id": "jlpt-843729268553180b88eb",
+      "word": "ベビーカー",
+      "level": "N1",
+      "sourceId": "0bc502b8-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-092fd4b99fdfcdf8f8a8",
+      "word": "冬至",
+      "level": "N1",
+      "sourceId": "b96f7df8-692e-11ef-95f0-b30e867324a9"
+    },
+    {
+      "id": "jlpt-05a86c982ca6ec457409",
+      "word": "先々週",
+      "level": "N1",
+      "sourceId": "0b5e1eea-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-65b1b2e23ff316cefb06",
+      "word": "冬枯れ",
+      "level": "N1",
+      "sourceId": "6dc28718-b061-11ef-b775-e7560ea47657"
+    },
+    {
+      "id": "jlpt-faf5dfed486b11cf73f3",
+      "word": "サラダ油",
+      "level": "N1",
+      "sourceId": "0bc21d6e-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-e40a5caf6926a77bd750",
+      "word": "南半球",
+      "level": "N1",
+      "sourceId": "b959f9ce-692e-11ef-95f0-b30e867324a9"
+    },
+    {
+      "id": "jlpt-e268a7193d6255d8a8a6",
+      "word": "大便",
+      "level": "N1",
+      "sourceId": "0cdd1a96-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-5c3d23b7456337bc79c9",
+      "word": "黙読",
+      "level": "N1",
+      "sourceId": "b930dc2e-692e-11ef-95f0-b30e867324a9"
+    },
+    {
+      "id": "jlpt-0d8aea4566af1d42bcb9",
+      "word": "エッセー",
+      "level": "N1",
+      "sourceId": "0c932972-2ed7-11ef-a183-99ad05e145f0"
+    },
+    {
+      "id": "jlpt-63acc4d1b1370fc14437",
+      "word": "長ねぎ",
+      "level": "N1",
+      "sourceId": "0b8543ee-2ed7-11ef-a183-99ad05e145f0"
+    }
+  ],
+  "missingExampleReason": "上游只提供關聯詞／反義詞，沒有例句或用語示例；保留空字串，不自行生成。",
+  "readingAdjustmentCount": 839,
+  "readingAdjustments": [
+    {
+      "sourceId": "0b47a8ea-2ed7-11ef-a183-99ad05e145f0",
+      "word": "キログラム",
+      "sourceValue": "kilogram；(フ) kilogramme",
+      "kana": "キログラム"
+    },
+    {
+      "sourceId": "0b47b2f4-2ed7-11ef-a183-99ad05e145f0",
+      "word": "キロメートル",
+      "sourceValue": "(フ) kilomètre",
+      "kana": "キロメートル"
+    },
+    {
+      "sourceId": "0b47be0c-2ed7-11ef-a183-99ad05e145f0",
+      "word": "グラム",
+      "sourceValue": "gram；(法) gramme",
+      "kana": "グラム"
+    },
+    {
+      "sourceId": "0b48be4c-2ed7-11ef-a183-99ad05e145f0",
+      "word": "アイスクリーム",
+      "sourceValue": "ice cream",
+      "kana": "アイスクリーム"
+    },
+    {
+      "sourceId": "0b490c94-2ed7-11ef-a183-99ad05e145f0",
+      "word": "アパート",
+      "sourceValue": "apartment house",
+      "kana": "アパート"
+    },
+    {
+      "sourceId": "0b4925d0-2ed7-11ef-a183-99ad05e145f0",
+      "word": "アメリカ",
+      "sourceValue": "America",
+      "kana": "アメリカ"
+    },
+    {
+      "sourceId": "0b493656-2ed7-11ef-a183-99ad05e145f0",
+      "word": "アルバム",
+      "sourceValue": "album",
+      "kana": "アルバム"
+    },
+    {
+      "sourceId": "0b4967ac-2ed7-11ef-a183-99ad05e145f0",
+      "word": "イギリス",
+      "sourceValue": "(ポ) inglez",
+      "kana": "イギリス"
+    },
+    {
+      "sourceId": "0b49b68a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "インターネット",
+      "sourceValue": "internet",
+      "kana": "インターネット"
+    },
+    {
+      "sourceId": "0b49e92a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "エアコン",
+      "sourceValue": "air conditioner",
+      "kana": "エアコン"
+    },
+    {
+      "sourceId": "0b4a018a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "オーストラリア",
+      "sourceValue": "Australia",
+      "kana": "オーストラリア"
+    },
+    {
+      "sourceId": "0b4aa7de-2ed7-11ef-a183-99ad05e145f0",
+      "word": "カップ",
+      "sourceValue": "cup",
+      "kana": "カップ"
+    },
+    {
+      "sourceId": "0b4ab832-2ed7-11ef-a183-99ad05e145f0",
+      "word": "カメラ",
+      "sourceValue": "camera",
+      "kana": "カメラ"
+    },
+    {
+      "sourceId": "0b4ad0b0-2ed7-11ef-a183-99ad05e145f0",
+      "word": "カレー",
+      "sourceValue": "curry",
+      "kana": "カレー"
+    },
+    {
+      "sourceId": "0b4ae0dc-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ギター",
+      "sourceValue": "guitar",
+      "kana": "ギター"
+    },
+    {
+      "sourceId": "0b4b036e-2ed7-11ef-a183-99ad05e145f0",
+      "word": "キロ",
+      "sourceValue": "(フ) kilo",
+      "kana": "キロ"
+    },
+    {
+      "sourceId": "0b4b13f4-2ed7-11ef-a183-99ad05e145f0",
+      "word": "クラス",
+      "sourceValue": "class",
+      "kana": "クラス"
+    },
+    {
+      "sourceId": "0b4b1c78-2ed7-11ef-a183-99ad05e145f0",
+      "word": "クリスマス",
+      "sourceValue": "Christmas・Xmas",
+      "kana": "クリスマス"
+    },
+    {
+      "sourceId": "0b4b24ca-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ケーキ",
+      "sourceValue": "cake",
+      "kana": "ケーキ"
+    },
+    {
+      "sourceId": "0b4b2cc2-2ed7-11ef-a183-99ad05e145f0",
+      "word": "コート",
+      "sourceValue": "coat",
+      "kana": "コート"
+    },
+    {
+      "sourceId": "0b4b34d8-2ed7-11ef-a183-99ad05e145f0",
+      "word": "コーヒー",
+      "sourceValue": "coffee",
+      "kana": "コーヒー"
+    },
+    {
+      "sourceId": "0b4b3cf8-2ed7-11ef-a183-99ad05e145f0",
+      "word": "コーラ",
+      "sourceValue": "cola",
+      "kana": "コーラ"
+    },
+    {
+      "sourceId": "0b4b5e18-2ed7-11ef-a183-99ad05e145f0",
+      "word": "コップ",
+      "sourceValue": "(オ) kop",
+      "kana": "コップ"
+    },
+    {
+      "sourceId": "0b4b7e8e-2ed7-11ef-a183-99ad05e145f0",
+      "word": "コピー",
+      "sourceValue": "copy",
+      "kana": "コピー"
+    },
+    {
+      "sourceId": "0b4b8ec4-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ゴルフ",
+      "sourceValue": "golf",
+      "kana": "ゴルフ"
+    },
+    {
+      "sourceId": "0b4ba6b6-2ed7-11ef-a183-99ad05e145f0",
+      "word": "コンビニ",
+      "sourceValue": "convenience store",
+      "kana": "コンビニ"
+    },
+    {
+      "sourceId": "0b4bbfb6-2ed7-11ef-a183-99ad05e145f0",
+      "word": "サッカー",
+      "sourceValue": "soccer",
+      "kana": "サッカー"
+    },
+    {
+      "sourceId": "0b4bf3be-2ed7-11ef-a183-99ad05e145f0",
+      "word": "シャツ",
+      "sourceValue": "shirt",
+      "kana": "シャツ"
+    },
+    {
+      "sourceId": "0b4bfbde-2ed7-11ef-a183-99ad05e145f0",
+      "word": "シャワー",
+      "sourceValue": "shower",
+      "kana": "シャワー"
+    },
+    {
+      "sourceId": "0b4c041c-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ジュース",
+      "sourceValue": "juice",
+      "kana": "ジュース"
+    },
+    {
+      "sourceId": "0b4c142a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ショッピング",
+      "sourceValue": "shopping",
+      "kana": "ショッピング"
+    },
+    {
+      "sourceId": "0b4c2c76-2ed7-11ef-a183-99ad05e145f0",
+      "word": "スープ",
+      "sourceValue": "soup",
+      "kana": "スープ"
+    },
+    {
+      "sourceId": "0b4c346e-2ed7-11ef-a183-99ad05e145f0",
+      "word": "スカート",
+      "sourceValue": "skirt",
+      "kana": "スカート"
+    },
+    {
+      "sourceId": "0b4c3ca2-2ed7-11ef-a183-99ad05e145f0",
+      "word": "スキー",
+      "sourceValue": "ski",
+      "kana": "スキー"
+    },
+    {
+      "sourceId": "0b4c5fe8-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ストーブ",
+      "sourceValue": "stove",
+      "kana": "ストーブ"
+    },
+    {
+      "sourceId": "0b4c706e-2ed7-11ef-a183-99ad05e145f0",
+      "word": "スプーン",
+      "sourceValue": "spoon",
+      "kana": "スプーン"
+    },
+    {
+      "sourceId": "0b4c787a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "スポーツ",
+      "sourceValue": "sport",
+      "kana": "スポーツ"
+    },
+    {
+      "sourceId": "0b4c80ae-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ズボン",
+      "sourceValue": "(フ) jupon",
+      "kana": "ズボン"
+    },
+    {
+      "sourceId": "0b4c994a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "スリッパ",
+      "sourceValue": "slipper",
+      "kana": "スリッパ"
+    },
+    {
+      "sourceId": "0b4caaa2-2ed7-11ef-a183-99ad05e145f0",
+      "word": "セーター",
+      "sourceValue": "sweater",
+      "kana": "セーター"
+    },
+    {
+      "sourceId": "0b4cbb14-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ゼロ",
+      "sourceValue": "zero",
+      "kana": "ゼロ"
+    },
+    {
+      "sourceId": "0b4cc320-2ed7-11ef-a183-99ad05e145f0",
+      "word": "センチ",
+      "sourceValue": "(フ) centimètre",
+      "kana": "センチ"
+    },
+    {
+      "sourceId": "0b4d533a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "タクシー",
+      "sourceValue": "taxi",
+      "kana": "タクシー"
+    },
+    {
+      "sourceId": "0b4d7478-2ed7-11ef-a183-99ad05e145f0",
+      "word": "タバコ",
+      "sourceValue": "(ポ) tabaco",
+      "kana": "タバコ"
+    },
+    {
+      "sourceId": "0b4d84f4-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ダンス",
+      "sourceValue": "dance",
+      "kana": "ダンス"
+    },
+    {
+      "sourceId": "0b4dafb0-2ed7-11ef-a183-99ad05e145f0",
+      "word": "チーズ",
+      "sourceValue": "cheese",
+      "kana": "チーズ"
+    },
+    {
+      "sourceId": "0b4db910-2ed7-11ef-a183-99ad05e145f0",
+      "word": "チーム",
+      "sourceValue": "team",
+      "kana": "チーム"
+    },
+    {
+      "sourceId": "0b4dc130-2ed7-11ef-a183-99ad05e145f0",
+      "word": "チケット",
+      "sourceValue": "ticket",
+      "kana": "チケット"
+    },
+    {
+      "sourceId": "0b4dd9fe-2ed7-11ef-a183-99ad05e145f0",
+      "word": "チョコレート",
+      "sourceValue": "chocolate",
+      "kana": "チョコレート"
+    },
+    {
+      "sourceId": "0b4e0668-2ed7-11ef-a183-99ad05e145f0",
+      "word": "テープ",
+      "sourceValue": "tape",
+      "kana": "テープ"
+    },
+    {
+      "sourceId": "0b4e0f14-2ed7-11ef-a183-99ad05e145f0",
+      "word": "テーブル",
+      "sourceValue": "table",
+      "kana": "テーブル"
+    },
+    {
+      "sourceId": "0b4e2094-2ed7-11ef-a183-99ad05e145f0",
+      "word": "テキスト",
+      "sourceValue": "text",
+      "kana": "テキスト"
+    },
+    {
+      "sourceId": "0b4e3142-2ed7-11ef-a183-99ad05e145f0",
+      "word": "テスト",
+      "sourceValue": "test",
+      "kana": "テスト"
+    },
+    {
+      "sourceId": "0b4e4128-2ed7-11ef-a183-99ad05e145f0",
+      "word": "デパート",
+      "sourceValue": "department store",
+      "kana": "デパート"
+    },
+    {
+      "sourceId": "0b4e51cc-2ed7-11ef-a183-99ad05e145f0",
+      "word": "テレビ",
+      "sourceValue": "television",
+      "kana": "テレビ"
+    },
+    {
+      "sourceId": "0b4e6202-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ドア",
+      "sourceValue": "door",
+      "kana": "ドア"
+    },
+    {
+      "sourceId": "0b4e6a4a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "トイレ",
+      "sourceValue": "toilet",
+      "kana": "トイレ"
+    },
+    {
+      "sourceId": "0b4ed462-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ドリンク",
+      "sourceValue": "drink",
+      "kana": "ドリンク"
+    },
+    {
+      "sourceId": "0b4efcda-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ナイフ",
+      "sourceValue": "knife",
+      "kana": "ナイフ"
+    },
+    {
+      "sourceId": "0b4f2e44-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ニュース",
+      "sourceValue": "news",
+      "kana": "ニュース"
+    },
+    {
+      "sourceId": "0b4f4708-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ネクタイ",
+      "sourceValue": "necktie",
+      "kana": "ネクタイ"
+    },
+    {
+      "sourceId": "0b4f5892-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ノート",
+      "sourceValue": "note",
+      "kana": "ノート"
+    },
+    {
+      "sourceId": "0b4f60f8-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ノートパソコン",
+      "sourceValue": "notebook personal computer",
+      "kana": "ノートパソコン"
+    },
+    {
+      "sourceId": "0b4f7160-2ed7-11ef-a183-99ad05e145f0",
+      "word": "パーティー",
+      "sourceValue": "party",
+      "kana": "パーティー"
+    },
+    {
+      "sourceId": "0b4f82f4-2ed7-11ef-a183-99ad05e145f0",
+      "word": "バイク",
+      "sourceValue": "bike",
+      "kana": "バイク"
+    },
+    {
+      "sourceId": "0b4f9d48-2ed7-11ef-a183-99ad05e145f0",
+      "word": "バス",
+      "sourceValue": "bus",
+      "kana": "バス"
+    },
+    {
+      "sourceId": "0b4fb760-2ed7-11ef-a183-99ad05e145f0",
+      "word": "バナナ",
+      "sourceValue": "banana",
+      "kana": "バナナ"
+    },
+    {
+      "sourceId": "0b4fbf44-2ed7-11ef-a183-99ad05e145f0",
+      "word": "パン",
+      "sourceValue": "(ポ) pão",
+      "kana": "パン"
+    },
+    {
+      "sourceId": "0b4fc746-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ハンカチ",
+      "sourceValue": "handkerchief",
+      "kana": "ハンカチ"
+    },
+    {
+      "sourceId": "9b3c5cd6-4b57-11f1-a630-0ddc817ad47e",
+      "word": "ビール",
+      "sourceValue": "(オ) bier",
+      "kana": "ビール"
+    },
+    {
+      "sourceId": "0b4fe7f8-2ed7-11ef-a183-99ad05e145f0",
+      "word": "プール",
+      "sourceValue": "pool",
+      "kana": "プール"
+    },
+    {
+      "sourceId": "23206f54-4b5b-11f1-a630-0ddc817ad47e",
+      "word": "フォーク",
+      "sourceValue": "fork",
+      "kana": "フォーク"
+    },
+    {
+      "sourceId": "0b500c38-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ページ",
+      "sourceValue": "page",
+      "kana": "ページ"
+    },
+    {
+      "sourceId": "0b50143a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ベッド",
+      "sourceValue": "bed",
+      "kana": "ベッド"
+    },
+    {
+      "sourceId": "0b501c50-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ペン",
+      "sourceValue": "pen",
+      "kana": "ペン"
+    },
+    {
+      "sourceId": "0b502484-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ボールペン",
+      "sourceValue": "ball pen",
+      "kana": "ボールペン"
+    },
+    {
+      "sourceId": "0b5034f6-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ポケット",
+      "sourceValue": "pocket",
+      "kana": "ポケット"
+    },
+    {
+      "sourceId": "0b503d84-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ポスト",
+      "sourceValue": "post",
+      "kana": "ポスト"
+    },
+    {
+      "sourceId": "0b50457c-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ボタン",
+      "sourceValue": "button",
+      "kana": "ボタン"
+    },
+    {
+      "sourceId": "b879d576-4cec-11f1-90a9-0fc8163987fc",
+      "word": "ポテト",
+      "sourceValue": "potato",
+      "kana": "ポテト"
+    },
+    {
+      "sourceId": "0b506692-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ホテル",
+      "sourceValue": "hotel",
+      "kana": "ホテル"
+    },
+    {
+      "sourceId": "0b50a1de-2ed7-11ef-a183-99ad05e145f0",
+      "word": "マンション",
+      "sourceValue": "mansion",
+      "kana": "マンション"
+    },
+    {
+      "sourceId": "0b50b250-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ミルク",
+      "sourceValue": "milk",
+      "kana": "ミルク"
+    },
+    {
+      "sourceId": "0b50c556-2ed7-11ef-a183-99ad05e145f0",
+      "word": "メートル",
+      "sourceValue": "metre",
+      "kana": "メートル"
+    },
+    {
+      "sourceId": "0b50cd6c-2ed7-11ef-a183-99ad05e145f0",
+      "word": "メール",
+      "sourceValue": "mail",
+      "kana": "メール"
+    },
+    {
+      "sourceId": "0b50d596-2ed7-11ef-a183-99ad05e145f0",
+      "word": "メールアドレス",
+      "sourceValue": "mail address",
+      "kana": "メールアドレス"
+    },
+    {
+      "sourceId": "0b510fd4-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ヨーロッパ",
+      "sourceValue": "(ポ) Europa",
+      "kana": "ヨーロッパ"
+    },
+    {
+      "sourceId": "0b511fb0-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ラジオ",
+      "sourceValue": "radio",
+      "kana": "ラジオ"
+    },
+    {
+      "sourceId": "0b5128e8-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ラジカセ",
+      "sourceValue": "(和) radio＋cassette",
+      "kana": "ラジカセ"
+    },
+    {
+      "sourceId": "0b513982-2ed7-11ef-a183-99ad05e145f0",
+      "word": "レコード",
+      "sourceValue": "record",
+      "kana": "レコード"
+    },
+    {
+      "sourceId": "0b5141e8-2ed7-11ef-a183-99ad05e145f0",
+      "word": "レストラン",
+      "sourceValue": "(フ) restaurant",
+      "kana": "レストラン"
+    },
+    {
+      "sourceId": "0b5149e0-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ワイシャツ",
+      "sourceValue": "white shirt",
+      "kana": "ワイシャツ"
+    },
+    {
+      "sourceId": "0b68ec58-2ed7-11ef-a183-99ad05e145f0",
+      "word": "アジア",
+      "sourceValue": "Asia",
+      "kana": "アジア"
+    },
+    {
+      "sourceId": "0b690d5a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "アドレス",
+      "sourceValue": "address",
+      "kana": "アドレス"
+    },
+    {
+      "sourceId": "0b69155c-2ed7-11ef-a183-99ad05e145f0",
+      "word": "アナウンサー",
+      "sourceValue": "announcer",
+      "kana": "アナウンサー"
+    },
+    {
+      "sourceId": "0b691d54-2ed7-11ef-a183-99ad05e145f0",
+      "word": "アニメ",
+      "sourceValue": "animation",
+      "kana": "アニメ"
+    },
+    {
+      "sourceId": "0b69256a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "アフリカ",
+      "sourceValue": "Africa",
+      "kana": "アフリカ"
+    },
+    {
+      "sourceId": "0b69461c-2ed7-11ef-a183-99ad05e145f0",
+      "word": "アルバイト",
+      "sourceValue": "(ド) Arbeit",
+      "kana": "アルバイト"
+    },
+    {
+      "sourceId": "0b6987d0-2ed7-11ef-a183-99ad05e145f0",
+      "word": "イタリア",
+      "sourceValue": "(ポ) Italia",
+      "kana": "イタリア"
+    },
+    {
+      "sourceId": "0b69a990-2ed7-11ef-a183-99ad05e145f0",
+      "word": "インド",
+      "sourceValue": "India",
+      "kana": "インド"
+    },
+    {
+      "sourceId": "0b69e540-2ed7-11ef-a183-99ad05e145f0",
+      "word": "エネルギー",
+      "sourceValue": "(ド) Energie",
+      "kana": "エネルギー"
+    },
+    {
+      "sourceId": "0b69fd46-2ed7-11ef-a183-99ad05e145f0",
+      "word": "エンジン",
+      "sourceValue": "engine",
+      "kana": "エンジン"
+    },
+    {
+      "sourceId": "0b6a1ed4-2ed7-11ef-a183-99ad05e145f0",
+      "word": "オートバイ",
+      "sourceValue": "(和) auto＋bicycle",
+      "kana": "オートバイ"
+    },
+    {
+      "sourceId": "0b6a3ff4-2ed7-11ef-a183-99ad05e145f0",
+      "word": "オフィス",
+      "sourceValue": "office",
+      "kana": "オフィス"
+    },
+    {
+      "sourceId": "0b6a5b42-2ed7-11ef-a183-99ad05e145f0",
+      "word": "オリンピック",
+      "sourceValue": "Olympic",
+      "kana": "オリンピック"
+    },
+    {
+      "sourceId": "0b6a6bbe-2ed7-11ef-a183-99ad05e145f0",
+      "word": "オレンジ",
+      "sourceValue": "orange",
+      "kana": "オレンジ"
+    },
+    {
+      "sourceId": "0b6aae62-2ed7-11ef-a183-99ad05e145f0",
+      "word": "カーテン",
+      "sourceValue": "curtain",
+      "kana": "カーテン"
+    },
+    {
+      "sourceId": "0b6ab6a0-2ed7-11ef-a183-99ad05e145f0",
+      "word": "カード",
+      "sourceValue": "card",
+      "kana": "カード"
+    },
+    {
+      "sourceId": "0b6ac7d0-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ガス",
+      "sourceValue": "(オ) gas",
+      "kana": "ガス"
+    },
+    {
+      "sourceId": "0b6ad018-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ガソリン",
+      "sourceValue": "gasoline",
+      "kana": "ガソリン"
+    },
+    {
+      "sourceId": "0b6ad8f6-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ガソリンスタンド",
+      "sourceValue": "(和) gasoline＋stand",
+      "kana": "ガソリンスタンド"
+    },
+    {
+      "sourceId": "0b6b0362-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ガム",
+      "sourceValue": "gum",
+      "kana": "ガム"
+    },
+    {
+      "sourceId": "0b6b0b96-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ガラス",
+      "sourceValue": "(オ) glas",
+      "kana": "ガラス"
+    },
+    {
+      "sourceId": "0b6b1c8a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "カレーライス",
+      "sourceValue": "curry rice",
+      "kana": "カレーライス"
+    },
+    {
+      "sourceId": "0b6b360c-2ed7-11ef-a183-99ad05e145f0",
+      "word": "キッチン",
+      "sourceValue": "kitchen",
+      "kana": "キッチン"
+    },
+    {
+      "sourceId": "0b6b5ad8-2ed7-11ef-a183-99ad05e145f0",
+      "word": "クッキー",
+      "sourceValue": "cookie",
+      "kana": "クッキー"
+    },
+    {
+      "sourceId": "0b6b74c8-2ed7-11ef-a183-99ad05e145f0",
+      "word": "グラス",
+      "sourceValue": "glass",
+      "kana": "グラス"
+    },
+    {
+      "sourceId": "0b6b7d10-2ed7-11ef-a183-99ad05e145f0",
+      "word": "クラスメート",
+      "sourceValue": "classmate",
+      "kana": "クラスメート"
+    },
+    {
+      "sourceId": "0b6b854e-2ed7-11ef-a183-99ad05e145f0",
+      "word": "クラブ",
+      "sourceValue": "club",
+      "kana": "クラブ"
+    },
+    {
+      "sourceId": "0b6b8daa-2ed7-11ef-a183-99ad05e145f0",
+      "word": "グレー",
+      "sourceValue": "gray",
+      "kana": "グレー"
+    },
+    {
+      "sourceId": "0b6b9eda-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ゲート",
+      "sourceValue": "gate",
+      "kana": "ゲート"
+    },
+    {
+      "sourceId": "0b6ba704-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ゲーム",
+      "sourceValue": "game",
+      "kana": "ゲーム"
+    },
+    {
+      "sourceId": "0b6c2684-2ed7-11ef-a183-99ad05e145f0",
+      "word": "コンサート",
+      "sourceValue": "concert",
+      "kana": "コンサート"
+    },
+    {
+      "sourceId": "0b6c2ec2-2ed7-11ef-a183-99ad05e145f0",
+      "word": "コンピューター",
+      "sourceValue": "computer",
+      "kana": "コンピューター"
+    },
+    {
+      "sourceId": "0b6c4f56-2ed7-11ef-a183-99ad05e145f0",
+      "word": "サイズ",
+      "sourceValue": "size",
+      "kana": "サイズ"
+    },
+    {
+      "sourceId": "0b6c8106-2ed7-11ef-a183-99ad05e145f0",
+      "word": "サラダ",
+      "sourceValue": "salad",
+      "kana": "サラダ"
+    },
+    {
+      "sourceId": "0b6c8976-2ed7-11ef-a183-99ad05e145f0",
+      "word": "サンダル",
+      "sourceValue": "sandal",
+      "kana": "サンダル"
+    },
+    {
+      "sourceId": "0b6cadb6-2ed7-11ef-a183-99ad05e145f0",
+      "word": "サンドイッチ",
+      "sourceValue": "sandwich",
+      "kana": "サンドイッチ"
+    },
+    {
+      "sourceId": "0b6d2322-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ジャム",
+      "sourceValue": "jam",
+      "kana": "ジャム"
+    },
+    {
+      "sourceId": "0b6d33da-2ed7-11ef-a183-99ad05e145f0",
+      "word": "スーツ",
+      "sourceValue": "suit",
+      "kana": "スーツ"
+    },
+    {
+      "sourceId": "0b6d3c18-2ed7-11ef-a183-99ad05e145f0",
+      "word": "スーツケース",
+      "sourceValue": "suitcase",
+      "kana": "スーツケース"
+    },
+    {
+      "sourceId": "0b6d4492-2ed7-11ef-a183-99ad05e145f0",
+      "word": "スーパーマーケット",
+      "sourceValue": "supermarket",
+      "kana": "スーパーマーケット"
+    },
+    {
+      "sourceId": "0b6d555e-2ed7-11ef-a183-99ad05e145f0",
+      "word": "スクリーン",
+      "sourceValue": "screen",
+      "kana": "スクリーン"
+    },
+    {
+      "sourceId": "0b6d76d8-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ステーキ",
+      "sourceValue": "steak",
+      "kana": "ステーキ"
+    },
+    {
+      "sourceId": "0b6d870e-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ストレス",
+      "sourceValue": "stress",
+      "kana": "ストレス"
+    },
+    {
+      "sourceId": "0b6ddd1c-2ed7-11ef-a183-99ad05e145f0",
+      "word": "センター",
+      "sourceValue": "center",
+      "kana": "センター"
+    },
+    {
+      "sourceId": "0b6e0fa8-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ソフト",
+      "sourceValue": "soft",
+      "kana": "ソフト"
+    },
+    {
+      "sourceId": "0b6e59f4-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ダイエット",
+      "sourceValue": "diet",
+      "kana": "ダイエット"
+    },
+    {
+      "sourceId": "0b6e6a66-2ed7-11ef-a183-99ad05e145f0",
+      "word": "タイプ",
+      "sourceValue": "type",
+      "kana": "タイプ"
+    },
+    {
+      "sourceId": "0b6e8d8e-2ed7-11ef-a183-99ad05e145f0",
+      "word": "チェック",
+      "sourceValue": "check",
+      "kana": "チェック"
+    },
+    {
+      "sourceId": "0b6e959a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "チェックイン",
+      "sourceValue": "checkin",
+      "kana": "チェックイン"
+    },
+    {
+      "sourceId": "0b6ee8b0-2ed7-11ef-a183-99ad05e145f0",
+      "word": "テニス",
+      "sourceValue": "tennis",
+      "kana": "テニス"
+    },
+    {
+      "sourceId": "0b6ef0d0-2ed7-11ef-a183-99ad05e145f0",
+      "word": "テニスコート",
+      "sourceValue": "tennis court",
+      "kana": "テニスコート"
+    },
+    {
+      "sourceId": "0b6ef968-2ed7-11ef-a183-99ad05e145f0",
+      "word": "テント",
+      "sourceValue": "tent",
+      "kana": "テント"
+    },
+    {
+      "sourceId": "0b6f019c-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ドイツ",
+      "sourceValue": "(ド) Deutschland",
+      "kana": "ドイツ"
+    },
+    {
+      "sourceId": "0b6f2ad2-2ed7-11ef-a183-99ad05e145f0",
+      "word": "トマト",
+      "sourceValue": "tomato",
+      "kana": "トマト"
+    },
+    {
+      "sourceId": "0b6f4ca6-2ed7-11ef-a183-99ad05e145f0",
+      "word": "トンネル",
+      "sourceValue": "tunnel",
+      "kana": "トンネル"
+    },
+    {
+      "sourceId": "0b6fc514-2ed7-11ef-a183-99ad05e145f0",
+      "word": "バスケットボール",
+      "sourceValue": "basketball",
+      "kana": "バスケットボール"
+    },
+    {
+      "sourceId": "0b6fccee-2ed7-11ef-a183-99ad05e145f0",
+      "word": "パスポート",
+      "sourceValue": "passport",
+      "kana": "パスポート"
+    },
+    {
+      "sourceId": "0b6fd4fa-2ed7-11ef-a183-99ad05e145f0",
+      "word": "パソコン",
+      "sourceValue": "personal computer",
+      "kana": "パソコン"
+    },
+    {
+      "sourceId": "0b6fdcf2-2ed7-11ef-a183-99ad05e145f0",
+      "word": "バター",
+      "sourceValue": "butter",
+      "kana": "バター"
+    },
+    {
+      "sourceId": "0b700880-2ed7-11ef-a183-99ad05e145f0",
+      "word": "バッグ",
+      "sourceValue": "bag",
+      "kana": "バッグ"
+    },
+    {
+      "sourceId": "0b702158-2ed7-11ef-a183-99ad05e145f0",
+      "word": "バレーボール",
+      "sourceValue": "volleyball",
+      "kana": "バレーボール"
+    },
+    {
+      "sourceId": "0b70295a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "パンダ",
+      "sourceValue": "panda",
+      "kana": "パンダ"
+    },
+    {
+      "sourceId": "0b703166-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ハンバーガー",
+      "sourceValue": "hamburger",
+      "kana": "ハンバーガー"
+    },
+    {
+      "sourceId": "0b70399a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ハンバーグ",
+      "sourceValue": "hamburg steak",
+      "kana": "ハンバーグ"
+    },
+    {
+      "sourceId": "0b704264-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ピアノ",
+      "sourceValue": "piano",
+      "kana": "ピアノ"
+    },
+    {
+      "sourceId": "0b7055e2-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ビデオ",
+      "sourceValue": "video",
+      "kana": "ビデオ"
+    },
+    {
+      "sourceId": "0b70804e-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ビル",
+      "sourceValue": "building",
+      "kana": "ビル"
+    },
+    {
+      "sourceId": "0b70888c-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ピンク",
+      "sourceValue": "pink",
+      "kana": "ピンク"
+    },
+    {
+      "sourceId": "0b70a196-2ed7-11ef-a183-99ad05e145f0",
+      "word": "フルーツ",
+      "sourceValue": "fruit",
+      "kana": "フルーツ"
+    },
+    {
+      "sourceId": "0b70a9fc-2ed7-11ef-a183-99ad05e145f0",
+      "word": "プレゼント",
+      "sourceValue": "present",
+      "kana": "プレゼント"
+    },
+    {
+      "sourceId": "0b70db20-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ボーイフレンド",
+      "sourceValue": "boyfriend",
+      "kana": "ボーイフレンド"
+    },
+    {
+      "sourceId": "0b70e336-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ボール",
+      "sourceValue": "ball",
+      "kana": "ボール"
+    },
+    {
+      "sourceId": "0b714948-2ed7-11ef-a183-99ad05e145f0",
+      "word": "メニュー",
+      "sourceValue": "menu",
+      "kana": "メニュー"
+    },
+    {
+      "sourceId": "0b71515e-2ed7-11ef-a183-99ad05e145f0",
+      "word": "メロン",
+      "sourceValue": "melon",
+      "kana": "メロン"
+    },
+    {
+      "sourceId": "0b71e074-2ed7-11ef-a183-99ad05e145f0",
+      "word": "リットル",
+      "sourceValue": "(フ) litre",
+      "kana": "リットル"
+    },
+    {
+      "sourceId": "0b71e8ee-2ed7-11ef-a183-99ad05e145f0",
+      "word": "レジ",
+      "sourceValue": "register",
+      "kana": "レジ"
+    },
+    {
+      "sourceId": "0b71f136-2ed7-11ef-a183-99ad05e145f0",
+      "word": "レポート",
+      "sourceValue": "report",
+      "kana": "レポート"
+    },
+    {
+      "sourceId": "0b71f99c-2ed7-11ef-a183-99ad05e145f0",
+      "word": "レモン",
+      "sourceValue": "lemon",
+      "kana": "レモン"
+    },
+    {
+      "sourceId": "0b721256-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ワイン",
+      "sourceValue": "wine",
+      "kana": "ワイン"
+    },
+    {
+      "sourceId": "0b8db25e-2ed7-11ef-a183-99ad05e145f0",
+      "word": "アクション",
+      "sourceValue": "action",
+      "kana": "アクション"
+    },
+    {
+      "sourceId": "0b8dbd6c-2ed7-11ef-a183-99ad05e145f0",
+      "word": "アクセサリー",
+      "sourceValue": "accessory",
+      "kana": "アクセサリー"
+    },
+    {
+      "sourceId": "0b8dd78e-2ed7-11ef-a183-99ad05e145f0",
+      "word": "アドバイス",
+      "sourceValue": "advice",
+      "kana": "アドバイス"
+    },
+    {
+      "sourceId": "0b8ddfc2-2ed7-11ef-a183-99ad05e145f0",
+      "word": "アナウンス",
+      "sourceValue": "announce",
+      "kana": "アナウンス"
+    },
+    {
+      "sourceId": "0b8e115e-2ed7-11ef-a183-99ad05e145f0",
+      "word": "イコール",
+      "sourceValue": "equal",
+      "kana": "イコール"
+    },
+    {
+      "sourceId": "0b8e43c2-2ed7-11ef-a183-99ad05e145f0",
+      "word": "イメージ",
+      "sourceValue": "image",
+      "kana": "イメージ"
+    },
+    {
+      "sourceId": "0b8e4c00-2ed7-11ef-a183-99ad05e145f0",
+      "word": "イヤリング",
+      "sourceValue": "earring",
+      "kana": "イヤリング"
+    },
+    {
+      "sourceId": "0b8e669a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "インク",
+      "sourceValue": "ink",
+      "kana": "インク"
+    },
+    {
+      "sourceId": "0b8e6f28-2ed7-11ef-a183-99ad05e145f0",
+      "word": "インタビュー",
+      "sourceValue": "interview",
+      "kana": "インタビュー"
+    },
+    {
+      "sourceId": "0b8e775c-2ed7-11ef-a183-99ad05e145f0",
+      "word": "インフルエンザ",
+      "sourceValue": "influenza",
+      "kana": "インフルエンザ"
+    },
+    {
+      "sourceId": "0b8ea8f8-2ed7-11ef-a183-99ad05e145f0",
+      "word": "エスカレーター",
+      "sourceValue": "escalator",
+      "kana": "エスカレーター"
+    },
+    {
+      "sourceId": "0b8eb12c-2ed7-11ef-a183-99ad05e145f0",
+      "word": "エプロン",
+      "sourceValue": "apron",
+      "kana": "エプロン"
+    },
+    {
+      "sourceId": "0b8eb956-2ed7-11ef-a183-99ad05e145f0",
+      "word": "エレベーター",
+      "sourceValue": "elevator",
+      "kana": "エレベーター"
+    },
+    {
+      "sourceId": "0b8eda94-2ed7-11ef-a183-99ad05e145f0",
+      "word": "オーバー",
+      "sourceValue": "over",
+      "kana": "オーバー"
+    },
+    {
+      "sourceId": "0b8ef5ce-2ed7-11ef-a183-99ad05e145f0",
+      "word": "オフ",
+      "sourceValue": "off",
+      "kana": "オフ"
+    },
+    {
+      "sourceId": "0b8f30de-2ed7-11ef-a183-99ad05e145f0",
+      "word": "カーブ",
+      "sourceValue": "curve",
+      "kana": "カーブ"
+    },
+    {
+      "sourceId": "0b8f41be-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ガイド",
+      "sourceValue": "guide",
+      "kana": "ガイド"
+    },
+    {
+      "sourceId": "0b8f5276-2ed7-11ef-a183-99ad05e145f0",
+      "word": "カセットテープ",
+      "sourceValue": "cassette tape",
+      "kana": "カセットテープ"
+    },
+    {
+      "sourceId": "0b8f5a96-2ed7-11ef-a183-99ad05e145f0",
+      "word": "カタログ",
+      "sourceValue": "catalog",
+      "kana": "カタログ"
+    },
+    {
+      "sourceId": "0b8f6b3a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "カット",
+      "sourceValue": "cut",
+      "kana": "カット"
+    },
+    {
+      "sourceId": "0b8f73f0-2ed7-11ef-a183-99ad05e145f0",
+      "word": "カバー",
+      "sourceValue": "cover",
+      "kana": "カバー"
+    },
+    {
+      "sourceId": "0b8f878c-2ed7-11ef-a183-99ad05e145f0",
+      "word": "カメラマン",
+      "sourceValue": "cameraman",
+      "kana": "カメラマン"
+    },
+    {
+      "sourceId": "0b8f8fd4-2ed7-11ef-a183-99ad05e145f0",
+      "word": "カラー",
+      "sourceValue": "color",
+      "kana": "カラー"
+    },
+    {
+      "sourceId": "0b8f9808-2ed7-11ef-a183-99ad05e145f0",
+      "word": "カロリー",
+      "sourceValue": "calorie",
+      "kana": "カロリー"
+    },
+    {
+      "sourceId": "0b8fa8ca-2ed7-11ef-a183-99ad05e145f0",
+      "word": "キーボード",
+      "sourceValue": "keyboard",
+      "kana": "キーボード"
+    },
+    {
+      "sourceId": "0b8fd3ea-2ed7-11ef-a183-99ad05e145f0",
+      "word": "キャベツ",
+      "sourceValue": "cabbage",
+      "kana": "キャベツ"
+    },
+    {
+      "sourceId": "0b8fdc32-2ed7-11ef-a183-99ad05e145f0",
+      "word": "キャンセル",
+      "sourceValue": "cancel",
+      "kana": "キャンセル"
+    },
+    {
+      "sourceId": "0b8fe484-2ed7-11ef-a183-99ad05e145f0",
+      "word": "キャンパス",
+      "sourceValue": "campus",
+      "kana": "キャンパス"
+    },
+    {
+      "sourceId": "0b8fed12-2ed7-11ef-a183-99ad05e145f0",
+      "word": "キャンプ",
+      "sourceValue": "camp",
+      "kana": "キャンプ"
+    },
+    {
+      "sourceId": "0b9026b0-2ed7-11ef-a183-99ad05e145f0",
+      "word": "グラウンド",
+      "sourceValue": "ground",
+      "kana": "グラウンド"
+    },
+    {
+      "sourceId": "0b902ed0-2ed7-11ef-a183-99ad05e145f0",
+      "word": "クラシック",
+      "sourceValue": "classic",
+      "kana": "クラシック"
+    },
+    {
+      "sourceId": "0b903772-2ed7-11ef-a183-99ad05e145f0",
+      "word": "グラフ",
+      "sourceValue": "graph",
+      "kana": "グラフ"
+    },
+    {
+      "sourceId": "0b903fa6-2ed7-11ef-a183-99ad05e145f0",
+      "word": "クリーニング",
+      "sourceValue": "cleaning",
+      "kana": "クリーニング"
+    },
+    {
+      "sourceId": "0b904fc8-2ed7-11ef-a183-99ad05e145f0",
+      "word": "グループ",
+      "sourceValue": "group",
+      "kana": "グループ"
+    },
+    {
+      "sourceId": "0b9057fc-2ed7-11ef-a183-99ad05e145f0",
+      "word": "クレジットカード",
+      "sourceValue": "credit card",
+      "kana": "クレジットカード"
+    },
+    {
+      "sourceId": "0b90603a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ケース",
+      "sourceValue": "case",
+      "kana": "ケース"
+    },
+    {
+      "sourceId": "0b9070b6-2ed7-11ef-a183-99ad05e145f0",
+      "word": "コイン",
+      "sourceValue": "coin",
+      "kana": "コイン"
+    },
+    {
+      "sourceId": "0b9080d8-2ed7-11ef-a183-99ad05e145f0",
+      "word": "コース",
+      "sourceValue": "course",
+      "kana": "コース"
+    },
+    {
+      "sourceId": "0b908998-2ed7-11ef-a183-99ad05e145f0",
+      "word": "コーチ",
+      "sourceValue": "coach",
+      "kana": "コーチ"
+    },
+    {
+      "sourceId": "0b9091ae-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ゴール",
+      "sourceValue": "goal",
+      "kana": "ゴール"
+    },
+    {
+      "sourceId": "0b90a2fc-2ed7-11ef-a183-99ad05e145f0",
+      "word": "コスト",
+      "sourceValue": "cost",
+      "kana": "コスト"
+    },
+    {
+      "sourceId": "0b90b3c8-2ed7-11ef-a183-99ad05e145f0",
+      "word": "コマーシャル",
+      "sourceValue": "commercial",
+      "kana": "コマーシャル"
+    },
+    {
+      "sourceId": "0b90c48a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "コンテスト",
+      "sourceValue": "contest",
+      "kana": "コンテスト"
+    },
+    {
+      "sourceId": "0b90d538-2ed7-11ef-a183-99ad05e145f0",
+      "word": "サービス",
+      "sourceValue": "service",
+      "kana": "サービス"
+    },
+    {
+      "sourceId": "0b90dd4e-2ed7-11ef-a183-99ad05e145f0",
+      "word": "サイン",
+      "sourceValue": "sign",
+      "kana": "サイン"
+    },
+    {
+      "sourceId": "0b9118b8-2ed7-11ef-a183-99ad05e145f0",
+      "word": "サラリーマン",
+      "sourceValue": "(和) salary＋man・salaried man",
+      "kana": "サラリーマン"
+    },
+    {
+      "sourceId": "0b912998-2ed7-11ef-a183-99ad05e145f0",
+      "word": "サングラス",
+      "sourceValue": "sunglasses",
+      "kana": "サングラス"
+    },
+    {
+      "sourceId": "0b9131c2-2ed7-11ef-a183-99ad05e145f0",
+      "word": "サンプル",
+      "sourceValue": "sample",
+      "kana": "サンプル"
+    },
+    {
+      "sourceId": "0b9141f8-2ed7-11ef-a183-99ad05e145f0",
+      "word": "シーズン",
+      "sourceValue": "season",
+      "kana": "シーズン"
+    },
+    {
+      "sourceId": "0b914a2c-2ed7-11ef-a183-99ad05e145f0",
+      "word": "シーツ",
+      "sourceValue": "sheet",
+      "kana": "シーツ"
+    },
+    {
+      "sourceId": "0b915a6c-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ジーンズ",
+      "sourceValue": "jeans",
+      "kana": "ジーンズ"
+    },
+    {
+      "sourceId": "0b918c62-2ed7-11ef-a183-99ad05e145f0",
+      "word": "シャッター",
+      "sourceValue": "shutter",
+      "kana": "シャッター"
+    },
+    {
+      "sourceId": "0b919d4c-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ショー",
+      "sourceValue": "show",
+      "kana": "ショー"
+    },
+    {
+      "sourceId": "0b91a594-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ジョギング",
+      "sourceValue": "jogging",
+      "kana": "ジョギング"
+    },
+    {
+      "sourceId": "0b91ae2c-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ショップ",
+      "sourceValue": "shop",
+      "kana": "ショップ"
+    },
+    {
+      "sourceId": "0b91b674-2ed7-11ef-a183-99ad05e145f0",
+      "word": "シリーズ",
+      "sourceValue": "series",
+      "kana": "シリーズ"
+    },
+    {
+      "sourceId": "0b91c72c-2ed7-11ef-a183-99ad05e145f0",
+      "word": "スイッチ",
+      "sourceValue": "switch",
+      "kana": "スイッチ"
+    },
+    {
+      "sourceId": "0b91cf74-2ed7-11ef-a183-99ad05e145f0",
+      "word": "スクール",
+      "sourceValue": "school",
+      "kana": "スクール"
+    },
+    {
+      "sourceId": "084a2534-4df0-11f1-92ad-a9d8dc6c1b5c",
+      "word": "スケート",
+      "sourceValue": "skate",
+      "kana": "スケート"
+    },
+    {
+      "sourceId": "0b91ea86-2ed7-11ef-a183-99ad05e145f0",
+      "word": "スタート",
+      "sourceValue": "start",
+      "kana": "スタート"
+    },
+    {
+      "sourceId": "0b920c82-2ed7-11ef-a183-99ad05e145f0",
+      "word": "スタイル",
+      "sourceValue": "style",
+      "kana": "スタイル"
+    },
+    {
+      "sourceId": "0b92201e-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ステーション",
+      "sourceValue": "station",
+      "kana": "ステーション"
+    },
+    {
+      "sourceId": "0b922ac8-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ストップ",
+      "sourceValue": "stop",
+      "kana": "ストップ"
+    },
+    {
+      "sourceId": "0b923bf8-2ed7-11ef-a183-99ad05e145f0",
+      "word": "スピーチ",
+      "sourceValue": "speech",
+      "kana": "スピーチ"
+    },
+    {
+      "sourceId": "0b924418-2ed7-11ef-a183-99ad05e145f0",
+      "word": "スピード",
+      "sourceValue": "speed",
+      "kana": "スピード"
+    },
+    {
+      "sourceId": "0b924c38-2ed7-11ef-a183-99ad05e145f0",
+      "word": "スマート",
+      "sourceValue": "smart",
+      "kana": "スマート"
+    },
+    {
+      "sourceId": "0b926524-2ed7-11ef-a183-99ad05e145f0",
+      "word": "セール",
+      "sourceValue": "sale",
+      "kana": "セール"
+    },
+    {
+      "sourceId": "0b927582-2ed7-11ef-a183-99ad05e145f0",
+      "word": "セット",
+      "sourceValue": "set",
+      "kana": "セット"
+    },
+    {
+      "sourceId": "0b928680-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ゼミナール",
+      "sourceValue": "(ド) seminar",
+      "kana": "ゼミナール"
+    },
+    {
+      "sourceId": "0b928e8c-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ソース",
+      "sourceValue": "sauce",
+      "kana": "ソース"
+    },
+    {
+      "sourceId": "0b92afc0-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ソファー",
+      "sourceValue": "sofa",
+      "kana": "ソファー"
+    },
+    {
+      "sourceId": "0b92db30-2ed7-11ef-a183-99ad05e145f0",
+      "word": "タイヤ",
+      "sourceValue": "tire",
+      "kana": "タイヤ"
+    },
+    {
+      "sourceId": "0b92e36e-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ダウンロード",
+      "sourceValue": "download",
+      "kana": "ダウンロード"
+    },
+    {
+      "sourceId": "0b92eba2-2ed7-11ef-a183-99ad05e145f0",
+      "word": "タオル",
+      "sourceValue": "towel",
+      "kana": "タオル"
+    },
+    {
+      "sourceId": "0b931604-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ダブル",
+      "sourceValue": "double",
+      "kana": "ダブル"
+    },
+    {
+      "sourceId": "0b93379c-2ed7-11ef-a183-99ad05e145f0",
+      "word": "チャイム",
+      "sourceValue": "chime",
+      "kana": "チャイム"
+    },
+    {
+      "sourceId": "0b934048-2ed7-11ef-a183-99ad05e145f0",
+      "word": "チャンス",
+      "sourceValue": "chance",
+      "kana": "チャンス"
+    },
+    {
+      "sourceId": "0b935114-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ツアー",
+      "sourceValue": "tour",
+      "kana": "ツアー"
+    },
+    {
+      "sourceId": "0b939d9a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "デート",
+      "sourceValue": "date",
+      "kana": "デート"
+    },
+    {
+      "sourceId": "0b93a66e-2ed7-11ef-a183-99ad05e145f0",
+      "word": "テーマ",
+      "sourceValue": "(ド) thema",
+      "kana": "テーマ"
+    },
+    {
+      "sourceId": "0b93aef2-2ed7-11ef-a183-99ad05e145f0",
+      "word": "デザイナー",
+      "sourceValue": "designer",
+      "kana": "デザイナー"
+    },
+    {
+      "sourceId": "0b93b71c-2ed7-11ef-a183-99ad05e145f0",
+      "word": "デザイン",
+      "sourceValue": "design",
+      "kana": "デザイン"
+    },
+    {
+      "sourceId": "0b93bf78-2ed7-11ef-a183-99ad05e145f0",
+      "word": "デジタル",
+      "sourceValue": "digital",
+      "kana": "デジタル"
+    },
+    {
+      "sourceId": "0b93e3c2-2ed7-11ef-a183-99ad05e145f0",
+      "word": "テンポ",
+      "sourceValue": "(イ) tempo",
+      "kana": "テンポ"
+    },
+    {
+      "sourceId": "0b941afe-2ed7-11ef-a183-99ad05e145f0",
+      "word": "トップ",
+      "sourceValue": "top",
+      "kana": "トップ"
+    },
+    {
+      "sourceId": "0b942c60-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ドライブ",
+      "sourceValue": "drive",
+      "kana": "ドライブ"
+    },
+    {
+      "sourceId": "0b9434b2-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ドライヤー",
+      "sourceValue": "dryer",
+      "kana": "ドライヤー"
+    },
+    {
+      "sourceId": "0b943cd2-2ed7-11ef-a183-99ad05e145f0",
+      "word": "トラック",
+      "sourceValue": "truck",
+      "kana": "トラック"
+    },
+    {
+      "sourceId": "0b94451a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ドラマ",
+      "sourceValue": "drama",
+      "kana": "ドラマ"
+    },
+    {
+      "sourceId": "0b945de8-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ドル",
+      "sourceValue": "dollar",
+      "kana": "ドル"
+    },
+    {
+      "sourceId": "0b946608-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ドレス",
+      "sourceValue": "dress",
+      "kana": "ドレス"
+    },
+    {
+      "sourceId": "0b949fc4-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ネックレス",
+      "sourceValue": "necklace",
+      "kana": "ネックレス"
+    },
+    {
+      "sourceId": "0b94a83e-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ネット",
+      "sourceValue": "net",
+      "kana": "ネット"
+    },
+    {
+      "sourceId": "0b94b07c-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ノック",
+      "sourceValue": "knock",
+      "kana": "ノック"
+    },
+    {
+      "sourceId": "0b94c0e4-2ed7-11ef-a183-99ad05e145f0",
+      "word": "パーセント",
+      "sourceValue": "percent",
+      "kana": "パーセント"
+    },
+    {
+      "sourceId": "0b94c922-2ed7-11ef-a183-99ad05e145f0",
+      "word": "バイオリン",
+      "sourceValue": "violin",
+      "kana": "バイオリン"
+    },
+    {
+      "sourceId": "0b94d156-2ed7-11ef-a183-99ad05e145f0",
+      "word": "バケツ",
+      "sourceValue": "bucket",
+      "kana": "バケツ"
+    },
+    {
+      "sourceId": "0b94e1a0-2ed7-11ef-a183-99ad05e145f0",
+      "word": "パターン",
+      "sourceValue": "pattern",
+      "kana": "パターン"
+    },
+    {
+      "sourceId": "0b94f23a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "パック",
+      "sourceValue": "pack",
+      "kana": "パック"
+    },
+    {
+      "sourceId": "0b9512f6-2ed7-11ef-a183-99ad05e145f0",
+      "word": "バランス",
+      "sourceValue": "balance",
+      "kana": "バランス"
+    },
+    {
+      "sourceId": "0b95368c-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ハンドル",
+      "sourceValue": "handle",
+      "kana": "ハンドル"
+    },
+    {
+      "sourceId": "0b953ede-2ed7-11ef-a183-99ad05e145f0",
+      "word": "パンフレット",
+      "sourceValue": "pamphlet",
+      "kana": "パンフレット"
+    },
+    {
+      "sourceId": "0b9546fe-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ピザ",
+      "sourceValue": "(イ) pizza",
+      "kana": "ピザ"
+    },
+    {
+      "sourceId": "0b954f3c-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ビジネス",
+      "sourceValue": "business",
+      "kana": "ビジネス"
+    },
+    {
+      "sourceId": "0b95572a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ビタミン",
+      "sourceValue": "vitamin",
+      "kana": "ビタミン"
+    },
+    {
+      "sourceId": "0b9567ba-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ビデオカメラ",
+      "sourceValue": "video camera",
+      "kana": "ビデオカメラ"
+    },
+    {
+      "sourceId": "0b956ff8-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ファイル",
+      "sourceValue": "file",
+      "kana": "ファイル"
+    },
+    {
+      "sourceId": "0b95782c-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ファッション",
+      "sourceValue": "fashion",
+      "kana": "ファッション"
+    },
+    {
+      "sourceId": "0b958060-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ファン",
+      "sourceValue": "fan",
+      "kana": "ファン"
+    },
+    {
+      "sourceId": "0b95a16c-2ed7-11ef-a183-99ad05e145f0",
+      "word": "フライパン",
+      "sourceValue": "frypan",
+      "kana": "フライパン"
+    },
+    {
+      "sourceId": "0b95a98c-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ブラシ",
+      "sourceValue": "brush",
+      "kana": "ブラシ"
+    },
+    {
+      "sourceId": "0b95b1b6-2ed7-11ef-a183-99ad05e145f0",
+      "word": "プラス",
+      "sourceValue": "plus",
+      "kana": "プラス"
+    },
+    {
+      "sourceId": "0b95ba4e-2ed7-11ef-a183-99ad05e145f0",
+      "word": "プラスチック",
+      "sourceValue": "plastic",
+      "kana": "プラスチック"
+    },
+    {
+      "sourceId": "0b95c282-2ed7-11ef-a183-99ad05e145f0",
+      "word": "プラン",
+      "sourceValue": "plan",
+      "kana": "プラン"
+    },
+    {
+      "sourceId": "0b95ca98-2ed7-11ef-a183-99ad05e145f0",
+      "word": "フランス",
+      "sourceValue": "France",
+      "kana": "フランス"
+    },
+    {
+      "sourceId": "0b95d2c2-2ed7-11ef-a183-99ad05e145f0",
+      "word": "フリー",
+      "sourceValue": "free",
+      "kana": "フリー"
+    },
+    {
+      "sourceId": "0b95db00-2ed7-11ef-a183-99ad05e145f0",
+      "word": "プリント",
+      "sourceValue": "print",
+      "kana": "プリント"
+    },
+    {
+      "sourceId": "0b95ebfe-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ブレーキ",
+      "sourceValue": "brake",
+      "kana": "ブレーキ"
+    },
+    {
+      "sourceId": "0b95f4a0-2ed7-11ef-a183-99ad05e145f0",
+      "word": "プログラム",
+      "sourceValue": "program",
+      "kana": "プログラム"
+    },
+    {
+      "sourceId": "0b960da0-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ペット",
+      "sourceValue": "pet",
+      "kana": "ペット"
+    },
+    {
+      "sourceId": "0b961598-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ベランダ",
+      "sourceValue": "veranda",
+      "kana": "ベランダ"
+    },
+    {
+      "sourceId": "0b9625d8-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ボーナス",
+      "sourceValue": "bonus",
+      "kana": "ボーナス"
+    },
+    {
+      "sourceId": "0b962e5c-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ホーム",
+      "sourceValue": "home",
+      "kana": "ホーム"
+    },
+    {
+      "sourceId": "0b96369a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ホームページ",
+      "sourceValue": "homepage",
+      "kana": "ホームページ"
+    },
+    {
+      "sourceId": "0b963ec4-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ホール",
+      "sourceValue": "hall",
+      "kana": "ホール"
+    },
+    {
+      "sourceId": "0b9646f8-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ポスター",
+      "sourceValue": "poster",
+      "kana": "ポスター"
+    },
+    {
+      "sourceId": "0b964efa-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ポット",
+      "sourceValue": "pot",
+      "kana": "ポット"
+    },
+    {
+      "sourceId": "0b965fc6-2ed7-11ef-a183-99ad05e145f0",
+      "word": "マーク",
+      "sourceValue": "mark",
+      "kana": "マーク"
+    },
+    {
+      "sourceId": "0b96704c-2ed7-11ef-a183-99ad05e145f0",
+      "word": "マイナス",
+      "sourceValue": "minus",
+      "kana": "マイナス"
+    },
+    {
+      "sourceId": "0b968b90-2ed7-11ef-a183-99ad05e145f0",
+      "word": "マスク",
+      "sourceValue": "mask",
+      "kana": "マスク"
+    },
+    {
+      "sourceId": "0b96bd18-2ed7-11ef-a183-99ad05e145f0",
+      "word": "マナー",
+      "sourceValue": "manner",
+      "kana": "マナー"
+    },
+    {
+      "sourceId": "0b96cdd0-2ed7-11ef-a183-99ad05e145f0",
+      "word": "マフラー",
+      "sourceValue": "muffler",
+      "kana": "マフラー"
+    },
+    {
+      "sourceId": "af9758c8-4b54-11f1-a630-0ddc817ad47e",
+      "word": "ママ",
+      "sourceValue": "mamma・mama",
+      "kana": "ママ"
+    },
+    {
+      "sourceId": "0b96ef90-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ミーティング",
+      "sourceValue": "meeting",
+      "kana": "ミーティング"
+    },
+    {
+      "sourceId": "0b96f7ba-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ミス",
+      "sourceValue": "miss",
+      "kana": "ミス"
+    },
+    {
+      "sourceId": "0b971006-2ed7-11ef-a183-99ad05e145f0",
+      "word": "メディア",
+      "sourceValue": "media",
+      "kana": "メディア"
+    },
+    {
+      "sourceId": "0b972ad2-2ed7-11ef-a183-99ad05e145f0",
+      "word": "メモ",
+      "sourceValue": "memo",
+      "kana": "メモ"
+    },
+    {
+      "sourceId": "0b9732e8-2ed7-11ef-a183-99ad05e145f0",
+      "word": "メンバー",
+      "sourceValue": "member",
+      "kana": "メンバー"
+    },
+    {
+      "sourceId": "0b97433c-2ed7-11ef-a183-99ad05e145f0",
+      "word": "モデル",
+      "sourceValue": "model",
+      "kana": "モデル"
+    },
+    {
+      "sourceId": "0b975bb0-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ユーモア",
+      "sourceValue": "humor",
+      "kana": "ユーモア"
+    },
+    {
+      "sourceId": "0b97746a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ライス",
+      "sourceValue": "rice",
+      "kana": "ライス"
+    },
+    {
+      "sourceId": "0b977c62-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ライト",
+      "sourceValue": "light",
+      "kana": "ライト"
+    },
+    {
+      "sourceId": "0b97846e-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ラッシュアワー",
+      "sourceValue": "rush hour",
+      "kana": "ラッシュアワー"
+    },
+    {
+      "sourceId": "0b978cf2-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ラップ",
+      "sourceValue": "wrap",
+      "kana": "ラップ"
+    },
+    {
+      "sourceId": "0b979508-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ランチ",
+      "sourceValue": "lunch",
+      "kana": "ランチ"
+    },
+    {
+      "sourceId": "0b979d1e-2ed7-11ef-a183-99ad05e145f0",
+      "word": "リサイクル",
+      "sourceValue": "recycle",
+      "kana": "リサイクル"
+    },
+    {
+      "sourceId": "0b97a534-2ed7-11ef-a183-99ad05e145f0",
+      "word": "リスト",
+      "sourceValue": "list",
+      "kana": "リスト"
+    },
+    {
+      "sourceId": "0b97b5b0-2ed7-11ef-a183-99ad05e145f0",
+      "word": "リボン",
+      "sourceValue": "ribbon",
+      "kana": "リボン"
+    },
+    {
+      "sourceId": "0b97bdc6-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ルール",
+      "sourceValue": "rule",
+      "kana": "ルール"
+    },
+    {
+      "sourceId": "0b97c60e-2ed7-11ef-a183-99ad05e145f0",
+      "word": "レベル",
+      "sourceValue": "level",
+      "kana": "レベル"
+    },
+    {
+      "sourceId": "0b97d91e-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ロッカー",
+      "sourceValue": "locker",
+      "kana": "ロッカー"
+    },
+    {
+      "sourceId": "0b97e12a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ロビー",
+      "sourceValue": "lobby",
+      "kana": "ロビー"
+    },
+    {
+      "sourceId": "0b97e936-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ロボット",
+      "sourceValue": "robot",
+      "kana": "ロボット"
+    },
+    {
+      "sourceId": "0b97f994-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ワンピース",
+      "sourceValue": "one-piece",
+      "kana": "ワンピース"
+    },
+    {
+      "sourceId": "0bbfaf5c-2ed7-11ef-a183-99ad05e145f0",
+      "word": "アイデア",
+      "sourceValue": "idea",
+      "kana": "アイデア"
+    },
+    {
+      "sourceId": "0bc0150a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "イベント",
+      "sourceValue": "event",
+      "kana": "イベント"
+    },
+    {
+      "sourceId": "0bc01dc0-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ウィンドー",
+      "sourceValue": "window",
+      "kana": "ウィンドー"
+    },
+    {
+      "sourceId": "0bc06dd4-2ed7-11ef-a183-99ad05e145f0",
+      "word": "オーダー",
+      "sourceValue": "order",
+      "kana": "オーダー"
+    },
+    {
+      "sourceId": "0bc0b500-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ガード",
+      "sourceValue": "guard",
+      "kana": "ガード"
+    },
+    {
+      "sourceId": "0bc11806-2ed7-11ef-a183-99ad05e145f0",
+      "word": "カップル",
+      "sourceValue": "couple",
+      "kana": "カップル"
+    },
+    {
+      "sourceId": "0bc12026-2ed7-11ef-a183-99ad05e145f0",
+      "word": "カフェ",
+      "sourceValue": "(フ) café",
+      "kana": "カフェ"
+    },
+    {
+      "sourceId": "0bc17bca-2ed7-11ef-a183-99ad05e145f0",
+      "word": "クリーム",
+      "sourceValue": "cream",
+      "kana": "クリーム"
+    },
+    {
+      "sourceId": "0bc1d8e0-2ed7-11ef-a183-99ad05e145f0",
+      "word": "サークル",
+      "sourceValue": "circle",
+      "kana": "サークル"
+    },
+    {
+      "sourceId": "0bc1e97a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "サイエンス",
+      "sourceValue": "science",
+      "kana": "サイエンス"
+    },
+    {
+      "sourceId": "0bc2854c-2ed7-11ef-a183-99ad05e145f0",
+      "word": "シンプル",
+      "sourceValue": "simple",
+      "kana": "シンプル"
+    },
+    {
+      "sourceId": "0bc29eba-2ed7-11ef-a183-99ad05e145f0",
+      "word": "スケジュール",
+      "sourceValue": "schedule",
+      "kana": "スケジュール"
+    },
+    {
+      "sourceId": "0bc2c02a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "スタッフ",
+      "sourceValue": "staff",
+      "kana": "スタッフ"
+    },
+    {
+      "sourceId": "0bc30260-2ed7-11ef-a183-99ad05e145f0",
+      "word": "タイム",
+      "sourceValue": "time",
+      "kana": "タイム"
+    },
+    {
+      "sourceId": "0bc37c72-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ティッシュ",
+      "sourceValue": "tissue",
+      "kana": "ティッシュ"
+    },
+    {
+      "sourceId": "0bc3e52c-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ドレッシング",
+      "sourceValue": "dressing",
+      "kana": "ドレッシング"
+    },
+    {
+      "sourceId": "0bc44c74-2ed7-11ef-a183-99ad05e145f0",
+      "word": "バーベキュー",
+      "sourceValue": "barbecue",
+      "kana": "バーベキュー"
+    },
+    {
+      "sourceId": "0bc47168-2ed7-11ef-a183-99ad05e145f0",
+      "word": "パワー",
+      "sourceValue": "power",
+      "kana": "パワー"
+    },
+    {
+      "sourceId": "0bc479ec-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ハワイ",
+      "sourceValue": "Hawaii",
+      "kana": "ハワイ"
+    },
+    {
+      "sourceId": "0bc4820c-2ed7-11ef-a183-99ad05e145f0",
+      "word": "バンド",
+      "sourceValue": "band",
+      "kana": "バンド"
+    },
+    {
+      "sourceId": "0bc49288-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ピーマン",
+      "sourceValue": "(フ) piment",
+      "kana": "ピーマン"
+    },
+    {
+      "sourceId": "0bc4cca8-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ヒント",
+      "sourceValue": "hint",
+      "kana": "ヒント"
+    },
+    {
+      "sourceId": "0bc4dd38-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ブラウス",
+      "sourceValue": "blouse",
+      "kana": "ブラウス"
+    },
+    {
+      "sourceId": "0bc502b8-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ベビーカー",
+      "sourceValue": "(和) baby car",
+      "kana": "ベビーカー"
+    },
+    {
+      "sourceId": "0bc51c44-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ベンチ",
+      "sourceValue": "bench",
+      "kana": "ベンチ"
+    },
+    {
+      "sourceId": "0bc5266c-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ホームステイ",
+      "sourceValue": "homestay",
+      "kana": "ホームステイ"
+    },
+    {
+      "sourceId": "0bc570d6-2ed7-11ef-a183-99ad05e145f0",
+      "word": "マラソン",
+      "sourceValue": "marathon",
+      "kana": "マラソン"
+    },
+    {
+      "sourceId": "c35e3b2e-4ce9-11f1-90a9-0fc8163987fc",
+      "word": "ミステリー",
+      "sourceValue": "mystery",
+      "kana": "ミステリー"
+    },
+    {
+      "sourceId": "0bc5f970-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ライフ",
+      "sourceValue": "life",
+      "kana": "ライフ"
+    },
+    {
+      "sourceId": "0bc609ec-2ed7-11ef-a183-99ad05e145f0",
+      "word": "レシート",
+      "sourceValue": "receipt",
+      "kana": "レシート"
+    },
+    {
+      "sourceId": "0bc611f8-2ed7-11ef-a183-99ad05e145f0",
+      "word": "レシピ",
+      "sourceValue": "recipe",
+      "kana": "レシピ"
+    },
+    {
+      "sourceId": "0bc61a54-2ed7-11ef-a183-99ad05e145f0",
+      "word": "レポーター",
+      "sourceValue": "reporter",
+      "kana": "レポーター"
+    },
+    {
+      "sourceId": "0be51ec2-2ed7-11ef-a183-99ad05e145f0",
+      "word": "プロ",
+      "sourceValue": "professional",
+      "kana": "プロ"
+    },
+    {
+      "sourceId": "0be7a106-2ed7-11ef-a183-99ad05e145f0",
+      "word": "スムーズ",
+      "sourceValue": "smooth",
+      "kana": "スムーズ"
+    },
+    {
+      "sourceId": "0be7b1c8-2ed7-11ef-a183-99ad05e145f0",
+      "word": "クレーム",
+      "sourceValue": "claim",
+      "kana": "クレーム"
+    },
+    {
+      "sourceId": "0be8b60e-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ユニーク",
+      "sourceValue": "unique",
+      "kana": "ユニーク"
+    },
+    {
+      "sourceId": "0be92436-2ed7-11ef-a183-99ad05e145f0",
+      "word": "チップ",
+      "sourceValue": "tip",
+      "kana": "チップ"
+    },
+    {
+      "sourceId": "0bed4750-2ed7-11ef-a183-99ad05e145f0",
+      "word": "アイロン",
+      "sourceValue": "iron",
+      "kana": "アイロン"
+    },
+    {
+      "sourceId": "0bed4fb6-2ed7-11ef-a183-99ad05e145f0",
+      "word": "アウト",
+      "sourceValue": "out",
+      "kana": "アウト"
+    },
+    {
+      "sourceId": "0bed687a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "アレルギー",
+      "sourceValue": "(ド) allergie",
+      "kana": "アレルギー"
+    },
+    {
+      "sourceId": "0bed70a4-2ed7-11ef-a183-99ad05e145f0",
+      "word": "アンテナ",
+      "sourceValue": "antenna",
+      "kana": "アンテナ"
+    },
+    {
+      "sourceId": "0bed791e-2ed7-11ef-a183-99ad05e145f0",
+      "word": "インストール",
+      "sourceValue": "install",
+      "kana": "インストール"
+    },
+    {
+      "sourceId": "0bedaa74-2ed7-11ef-a183-99ad05e145f0",
+      "word": "オイル",
+      "sourceValue": "oil",
+      "kana": "オイル"
+    },
+    {
+      "sourceId": "0bedb2a8-2ed7-11ef-a183-99ad05e145f0",
+      "word": "オーケストラ",
+      "sourceValue": "orchestra",
+      "kana": "オーケストラ"
+    },
+    {
+      "sourceId": "0bedcd7e-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ガイドブック",
+      "sourceValue": "guidebook",
+      "kana": "ガイドブック"
+    },
+    {
+      "sourceId": "0bede62e-2ed7-11ef-a183-99ad05e145f0",
+      "word": "カリキュラム",
+      "sourceValue": "curriculum",
+      "kana": "カリキュラム"
+    },
+    {
+      "sourceId": "0bedee94-2ed7-11ef-a183-99ad05e145f0",
+      "word": "カルシウム",
+      "sourceValue": "calcium",
+      "kana": "カルシウム"
+    },
+    {
+      "sourceId": "0bedf6c8-2ed7-11ef-a183-99ad05e145f0",
+      "word": "カルチャー",
+      "sourceValue": "culture",
+      "kana": "カルチャー"
+    },
+    {
+      "sourceId": "0bee0faa-2ed7-11ef-a183-99ad05e145f0",
+      "word": "キャプテン",
+      "sourceValue": "captain",
+      "kana": "キャプテン"
+    },
+    {
+      "sourceId": "0bee208a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "クイズ",
+      "sourceValue": "quiz",
+      "kana": "クイズ"
+    },
+    {
+      "sourceId": "0bee4182-2ed7-11ef-a183-99ad05e145f0",
+      "word": "グランド",
+      "sourceValue": "grand",
+      "kana": "グランド"
+    },
+    {
+      "sourceId": "0bee498e-2ed7-11ef-a183-99ad05e145f0",
+      "word": "クリア",
+      "sourceValue": "clear",
+      "kana": "クリア"
+    },
+    {
+      "sourceId": "0bee6d56-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ケア",
+      "sourceValue": "care",
+      "kana": "ケア"
+    },
+    {
+      "sourceId": "0bee7594-2ed7-11ef-a183-99ad05e145f0",
+      "word": "コーナー",
+      "sourceValue": "corner",
+      "kana": "コーナー"
+    },
+    {
+      "sourceId": "6ab67476-4e76-11f1-beee-f9338ab5b368",
+      "word": "コーラス",
+      "sourceValue": "chorus",
+      "kana": "コーラス"
+    },
+    {
+      "sourceId": "0bee85fc-2ed7-11ef-a183-99ad05e145f0",
+      "word": "コック",
+      "sourceValue": "(オ) kok",
+      "kana": "コック"
+    },
+    {
+      "sourceId": "0bee96b4-2ed7-11ef-a183-99ad05e145f0",
+      "word": "コミュニケーション",
+      "sourceValue": "communication",
+      "kana": "コミュニケーション"
+    },
+    {
+      "sourceId": "0bee9ef2-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ゴム",
+      "sourceValue": "(オ) gom",
+      "kana": "ゴム"
+    },
+    {
+      "sourceId": "0beea744-2ed7-11ef-a183-99ad05e145f0",
+      "word": "コレクション",
+      "sourceValue": "collection",
+      "kana": "コレクション"
+    },
+    {
+      "sourceId": "0beeb824-2ed7-11ef-a183-99ad05e145f0",
+      "word": "コンクリート",
+      "sourceValue": "concrete",
+      "kana": "コンクリート"
+    },
+    {
+      "sourceId": "0beec044-2ed7-11ef-a183-99ad05e145f0",
+      "word": "コンセント",
+      "sourceValue": "(和) concentric plug",
+      "kana": "コンセント"
+    },
+    {
+      "sourceId": "0beef474-2ed7-11ef-a183-99ad05e145f0",
+      "word": "シール",
+      "sourceValue": "seal",
+      "kana": "シール"
+    },
+    {
+      "sourceId": "0beefc9e-2ed7-11ef-a183-99ad05e145f0",
+      "word": "システム",
+      "sourceValue": "system",
+      "kana": "システム"
+    },
+    {
+      "sourceId": "0bef1d64-2ed7-11ef-a183-99ad05e145f0",
+      "word": "シンボル",
+      "sourceValue": "symbol",
+      "kana": "シンボル"
+    },
+    {
+      "sourceId": "0bef2dea-2ed7-11ef-a183-99ad05e145f0",
+      "word": "スタンド",
+      "sourceValue": "stand",
+      "kana": "スタンド"
+    },
+    {
+      "sourceId": "0bef4e88-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ステージ",
+      "sourceValue": "stage",
+      "kana": "ステージ"
+    },
+    {
+      "sourceId": "0bef6fe4-2ed7-11ef-a183-99ad05e145f0",
+      "word": "スピーカー",
+      "sourceValue": "speaker",
+      "kana": "スピーカー"
+    },
+    {
+      "sourceId": "0bef77fa-2ed7-11ef-a183-99ad05e145f0",
+      "word": "スライド",
+      "sourceValue": "slide",
+      "kana": "スライド"
+    },
+    {
+      "sourceId": "0befeeec-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ダム",
+      "sourceValue": "dam",
+      "kana": "ダム"
+    },
+    {
+      "sourceId": "0bf00756-2ed7-11ef-a183-99ad05e145f0",
+      "word": "チャレンジ",
+      "sourceValue": "challenge",
+      "kana": "チャレンジ"
+    },
+    {
+      "sourceId": "0bf04360-2ed7-11ef-a183-99ad05e145f0",
+      "word": "テクニック",
+      "sourceValue": "technic",
+      "kana": "テクニック"
+    },
+    {
+      "sourceId": "0bf06dea-2ed7-11ef-a183-99ad05e145f0",
+      "word": "トレーニング",
+      "sourceValue": "training",
+      "kana": "トレーニング"
+    },
+    {
+      "sourceId": "0bf07e7a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ナース",
+      "sourceValue": "nurse",
+      "kana": "ナース"
+    },
+    {
+      "sourceId": "0bf0b3a4-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ネットワーク",
+      "sourceValue": "Network",
+      "kana": "ネットワーク"
+    },
+    {
+      "sourceId": "0bf0d302-2ed7-11ef-a183-99ad05e145f0",
+      "word": "パーソナル",
+      "sourceValue": "personal",
+      "kana": "パーソナル"
+    },
+    {
+      "sourceId": "0bf0db90-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ハイキング",
+      "sourceValue": "hiking",
+      "kana": "ハイキング"
+    },
+    {
+      "sourceId": "0bf0ffee-2ed7-11ef-a183-99ad05e145f0",
+      "word": "パジャマ",
+      "sourceValue": "pajamas",
+      "kana": "パジャマ"
+    },
+    {
+      "sourceId": "0bf118f8-2ed7-11ef-a183-99ad05e145f0",
+      "word": "パフォーマンス",
+      "sourceValue": "performance",
+      "kana": "パフォーマンス"
+    },
+    {
+      "sourceId": "0bf129a6-2ed7-11ef-a183-99ad05e145f0",
+      "word": "バレエ",
+      "sourceValue": "(フ) ballet",
+      "kana": "バレエ"
+    },
+    {
+      "sourceId": "0bf131d0-2ed7-11ef-a183-99ad05e145f0",
+      "word": "パンツ",
+      "sourceValue": "pants",
+      "kana": "パンツ"
+    },
+    {
+      "sourceId": "0bf139dc-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ヒーター",
+      "sourceValue": "heater",
+      "kana": "ヒーター"
+    },
+    {
+      "sourceId": "a4aa6cb4-4ce1-11f1-90a9-0fc8163987fc",
+      "word": "ピクニック",
+      "sourceValue": "picnic",
+      "kana": "ピクニック"
+    },
+    {
+      "sourceId": "0bf15aca-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ビニール",
+      "sourceValue": "vinyl",
+      "kana": "ビニール"
+    },
+    {
+      "sourceId": "0bf16ba0-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ファスナー",
+      "sourceValue": "fastener",
+      "kana": "ファスナー"
+    },
+    {
+      "sourceId": "c090be0a-4b98-11f1-b0cd-b78500d69791",
+      "word": "ブーツ",
+      "sourceValue": "boots",
+      "kana": "ブーツ"
+    },
+    {
+      "sourceId": "0bf17c44-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ブーム",
+      "sourceValue": "boom",
+      "kana": "ブーム"
+    },
+    {
+      "sourceId": "1b451014-4def-11f1-92ad-a9d8dc6c1b5c",
+      "word": "フリーター",
+      "sourceValue": "(和) free＋Arbeiter",
+      "kana": "フリーター"
+    },
+    {
+      "sourceId": "0bf1b650-2ed7-11ef-a183-99ad05e145f0",
+      "word": "フレッシュ",
+      "sourceValue": "fresh",
+      "kana": "フレッシュ"
+    },
+    {
+      "sourceId": "88308a48-4e79-11f1-beee-f9338ab5b368",
+      "word": "プロジェクター",
+      "sourceValue": "projector",
+      "kana": "プロジェクター"
+    },
+    {
+      "sourceId": "0bf1cf00-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ペットボトル",
+      "sourceValue": "PET bottle",
+      "kana": "ペットボトル"
+    },
+    {
+      "sourceId": "0bf1d73e-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ベテラン",
+      "sourceValue": "veteran",
+      "kana": "ベテラン"
+    },
+    {
+      "sourceId": "70a0d92c-4cea-11f1-90a9-0fc8163987fc",
+      "word": "ヘリコプター",
+      "sourceValue": "helicopter",
+      "kana": "ヘリコプター"
+    },
+    {
+      "sourceId": "0bf1f232-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ペンキ",
+      "sourceValue": "(オ) pek",
+      "kana": "ペンキ"
+    },
+    {
+      "sourceId": "0bf2133e-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ボランティア",
+      "sourceValue": "volunteer",
+      "kana": "ボランティア"
+    },
+    {
+      "sourceId": "0bf22c3e-2ed7-11ef-a183-99ad05e145f0",
+      "word": "マーケット",
+      "sourceValue": "market",
+      "kana": "マーケット"
+    },
+    {
+      "sourceId": "0bf23472-2ed7-11ef-a183-99ad05e145f0",
+      "word": "マイク",
+      "sourceValue": "microphone",
+      "kana": "マイク"
+    },
+    {
+      "sourceId": "0bf23cb0-2ed7-11ef-a183-99ad05e145f0",
+      "word": "マイペース",
+      "sourceValue": "(和) my＋pace",
+      "kana": "マイペース"
+    },
+    {
+      "sourceId": "0bf255ba-2ed7-11ef-a183-99ad05e145f0",
+      "word": "マスコミ",
+      "sourceValue": "mass communication",
+      "kana": "マスコミ"
+    },
+    {
+      "sourceId": "0bf25dda-2ed7-11ef-a183-99ad05e145f0",
+      "word": "マスター",
+      "sourceValue": "master",
+      "kana": "マスター"
+    },
+    {
+      "sourceId": "652f47c4-4b94-11f1-b0cd-b78500d69791",
+      "word": "マッサージ",
+      "sourceValue": "massage",
+      "kana": "マッサージ"
+    },
+    {
+      "sourceId": "0bf28788-2ed7-11ef-a183-99ad05e145f0",
+      "word": "モーター",
+      "sourceValue": "motor",
+      "kana": "モーター"
+    },
+    {
+      "sourceId": "0bf297d2-2ed7-11ef-a183-99ad05e145f0",
+      "word": "モダン",
+      "sourceValue": "modern",
+      "kana": "モダン"
+    },
+    {
+      "sourceId": "0bf2b8f2-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ヨット",
+      "sourceValue": "yacht",
+      "kana": "ヨット"
+    },
+    {
+      "sourceId": "0bf2c11c-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ライバル",
+      "sourceValue": "rival",
+      "kana": "ライバル"
+    },
+    {
+      "sourceId": "0bf2c93c-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ラケット",
+      "sourceValue": "racket",
+      "kana": "ラケット"
+    },
+    {
+      "sourceId": "0bf2d166-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ラベル",
+      "sourceValue": "label",
+      "kana": "ラベル"
+    },
+    {
+      "sourceId": "0bf2d972-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ランダム",
+      "sourceValue": "random",
+      "kana": "ランダム"
+    },
+    {
+      "sourceId": "0bf2e1c4-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ランニング",
+      "sourceValue": "running",
+      "kana": "ランニング"
+    },
+    {
+      "sourceId": "0bf2ea16-2ed7-11ef-a183-99ad05e145f0",
+      "word": "リスク",
+      "sourceValue": "risk",
+      "kana": "リスク"
+    },
+    {
+      "sourceId": "0bf2f29a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "リストラ",
+      "sourceValue": "restructuring",
+      "kana": "リストラ"
+    },
+    {
+      "sourceId": "0bf2fb1e-2ed7-11ef-a183-99ad05e145f0",
+      "word": "リズム",
+      "sourceValue": "rhythm",
+      "kana": "リズム"
+    },
+    {
+      "sourceId": "0bf30352-2ed7-11ef-a183-99ad05e145f0",
+      "word": "リラックス",
+      "sourceValue": "relax",
+      "kana": "リラックス"
+    },
+    {
+      "sourceId": "0bf30b86-2ed7-11ef-a183-99ad05e145f0",
+      "word": "レインコート",
+      "sourceValue": "raincoat",
+      "kana": "レインコート"
+    },
+    {
+      "sourceId": "0bf31bda-2ed7-11ef-a183-99ad05e145f0",
+      "word": "レクリエーション",
+      "sourceValue": "recreation",
+      "kana": "レクリエーション"
+    },
+    {
+      "sourceId": "0bf324fe-2ed7-11ef-a183-99ad05e145f0",
+      "word": "レジャー",
+      "sourceValue": "leisure",
+      "kana": "レジャー"
+    },
+    {
+      "sourceId": "0bf32f4e-2ed7-11ef-a183-99ad05e145f0",
+      "word": "レンズ",
+      "sourceValue": "lens",
+      "kana": "レンズ"
+    },
+    {
+      "sourceId": "0bf337b4-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ローン",
+      "sourceValue": "loan",
+      "kana": "ローン"
+    },
+    {
+      "sourceId": "0bf3401a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ロケット",
+      "sourceValue": "rocket",
+      "kana": "ロケット"
+    },
+    {
+      "sourceId": "0c195944-2ed7-11ef-a183-99ad05e145f0",
+      "word": "アピール",
+      "sourceValue": "appeal",
+      "kana": "アピール"
+    },
+    {
+      "sourceId": "0c196ab0-2ed7-11ef-a183-99ad05e145f0",
+      "word": "アポイントメント",
+      "sourceValue": "appointment",
+      "kana": "アポイントメント"
+    },
+    {
+      "sourceId": "0c1972f8-2ed7-11ef-a183-99ad05e145f0",
+      "word": "アマチュア",
+      "sourceValue": "amateur",
+      "kana": "アマチュア"
+    },
+    {
+      "sourceId": "0c19acc8-2ed7-11ef-a183-99ad05e145f0",
+      "word": "アンケート",
+      "sourceValue": "(フ) enquete",
+      "kana": "アンケート"
+    },
+    {
+      "sourceId": "0c1a5786-2ed7-11ef-a183-99ad05e145f0",
+      "word": "オークション",
+      "sourceValue": "auction",
+      "kana": "オークション"
+    },
+    {
+      "sourceId": "0c1a7acc-2ed7-11ef-a183-99ad05e145f0",
+      "word": "オリジナル",
+      "sourceValue": "original",
+      "kana": "オリジナル"
+    },
+    {
+      "sourceId": "0c1a82e2-2ed7-11ef-a183-99ad05e145f0",
+      "word": "オルガン",
+      "sourceValue": "organ",
+      "kana": "オルガン"
+    },
+    {
+      "sourceId": "0c1aa3d0-2ed7-11ef-a183-99ad05e145f0",
+      "word": "カーナビ",
+      "sourceValue": "car navigation system",
+      "kana": "カーナビ"
+    },
+    {
+      "sourceId": "0c1b7526-2ed7-11ef-a183-99ad05e145f0",
+      "word": "キャッチボール",
+      "sourceValue": "(和) catch ball",
+      "kana": "キャッチボール"
+    },
+    {
+      "sourceId": "0c1c7ca0-2ed7-11ef-a183-99ad05e145f0",
+      "word": "コンテンツ",
+      "sourceValue": "contents",
+      "kana": "コンテンツ"
+    },
+    {
+      "sourceId": "0c1d1b42-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ジャンル",
+      "sourceValue": "(フ) genre",
+      "kana": "ジャンル"
+    },
+    {
+      "sourceId": "0c1d5706-2ed7-11ef-a183-99ad05e145f0",
+      "word": "スケッチ",
+      "sourceValue": "sketch",
+      "kana": "スケッチ"
+    },
+    {
+      "sourceId": "0c1df026-2ed7-11ef-a183-99ad05e145f0",
+      "word": "タイトル",
+      "sourceValue": "title",
+      "kana": "タイトル"
+    },
+    {
+      "sourceId": "0c1e2a50-2ed7-11ef-a183-99ad05e145f0",
+      "word": "タブー",
+      "sourceValue": "taboo",
+      "kana": "タブー"
+    },
+    {
+      "sourceId": "0c1e901c-2ed7-11ef-a183-99ad05e145f0",
+      "word": "データ",
+      "sourceValue": "data",
+      "kana": "データ"
+    },
+    {
+      "sourceId": "0c1ee4c2-2ed7-11ef-a183-99ad05e145f0",
+      "word": "トラブル",
+      "sourceValue": "trouble",
+      "kana": "トラブル"
+    },
+    {
+      "sourceId": "0c1eecec-2ed7-11ef-a183-99ad05e145f0",
+      "word": "トラベル",
+      "sourceValue": "travel",
+      "kana": "トラベル"
+    },
+    {
+      "sourceId": "0c1f20b8-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ニーズ",
+      "sourceValue": "needs",
+      "kana": "ニーズ"
+    },
+    {
+      "sourceId": "0c20382c-2ed7-11ef-a183-99ad05e145f0",
+      "word": "フリーマーケット",
+      "sourceValue": "flea market",
+      "kana": "フリーマーケット"
+    },
+    {
+      "sourceId": "0c204060-2ed7-11ef-a183-99ad05e145f0",
+      "word": "プロジェクト",
+      "sourceValue": "project",
+      "kana": "プロジェクト"
+    },
+    {
+      "sourceId": "0c20b68a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ボトル",
+      "sourceValue": "bottle",
+      "kana": "ボトル"
+    },
+    {
+      "sourceId": "0c20f424-2ed7-11ef-a183-99ad05e145f0",
+      "word": "マッチ",
+      "sourceValue": "match",
+      "kana": "マッチ"
+    },
+    {
+      "sourceId": "0c20fc62-2ed7-11ef-a183-99ad05e145f0",
+      "word": "マニュアル",
+      "sourceValue": "manual",
+      "kana": "マニュアル"
+    },
+    {
+      "sourceId": "0c2160f8-2ed7-11ef-a183-99ad05e145f0",
+      "word": "メリット",
+      "sourceValue": "merit",
+      "kana": "メリット"
+    },
+    {
+      "sourceId": "0c22257e-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ラッシュ",
+      "sourceValue": "rush",
+      "kana": "ラッシュ"
+    },
+    {
+      "sourceId": "0c2235f0-2ed7-11ef-a183-99ad05e145f0",
+      "word": "リーダー",
+      "sourceValue": "leader",
+      "kana": "リーダー"
+    },
+    {
+      "sourceId": "0c223e60-2ed7-11ef-a183-99ad05e145f0",
+      "word": "リーダーシップ",
+      "sourceValue": "leadership",
+      "kana": "リーダーシップ"
+    },
+    {
+      "sourceId": "0c224662-2ed7-11ef-a183-99ad05e145f0",
+      "word": "レンタル",
+      "sourceValue": "rental",
+      "kana": "レンタル"
+    },
+    {
+      "sourceId": "0c481afe-2ed7-11ef-a183-99ad05e145f0",
+      "word": "アイドル",
+      "sourceValue": "idol",
+      "kana": "アイドル"
+    },
+    {
+      "sourceId": "0c4837d2-2ed7-11ef-a183-99ad05e145f0",
+      "word": "アクセル",
+      "sourceValue": "accelerator",
+      "kana": "アクセル"
+    },
+    {
+      "sourceId": "0c489b00-2ed7-11ef-a183-99ad05e145f0",
+      "word": "アップ",
+      "sourceValue": "up",
+      "kana": "アップ"
+    },
+    {
+      "sourceId": "0c48be8c-2ed7-11ef-a183-99ad05e145f0",
+      "word": "アプローチ",
+      "sourceValue": "approach",
+      "kana": "アプローチ"
+    },
+    {
+      "sourceId": "0c4901ee-2ed7-11ef-a183-99ad05e145f0",
+      "word": "アレンジ",
+      "sourceValue": "arrange",
+      "kana": "アレンジ"
+    },
+    {
+      "sourceId": "0c495eaa-2ed7-11ef-a183-99ad05e145f0",
+      "word": "インパクト",
+      "sourceValue": "impact",
+      "kana": "インパクト"
+    },
+    {
+      "sourceId": "0c4966c0-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ウイルス",
+      "sourceValue": "(ラ) virus",
+      "kana": "ウイルス"
+    },
+    {
+      "sourceId": "0c499848-2ed7-11ef-a183-99ad05e145f0",
+      "word": "エレガント",
+      "sourceValue": "elegant",
+      "kana": "エレガント"
+    },
+    {
+      "sourceId": "0c49b882-2ed7-11ef-a183-99ad05e145f0",
+      "word": "オープン",
+      "sourceValue": "open",
+      "kana": "オープン"
+    },
+    {
+      "sourceId": "0c4a04b8-2ed7-11ef-a183-99ad05e145f0",
+      "word": "オリエンテーション",
+      "sourceValue": "orientation",
+      "kana": "オリエンテーション"
+    },
+    {
+      "sourceId": "0c4a152a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "オンライン",
+      "sourceValue": "online",
+      "kana": "オンライン"
+    },
+    {
+      "sourceId": "0c4add2a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "キーワード",
+      "sourceValue": "key word",
+      "kana": "キーワード"
+    },
+    {
+      "sourceId": "0c4b06c4-2ed7-11ef-a183-99ad05e145f0",
+      "word": "キャッチ",
+      "sourceValue": "catch",
+      "kana": "キャッチ"
+    },
+    {
+      "sourceId": "0c4b0eb2-2ed7-11ef-a183-99ad05e145f0",
+      "word": "キャラクター",
+      "sourceValue": "character",
+      "kana": "キャラクター"
+    },
+    {
+      "sourceId": "0c4b59bc-2ed7-11ef-a183-99ad05e145f0",
+      "word": "クレーン",
+      "sourceValue": "crane",
+      "kana": "クレーン"
+    },
+    {
+      "sourceId": "0c4b69d4-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ゲスト",
+      "sourceValue": "guest",
+      "kana": "ゲスト"
+    },
+    {
+      "sourceId": "0c4bbf74-2ed7-11ef-a183-99ad05e145f0",
+      "word": "コメント",
+      "sourceValue": "comment",
+      "kana": "コメント"
+    },
+    {
+      "sourceId": "0c4bc78a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "コラム",
+      "sourceValue": "column",
+      "kana": "コラム"
+    },
+    {
+      "sourceId": "0c4bd7d4-2ed7-11ef-a183-99ad05e145f0",
+      "word": "コンタクトレンズ",
+      "sourceValue": "contact lens",
+      "kana": "コンタクトレンズ"
+    },
+    {
+      "sourceId": "0c4bdff4-2ed7-11ef-a183-99ad05e145f0",
+      "word": "コントラスト",
+      "sourceValue": "contrast",
+      "kana": "コントラスト"
+    },
+    {
+      "sourceId": "0c4be85a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "コントロール",
+      "sourceValue": "control",
+      "kana": "コントロール"
+    },
+    {
+      "sourceId": "0c4c151e-2ed7-11ef-a183-99ad05e145f0",
+      "word": "サイクル",
+      "sourceValue": "cycle",
+      "kana": "サイクル"
+    },
+    {
+      "sourceId": "0c4c5f1a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "シート",
+      "sourceValue": "seat",
+      "kana": "シート"
+    },
+    {
+      "sourceId": "0c4c6730-2ed7-11ef-a183-99ad05e145f0",
+      "word": "シーン",
+      "sourceValue": "scene",
+      "kana": "シーン"
+    },
+    {
+      "sourceId": "0c4c6f82-2ed7-11ef-a183-99ad05e145f0",
+      "word": "シェア",
+      "sourceValue": "share",
+      "kana": "シェア"
+    },
+    {
+      "sourceId": "0c4cac36-2ed7-11ef-a183-99ad05e145f0",
+      "word": "シナリオ",
+      "sourceValue": "scenario",
+      "kana": "シナリオ"
+    },
+    {
+      "sourceId": "0c4cbcb2-2ed7-11ef-a183-99ad05e145f0",
+      "word": "シビア",
+      "sourceValue": "severe",
+      "kana": "シビア"
+    },
+    {
+      "sourceId": "0c4ccd1a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ジャズ",
+      "sourceValue": "jazz",
+      "kana": "ジャズ"
+    },
+    {
+      "sourceId": "0c4cee26-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ショック",
+      "sourceValue": "shock",
+      "kana": "ショック"
+    },
+    {
+      "sourceId": "0c4d0f5a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "シンポジウム",
+      "sourceValue": "symposium",
+      "kana": "シンポジウム"
+    },
+    {
+      "sourceId": "0c4d28d2-2ed7-11ef-a183-99ad05e145f0",
+      "word": "スキャンダル",
+      "sourceValue": "scandal",
+      "kana": "スキャンダル"
+    },
+    {
+      "sourceId": "0c4d5a3c-2ed7-11ef-a183-99ad05e145f0",
+      "word": "スタジオ",
+      "sourceValue": "studio",
+      "kana": "スタジオ"
+    },
+    {
+      "sourceId": "3d6df488-4ce8-11f1-90a9-0fc8163987fc",
+      "word": "スタミナ",
+      "sourceValue": "stamina",
+      "kana": "スタミナ"
+    },
+    {
+      "sourceId": "0c4d6aea-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ストライキ",
+      "sourceValue": "strike",
+      "kana": "ストライキ"
+    },
+    {
+      "sourceId": "0c4d9f88-2ed7-11ef-a183-99ad05e145f0",
+      "word": "スペース",
+      "sourceValue": "space",
+      "kana": "スペース"
+    },
+    {
+      "sourceId": "0c4da7bc-2ed7-11ef-a183-99ad05e145f0",
+      "word": "スポットライト",
+      "sourceValue": "spotlight",
+      "kana": "スポットライト"
+    },
+    {
+      "sourceId": "0c4dc18e-2ed7-11ef-a183-99ad05e145f0",
+      "word": "セールス",
+      "sourceValue": "sales",
+      "kana": "セールス"
+    },
+    {
+      "sourceId": "0c4df38e-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ゼリー",
+      "sourceValue": "jelly",
+      "kana": "ゼリー"
+    },
+    {
+      "sourceId": "0c4e1094-2ed7-11ef-a183-99ad05e145f0",
+      "word": "センス",
+      "sourceValue": "sense",
+      "kana": "センス"
+    },
+    {
+      "sourceId": "0c4e5ac2-2ed7-11ef-a183-99ad05e145f0",
+      "word": "タイマー",
+      "sourceValue": "timer",
+      "kana": "タイマー"
+    },
+    {
+      "sourceId": "0c4e630a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "タイミング",
+      "sourceValue": "timing",
+      "kana": "タイミング"
+    },
+    {
+      "sourceId": "0c4e7c00-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ダウン",
+      "sourceValue": "down",
+      "kana": "ダウン"
+    },
+    {
+      "sourceId": "0c4eb6c0-2ed7-11ef-a183-99ad05e145f0",
+      "word": "タレント",
+      "sourceValue": "talent",
+      "kana": "タレント"
+    },
+    {
+      "sourceId": "0c4ec728-2ed7-11ef-a183-99ad05e145f0",
+      "word": "チームワーク",
+      "sourceValue": "teamwork",
+      "kana": "チームワーク"
+    },
+    {
+      "sourceId": "0c4ecf70-2ed7-11ef-a183-99ad05e145f0",
+      "word": "チェンジ",
+      "sourceValue": "change",
+      "kana": "チェンジ"
+    },
+    {
+      "sourceId": "0c4f602a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "デザート",
+      "sourceValue": "dessert",
+      "kana": "デザート"
+    },
+    {
+      "sourceId": "0c4f89f6-2ed7-11ef-a183-99ad05e145f0",
+      "word": "トーン",
+      "sourceValue": "tone",
+      "kana": "トーン"
+    },
+    {
+      "sourceId": "0c4fd442-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ドライバー",
+      "sourceValue": "driver",
+      "kana": "ドライバー"
+    },
+    {
+      "sourceId": "884adac4-4e79-11f1-beee-f9338ab5b368",
+      "word": "ナイター",
+      "sourceValue": "(和) night＋er",
+      "kana": "ナイター"
+    },
+    {
+      "sourceId": "0c5050ac-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ナプキン",
+      "sourceValue": "napkin",
+      "kana": "ナプキン"
+    },
+    {
+      "sourceId": "0c508d06-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ナンセンス",
+      "sourceValue": "nonsense",
+      "kana": "ナンセンス"
+    },
+    {
+      "sourceId": "0c50ae44-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ニュアンス",
+      "sourceValue": "(フ) nuance",
+      "kana": "ニュアンス"
+    },
+    {
+      "sourceId": "0c50e274-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ノウハウ",
+      "sourceValue": "knowhow",
+      "kana": "ノウハウ"
+    },
+    {
+      "sourceId": "0c5103da-2ed7-11ef-a183-99ad05e145f0",
+      "word": "パーマ",
+      "sourceValue": "permanent wave",
+      "kana": "パーマ"
+    },
+    {
+      "sourceId": "0c513562-2ed7-11ef-a183-99ad05e145f0",
+      "word": "バッジ",
+      "sourceValue": "badge",
+      "kana": "バッジ"
+    },
+    {
+      "sourceId": "0c515e34-2ed7-11ef-a183-99ad05e145f0",
+      "word": "パトカー",
+      "sourceValue": "patrol car",
+      "kana": "パトカー"
+    },
+    {
+      "sourceId": "0c516690-2ed7-11ef-a183-99ad05e145f0",
+      "word": "バブル",
+      "sourceValue": "bubble",
+      "kana": "バブル"
+    },
+    {
+      "sourceId": "0c51a326-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ハンガー",
+      "sourceValue": "hanger",
+      "kana": "ハンガー"
+    },
+    {
+      "sourceId": "0c51ab82-2ed7-11ef-a183-99ad05e145f0",
+      "word": "パンク",
+      "sourceValue": "puncture",
+      "kana": "パンク"
+    },
+    {
+      "sourceId": "0c51d4ae-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ヒット",
+      "sourceValue": "hit",
+      "kana": "ヒット"
+    },
+    {
+      "sourceId": "0c521edc-2ed7-11ef-a183-99ad05e145f0",
+      "word": "フィルター",
+      "sourceValue": "filter",
+      "kana": "フィルター"
+    },
+    {
+      "sourceId": "0c52271a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "フォーム",
+      "sourceValue": "form",
+      "kana": "フォーム"
+    },
+    {
+      "sourceId": "0c5247c2-2ed7-11ef-a183-99ad05e145f0",
+      "word": "プライバシー",
+      "sourceValue": "privacy",
+      "kana": "プライバシー"
+    },
+    {
+      "sourceId": "0c525a96-2ed7-11ef-a183-99ad05e145f0",
+      "word": "フロント",
+      "sourceValue": "front",
+      "kana": "フロント"
+    },
+    {
+      "sourceId": "0c5262e8-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ペア",
+      "sourceValue": "pair",
+      "kana": "ペア"
+    },
+    {
+      "sourceId": "0c526b30-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ペース",
+      "sourceValue": "pace",
+      "kana": "ペース"
+    },
+    {
+      "sourceId": "0c5284a8-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ベスト",
+      "sourceValue": "best",
+      "kana": "ベスト"
+    },
+    {
+      "sourceId": "0c528d04-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ベストセラー",
+      "sourceValue": "best seller",
+      "kana": "ベストセラー"
+    },
+    {
+      "sourceId": "0c52a58c-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ポイント",
+      "sourceValue": "point",
+      "kana": "ポイント"
+    },
+    {
+      "sourceId": "0c52dfb6-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ポジション",
+      "sourceValue": "position",
+      "kana": "ポジション"
+    },
+    {
+      "sourceId": "0c53a5a4-2ed7-11ef-a183-99ad05e145f0",
+      "word": "メーカー",
+      "sourceValue": "maker",
+      "kana": "メーカー"
+    },
+    {
+      "sourceId": "0c53b616-2ed7-11ef-a183-99ad05e145f0",
+      "word": "メダル",
+      "sourceValue": "medal",
+      "kana": "メダル"
+    },
+    {
+      "sourceId": "0c53be72-2ed7-11ef-a183-99ad05e145f0",
+      "word": "メッセージ",
+      "sourceValue": "message",
+      "kana": "メッセージ"
+    },
+    {
+      "sourceId": "0c53ced0-2ed7-11ef-a183-99ad05e145f0",
+      "word": "メロディー",
+      "sourceValue": "melody",
+      "kana": "メロディー"
+    },
+    {
+      "sourceId": "0c5417a0-2ed7-11ef-a183-99ad05e145f0",
+      "word": "モニター",
+      "sourceValue": "monitor",
+      "kana": "モニター"
+    },
+    {
+      "sourceId": "0c54731c-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ユーザー",
+      "sourceValue": "user",
+      "kana": "ユーザー"
+    },
+    {
+      "sourceId": "0c54db18-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ランク",
+      "sourceValue": "rank",
+      "kana": "ランク"
+    },
+    {
+      "sourceId": "0c54e324-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ランプ",
+      "sourceValue": "lamp",
+      "kana": "ランプ"
+    },
+    {
+      "sourceId": "0c54ed6a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "リード",
+      "sourceValue": "lead",
+      "kana": "リード"
+    },
+    {
+      "sourceId": "0c54f5b2-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ルーズ",
+      "sourceValue": "loose",
+      "kana": "ルーズ"
+    },
+    {
+      "sourceId": "0c54fddc-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ルート",
+      "sourceValue": "route",
+      "kana": "ルート"
+    },
+    {
+      "sourceId": "0c550656-2ed7-11ef-a183-99ad05e145f0",
+      "word": "レイアウト",
+      "sourceValue": "layout",
+      "kana": "レイアウト"
+    },
+    {
+      "sourceId": "0c550ebc-2ed7-11ef-a183-99ad05e145f0",
+      "word": "レース",
+      "sourceValue": "race",
+      "kana": "レース"
+    },
+    {
+      "sourceId": "0c5516c8-2ed7-11ef-a183-99ad05e145f0",
+      "word": "レッスン",
+      "sourceValue": "lesson",
+      "kana": "レッスン"
+    },
+    {
+      "sourceId": "0c55278a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "レバー",
+      "sourceValue": "lever",
+      "kana": "レバー"
+    },
+    {
+      "sourceId": "0c552fa0-2ed7-11ef-a183-99ad05e145f0",
+      "word": "レンジ",
+      "sourceValue": "range",
+      "kana": "レンジ"
+    },
+    {
+      "sourceId": "0c55492c-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ロープ",
+      "sourceValue": "rope",
+      "kana": "ロープ"
+    },
+    {
+      "sourceId": "0c910eda-2ed7-11ef-a183-99ad05e145f0",
+      "word": "アクセス",
+      "sourceValue": "access",
+      "kana": "アクセス"
+    },
+    {
+      "sourceId": "0c91b592-2ed7-11ef-a183-99ad05e145f0",
+      "word": "アルファ",
+      "sourceValue": "alpha",
+      "kana": "アルファ"
+    },
+    {
+      "sourceId": "0c91bdf8-2ed7-11ef-a183-99ad05e145f0",
+      "word": "アルファベット",
+      "sourceValue": "alphabet",
+      "kana": "アルファベット"
+    },
+    {
+      "sourceId": "0c9221e4-2ed7-11ef-a183-99ad05e145f0",
+      "word": "イラスト",
+      "sourceValue": "illustration",
+      "kana": "イラスト"
+    },
+    {
+      "sourceId": "0c9229dc-2ed7-11ef-a183-99ad05e145f0",
+      "word": "インスピレーション",
+      "sourceValue": "inspiration",
+      "kana": "インスピレーション"
+    },
+    {
+      "sourceId": "0c92529a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "インフォメーション",
+      "sourceValue": "information",
+      "kana": "インフォメーション"
+    },
+    {
+      "sourceId": "0c9308d4-2ed7-11ef-a183-99ad05e145f0",
+      "word": "エコ",
+      "sourceValue": "eco",
+      "kana": "エコ"
+    },
+    {
+      "sourceId": "0c932972-2ed7-11ef-a183-99ad05e145f0",
+      "word": "エッセー",
+      "sourceValue": "essay",
+      "kana": "エッセー"
+    },
+    {
+      "sourceId": "0c9331ce-2ed7-11ef-a183-99ad05e145f0",
+      "word": "エピソード",
+      "sourceValue": "episode",
+      "kana": "エピソード"
+    },
+    {
+      "sourceId": "0c933a02-2ed7-11ef-a183-99ad05e145f0",
+      "word": "エリート",
+      "sourceValue": "(フ) élite",
+      "kana": "エリート"
+    },
+    {
+      "sourceId": "0c934222-2ed7-11ef-a183-99ad05e145f0",
+      "word": "エンジニア",
+      "sourceValue": "engineer",
+      "kana": "エンジニア"
+    },
+    {
+      "sourceId": "0c934a88-2ed7-11ef-a183-99ad05e145f0",
+      "word": "エントリー",
+      "sourceValue": "entry",
+      "kana": "エントリー"
+    },
+    {
+      "sourceId": "0c947e3a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "カウンセラー",
+      "sourceValue": "counselor",
+      "kana": "カウンセラー"
+    },
+    {
+      "sourceId": "0c957a60-2ed7-11ef-a183-99ad05e145f0",
+      "word": "キープ",
+      "sourceValue": "keep",
+      "kana": "キープ"
+    },
+    {
+      "sourceId": "0c95b642-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ギャップ",
+      "sourceValue": "gap",
+      "kana": "ギャップ"
+    },
+    {
+      "sourceId": "0c95c772-2ed7-11ef-a183-99ad05e145f0",
+      "word": "キャリア",
+      "sourceValue": "career",
+      "kana": "キャリア"
+    },
+    {
+      "sourceId": "0c95f8a0-2ed7-11ef-a183-99ad05e145f0",
+      "word": "クーポン",
+      "sourceValue": "coupon",
+      "kana": "クーポン"
+    },
+    {
+      "sourceId": "0c9600e8-2ed7-11ef-a183-99ad05e145f0",
+      "word": "クール",
+      "sourceValue": "cool",
+      "kana": "クール"
+    },
+    {
+      "sourceId": "0c9696ca-2ed7-11ef-a183-99ad05e145f0",
+      "word": "グローバル",
+      "sourceValue": "global",
+      "kana": "グローバル"
+    },
+    {
+      "sourceId": "0c96e878-2ed7-11ef-a183-99ad05e145f0",
+      "word": "コーディネート",
+      "sourceValue": "coordinate",
+      "kana": "コーディネート"
+    },
+    {
+      "sourceId": "2564aea4-4c66-11f1-9103-c10b58500570",
+      "word": "コネ",
+      "sourceValue": "connection",
+      "kana": "コネ"
+    },
+    {
+      "sourceId": "0c97a786-2ed7-11ef-a183-99ad05e145f0",
+      "word": "コンクール",
+      "sourceValue": "(フ) concours",
+      "kana": "コンクール"
+    },
+    {
+      "sourceId": "0c97b7da-2ed7-11ef-a183-99ad05e145f0",
+      "word": "コンプレックス",
+      "sourceValue": "complex",
+      "kana": "コンプレックス"
+    },
+    {
+      "sourceId": "0c97c04a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "コンマ",
+      "sourceValue": "comma",
+      "kana": "コンマ"
+    },
+    {
+      "sourceId": "42f9b9fe-4e74-11f1-beee-f9338ab5b368",
+      "word": "サーフィン",
+      "sourceValue": "surfing",
+      "kana": "サーフィン"
+    },
+    {
+      "sourceId": "0c97e084-2ed7-11ef-a183-99ad05e145f0",
+      "word": "サイト",
+      "sourceValue": "site",
+      "kana": "サイト"
+    },
+    {
+      "sourceId": "0c981450-2ed7-11ef-a183-99ad05e145f0",
+      "word": "サポート",
+      "sourceValue": "support",
+      "kana": "サポート"
+    },
+    {
+      "sourceId": "0c98ccce-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ジャーナリスト",
+      "sourceValue": "journalist",
+      "kana": "ジャーナリスト"
+    },
+    {
+      "sourceId": "0c98d516-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ジャーナリズム",
+      "sourceValue": "journalism",
+      "kana": "ジャーナリズム"
+    },
+    {
+      "sourceId": "0c98f636-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ショーウインドー",
+      "sourceValue": "show window",
+      "kana": "ショーウインドー"
+    },
+    {
+      "sourceId": "0c9906c6-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ジレンマ",
+      "sourceValue": "dilemma",
+      "kana": "ジレンマ"
+    },
+    {
+      "sourceId": "b489f0ea-4e77-11f1-beee-f9338ab5b368",
+      "word": "スクーター",
+      "sourceValue": "scooter",
+      "kana": "スクーター"
+    },
+    {
+      "sourceId": "0c994118-2ed7-11ef-a183-99ad05e145f0",
+      "word": "スケール",
+      "sourceValue": "scale",
+      "kana": "スケール"
+    },
+    {
+      "sourceId": "0c999faa-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ステータス",
+      "sourceValue": "status",
+      "kana": "ステータス"
+    },
+    {
+      "sourceId": "0c99afea-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ストック",
+      "sourceValue": "stock",
+      "kana": "ストック"
+    },
+    {
+      "sourceId": "0c99e910-2ed7-11ef-a183-99ad05e145f0",
+      "word": "スポット",
+      "sourceValue": "spot",
+      "kana": "スポット"
+    },
+    {
+      "sourceId": "0c9a018e-2ed7-11ef-a183-99ad05e145f0",
+      "word": "スポンサー",
+      "sourceValue": "sponsor",
+      "kana": "スポンサー"
+    },
+    {
+      "sourceId": "0c9a4e32-2ed7-11ef-a183-99ad05e145f0",
+      "word": "スローガン",
+      "sourceValue": "slogan",
+      "kana": "スローガン"
+    },
+    {
+      "sourceId": "0c9a5670-2ed7-11ef-a183-99ad05e145f0",
+      "word": "セールスマン",
+      "sourceValue": "salesman",
+      "kana": "セールスマン"
+    },
+    {
+      "sourceId": "0c9a6f2a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "セルフ",
+      "sourceValue": "self",
+      "kana": "セルフ"
+    },
+    {
+      "sourceId": "0c9a7722-2ed7-11ef-a183-99ad05e145f0",
+      "word": "セロテープ",
+      "sourceValue": "cellotape",
+      "kana": "セロテープ"
+    },
+    {
+      "sourceId": "0c9b47ce-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ターミナル",
+      "sourceValue": "terminal",
+      "kana": "ターミナル"
+    },
+    {
+      "sourceId": "886021cc-4e79-11f1-beee-f9338ab5b368",
+      "word": "ダビング",
+      "sourceValue": "dubbing",
+      "kana": "ダビング"
+    },
+    {
+      "sourceId": "0c9b944a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "タフ",
+      "sourceValue": "tough",
+      "kana": "タフ"
+    },
+    {
+      "sourceId": "0c9bf1c4-2ed7-11ef-a183-99ad05e145f0",
+      "word": "タンク",
+      "sourceValue": "tank",
+      "kana": "タンク"
+    },
+    {
+      "sourceId": "0c9c2ca2-2ed7-11ef-a183-99ad05e145f0",
+      "word": "チャージ",
+      "sourceValue": "charge",
+      "kana": "チャージ"
+    },
+    {
+      "sourceId": "0c9c34a4-2ed7-11ef-a183-99ad05e145f0",
+      "word": "チャーミング",
+      "sourceValue": "charming",
+      "kana": "チャーミング"
+    },
+    {
+      "sourceId": "88606588-4e79-11f1-beee-f9338ab5b368",
+      "word": "チンパンジー",
+      "sourceValue": "chimpanzee",
+      "kana": "チンパンジー"
+    },
+    {
+      "sourceId": "0c9ce020-2ed7-11ef-a183-99ad05e145f0",
+      "word": "デビュー",
+      "sourceValue": "(フ) début",
+      "kana": "デビュー"
+    },
+    {
+      "sourceId": "0c9ce980-2ed7-11ef-a183-99ad05e145f0",
+      "word": "デマ",
+      "sourceValue": "(ド) Demagogie",
+      "kana": "デマ"
+    },
+    {
+      "sourceId": "0c9cf20e-2ed7-11ef-a183-99ad05e145f0",
+      "word": "デメリット",
+      "sourceValue": "demerit",
+      "kana": "デメリット"
+    },
+    {
+      "sourceId": "0c9d3390-2ed7-11ef-a183-99ad05e145f0",
+      "word": "トータル",
+      "sourceValue": "total",
+      "kana": "トータル"
+    },
+    {
+      "sourceId": "0c9dad02-2ed7-11ef-a183-99ad05e145f0",
+      "word": "トピック",
+      "sourceValue": "topic",
+      "kana": "トピック"
+    },
+    {
+      "sourceId": "0c9eedac-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ノルマ",
+      "sourceValue": "(ロ) norma",
+      "kana": "ノルマ"
+    },
+    {
+      "sourceId": "0c9f0e9a-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ハードル",
+      "sourceValue": "hurdle",
+      "kana": "ハードル"
+    },
+    {
+      "sourceId": "0c9f63c2-2ed7-11ef-a183-99ad05e145f0",
+      "word": "バックアップ",
+      "sourceValue": "backup",
+      "kana": "バックアップ"
+    },
+    {
+      "sourceId": "0c9f6bba-2ed7-11ef-a183-99ad05e145f0",
+      "word": "パッケージ",
+      "sourceValue": "package",
+      "kana": "パッケージ"
+    },
+    {
+      "sourceId": "2735be2e-4b55-11f1-a630-0ddc817ad47e",
+      "word": "パパ",
+      "sourceValue": "papa",
+      "kana": "パパ"
+    },
+    {
+      "sourceId": "0c9feae0-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ピーク",
+      "sourceValue": "peak",
+      "kana": "ピーク"
+    },
+    {
+      "sourceId": "0ca00bce-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ビジネスマン",
+      "sourceValue": "businessman",
+      "kana": "ビジネスマン"
+    },
+    {
+      "sourceId": "0ca01c40-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ビジョン",
+      "sourceValue": "vision",
+      "kana": "ビジョン"
+    },
+    {
+      "sourceId": "0ca08b62-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ピンチ",
+      "sourceValue": "pinch",
+      "kana": "ピンチ"
+    },
+    {
+      "sourceId": "0ca093d2-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ピント",
+      "sourceValue": "(オ) brandpunt",
+      "kana": "ピント"
+    },
+    {
+      "sourceId": "0ca0b524-2ed7-11ef-a183-99ad05e145f0",
+      "word": "フィクション",
+      "sourceValue": "fiction",
+      "kana": "フィクション"
+    },
+    {
+      "sourceId": "0ca0bd44-2ed7-11ef-a183-99ad05e145f0",
+      "word": "フォロー",
+      "sourceValue": "follow",
+      "kana": "フォロー"
+    },
+    {
+      "sourceId": "0ca0f124-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ブランク",
+      "sourceValue": "blank",
+      "kana": "ブランク"
+    },
+    {
+      "sourceId": "0ca0f980-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ブランド",
+      "sourceValue": "brand",
+      "kana": "ブランド"
+    },
+    {
+      "sourceId": "0ca112da-2ed7-11ef-a183-99ad05e145f0",
+      "word": "プレー",
+      "sourceValue": "play",
+      "kana": "プレー"
+    },
+    {
+      "sourceId": "0ca123b0-2ed7-11ef-a183-99ad05e145f0",
+      "word": "プレーヤー",
+      "sourceValue": "player",
+      "kana": "プレーヤー"
+    },
+    {
+      "sourceId": "0ca12be4-2ed7-11ef-a183-99ad05e145f0",
+      "word": "プレゼンテーション",
+      "sourceValue": "presentation",
+      "kana": "プレゼンテーション"
+    },
+    {
+      "sourceId": "0ca13472-2ed7-11ef-a183-99ad05e145f0",
+      "word": "プレッシャー",
+      "sourceValue": "pressure",
+      "kana": "プレッシャー"
+    },
+    {
+      "sourceId": "0ca14da4-2ed7-11ef-a183-99ad05e145f0",
+      "word": "プログラミング",
+      "sourceValue": "programming",
+      "kana": "プログラミング"
+    },
+    {
+      "sourceId": "0ca16726-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ヘアスタイル",
+      "sourceValue": "hairstyle",
+      "kana": "ヘアスタイル"
+    },
+    {
+      "sourceId": "0ca16f32-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ベース",
+      "sourceValue": "base",
+      "kana": "ベース"
+    },
+    {
+      "sourceId": "0ca19ae8-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ホース",
+      "sourceValue": "(オ) hoos",
+      "kana": "ホース"
+    },
+    {
+      "sourceId": "0ca1b3b6-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ボクシング",
+      "sourceValue": "boxing",
+      "kana": "ボクシング"
+    },
+    {
+      "sourceId": "0ca1d508-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ホスト",
+      "sourceValue": "host",
+      "kana": "ホスト"
+    },
+    {
+      "sourceId": "0ca2b630-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ミス",
+      "sourceValue": "Miss",
+      "kana": "ミス"
+    },
+    {
+      "sourceId": "0ca2f280-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ミュージカル",
+      "sourceValue": "musical",
+      "kana": "ミュージカル"
+    },
+    {
+      "sourceId": "0ca2fab4-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ミュージシャン",
+      "sourceValue": "musician",
+      "kana": "ミュージシャン"
+    },
+    {
+      "sourceId": "0ca31396-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ミリ",
+      "sourceValue": "(フ) milli",
+      "kana": "ミリ"
+    },
+    {
+      "sourceId": "0ca356b2-2ed7-11ef-a183-99ad05e145f0",
+      "word": "メカニズム",
+      "sourceValue": "mechanism",
+      "kana": "メカニズム"
+    },
+    {
+      "sourceId": "0ca4b638-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ライフスタイル",
+      "sourceValue": "lifestyle",
+      "kana": "ライフスタイル"
+    },
+    {
+      "sourceId": "0ca4c5f6-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ラグビー",
+      "sourceValue": "rugby",
+      "kana": "ラグビー"
+    },
+    {
+      "sourceId": "0ca50200-2ed7-11ef-a183-99ad05e145f0",
+      "word": "リクエスト",
+      "sourceValue": "request",
+      "kana": "リクエスト"
+    },
+    {
+      "sourceId": "0ca5122c-2ed7-11ef-a183-99ad05e145f0",
+      "word": "リサーチ",
+      "sourceValue": "research",
+      "kana": "リサーチ"
+    },
+    {
+      "sourceId": "0ca51a74-2ed7-11ef-a183-99ad05e145f0",
+      "word": "リストアップ",
+      "sourceValue": "(和) list＋up",
+      "kana": "リストアップ"
+    },
+    {
+      "sourceId": "0ca52af0-2ed7-11ef-a183-99ad05e145f0",
+      "word": "リハビリ",
+      "sourceValue": "rehabilitation",
+      "kana": "リハビリ"
+    },
+    {
+      "sourceId": "0ca54666-2ed7-11ef-a183-99ad05e145f0",
+      "word": "リレー",
+      "sourceValue": "relay",
+      "kana": "リレー"
+    },
+    {
+      "sourceId": "0ca556e2-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ルーム",
+      "sourceValue": "room",
+      "kana": "ルーム"
+    },
+    {
+      "sourceId": "0ca58842-2ed7-11ef-a183-99ad05e145f0",
+      "word": "レート",
+      "sourceValue": "rate",
+      "kana": "レート"
+    },
+    {
+      "sourceId": "0ca59044-2ed7-11ef-a183-99ad05e145f0",
+      "word": "レール",
+      "sourceValue": "rail",
+      "kana": "レール"
+    },
+    {
+      "sourceId": "07f5892a-4d23-11f1-8acd-1921b1dbb6e1",
+      "word": "レギュラー",
+      "sourceValue": "regular",
+      "kana": "レギュラー"
+    },
+    {
+      "sourceId": "0ca5cc76-2ed7-11ef-a183-99ad05e145f0",
+      "word": "ロス",
+      "sourceValue": "loss",
+      "kana": "ロス"
+    },
+    {
+      "sourceId": "606e1ec0-4c68-11f1-9103-c10b58500570",
+      "word": "リモコン",
+      "sourceValue": "(和) remote+control",
+      "kana": "リモコン"
+    },
+    {
+      "sourceId": "b930c00e-692e-11ef-95f0-b30e867324a9",
+      "word": "リタイア",
+      "sourceValue": "retire",
+      "kana": "リタイア"
+    },
+    {
+      "sourceId": "b9310c94-692e-11ef-95f0-b30e867324a9",
+      "word": "ディスカッション",
+      "sourceValue": "discussion",
+      "kana": "ディスカッション"
+    },
+    {
+      "sourceId": "b935b992-692e-11ef-95f0-b30e867324a9",
+      "word": "リンク",
+      "sourceValue": "link",
+      "kana": "リンク"
+    },
+    {
+      "sourceId": "b93f5538-692e-11ef-95f0-b30e867324a9",
+      "word": "ダイビング",
+      "sourceValue": "diving",
+      "kana": "ダイビング"
+    },
+    {
+      "sourceId": "b9462b42-692e-11ef-95f0-b30e867324a9",
+      "word": "スライス",
+      "sourceValue": "slice",
+      "kana": "スライス"
+    },
+    {
+      "sourceId": "b94d1754-692e-11ef-95f0-b30e867324a9",
+      "word": "リネン",
+      "sourceValue": "linen",
+      "kana": "リネン"
+    },
+    {
+      "sourceId": "b951cff6-692e-11ef-95f0-b30e867324a9",
+      "word": "スランプ",
+      "sourceValue": "slump",
+      "kana": "スランプ"
+    },
+    {
+      "sourceId": "b954d552-692e-11ef-95f0-b30e867324a9",
+      "word": "ガイドライン",
+      "sourceValue": "guideline",
+      "kana": "ガイドライン"
+    },
+    {
+      "sourceId": "b9550f22-692e-11ef-95f0-b30e867324a9",
+      "word": "シニア",
+      "sourceValue": "senior",
+      "kana": "シニア"
+    },
+    {
+      "sourceId": "b955e910-692e-11ef-95f0-b30e867324a9",
+      "word": "マスメディア",
+      "sourceValue": "mass media",
+      "kana": "マスメディア"
+    },
+    {
+      "sourceId": "b958351c-692e-11ef-95f0-b30e867324a9",
+      "word": "アシスタント",
+      "sourceValue": "assistant",
+      "kana": "アシスタント"
+    },
+    {
+      "sourceId": "b95bf6d4-692e-11ef-95f0-b30e867324a9",
+      "word": "サバンナ",
+      "sourceValue": "savanna",
+      "kana": "サバンナ"
+    },
+    {
+      "sourceId": "b95ceca6-692e-11ef-95f0-b30e867324a9",
+      "word": "テナント",
+      "sourceValue": "tenant",
+      "kana": "テナント"
+    },
+    {
+      "sourceId": "b95e0cb2-692e-11ef-95f0-b30e867324a9",
+      "word": "リセット",
+      "sourceValue": "reset",
+      "kana": "リセット"
+    },
+    {
+      "sourceId": "b95e4326-692e-11ef-95f0-b30e867324a9",
+      "word": "ウエア",
+      "sourceValue": "wear",
+      "kana": "ウエア"
+    },
+    {
+      "sourceId": "b96128de-692e-11ef-95f0-b30e867324a9",
+      "word": "アナログ",
+      "sourceValue": "analog・analogue",
+      "kana": "アナログ"
+    },
+    {
+      "sourceId": "b9634358-692e-11ef-95f0-b30e867324a9",
+      "word": "ビッグ",
+      "sourceValue": "big",
+      "kana": "ビッグ"
+    },
+    {
+      "sourceId": "b963918c-692e-11ef-95f0-b30e867324a9",
+      "word": "メンテナンス",
+      "sourceValue": "maintenance",
+      "kana": "メンテナンス"
+    },
+    {
+      "sourceId": "b96586b8-692e-11ef-95f0-b30e867324a9",
+      "word": "ステップ",
+      "sourceValue": "step",
+      "kana": "ステップ"
+    },
+    {
+      "sourceId": "b96c6c1c-692e-11ef-95f0-b30e867324a9",
+      "word": "エッセンス",
+      "sourceValue": "essence",
+      "kana": "エッセンス"
+    },
+    {
+      "sourceId": "b96c73d8-692e-11ef-95f0-b30e867324a9",
+      "word": "ハイライト",
+      "sourceValue": "highlight",
+      "kana": "ハイライト"
+    },
+    {
+      "sourceId": "b96dc90e-692e-11ef-95f0-b30e867324a9",
+      "word": "アングル",
+      "sourceValue": "angle",
+      "kana": "アングル"
+    },
+    {
+      "sourceId": "b970ad18-692e-11ef-95f0-b30e867324a9",
+      "word": "ランキング",
+      "sourceValue": "ranking",
+      "kana": "ランキング"
+    },
+    {
+      "sourceId": "b972cdb4-692e-11ef-95f0-b30e867324a9",
+      "word": "フロア",
+      "sourceValue": "floor",
+      "kana": "フロア"
+    },
+    {
+      "sourceId": "b975080e-692e-11ef-95f0-b30e867324a9",
+      "word": "キャビネット",
+      "sourceValue": "cabinet",
+      "kana": "キャビネット"
+    },
+    {
+      "sourceId": "b975ac00-692e-11ef-95f0-b30e867324a9",
+      "word": "コンディション",
+      "sourceValue": "condition",
+      "kana": "コンディション"
+    },
+    {
+      "sourceId": "b9769b2e-692e-11ef-95f0-b30e867324a9",
+      "word": "フラッシュ",
+      "sourceValue": "flash",
+      "kana": "フラッシュ"
+    },
+    {
+      "sourceId": "b9796106-692e-11ef-95f0-b30e867324a9",
+      "word": "プラスアルファ",
+      "sourceValue": "(和) plus＋alpha",
+      "kana": "プラスアルファ"
+    },
+    {
+      "sourceId": "b97d4e06-692e-11ef-95f0-b30e867324a9",
+      "word": "ボンベ",
+      "sourceValue": "(ド) Bombe",
+      "kana": "ボンベ"
+    },
+    {
+      "sourceId": "b97e20d8-692e-11ef-95f0-b30e867324a9",
+      "word": "ゴリラ",
+      "sourceValue": "gorilla",
+      "kana": "ゴリラ"
+    },
+    {
+      "sourceId": "b9817800-692e-11ef-95f0-b30e867324a9",
+      "word": "オアシス",
+      "sourceValue": "oasis",
+      "kana": "オアシス"
+    },
+    {
+      "sourceId": "b98420b4-692e-11ef-95f0-b30e867324a9",
+      "word": "スコア",
+      "sourceValue": "score",
+      "kana": "スコア"
+    },
+    {
+      "sourceId": "b9842884-692e-11ef-95f0-b30e867324a9",
+      "word": "スタンス",
+      "sourceValue": "stance",
+      "kana": "スタンス"
+    },
+    {
+      "sourceId": "b9853814-692e-11ef-95f0-b30e867324a9",
+      "word": "デフレ",
+      "sourceValue": "deflation",
+      "kana": "デフレ"
+    },
+    {
+      "sourceId": "b98740b4-692e-11ef-95f0-b30e867324a9",
+      "word": "コンスタント",
+      "sourceValue": "constant",
+      "kana": "コンスタント"
+    },
+    {
+      "sourceId": "b9887ae2-692e-11ef-95f0-b30e867324a9",
+      "word": "スリル",
+      "sourceValue": "thrill",
+      "kana": "スリル"
+    },
+    {
+      "sourceId": "b989aa70-692e-11ef-95f0-b30e867324a9",
+      "word": "ナノ",
+      "sourceValue": "nano",
+      "kana": "ナノ"
+    },
+    {
+      "sourceId": "b989f87c-692e-11ef-95f0-b30e867324a9",
+      "word": "ハム",
+      "sourceValue": "ham",
+      "kana": "ハム"
+    },
+    {
+      "sourceId": "b98ebec0-692e-11ef-95f0-b30e867324a9",
+      "word": "モチベーション",
+      "sourceValue": "motivation",
+      "kana": "モチベーション"
+    },
+    {
+      "sourceId": "b991950a-692e-11ef-95f0-b30e867324a9",
+      "word": "ホワイト",
+      "sourceValue": "white",
+      "kana": "ホワイト"
+    },
+    {
+      "sourceId": "b996389e-692e-11ef-95f0-b30e867324a9",
+      "word": "メイン",
+      "sourceValue": "main",
+      "kana": "メイン"
+    },
+    {
+      "sourceId": "b9979644-692e-11ef-95f0-b30e867324a9",
+      "word": "コンパクト",
+      "sourceValue": "compact",
+      "kana": "コンパクト"
+    },
+    {
+      "sourceId": "b99aaed8-692e-11ef-95f0-b30e867324a9",
+      "word": "カジュアル",
+      "sourceValue": "casual",
+      "kana": "カジュアル"
+    },
+    {
+      "sourceId": "6b3f631e-679e-11ef-89c9-3b0955f1365d",
+      "word": "ダメージ",
+      "sourceValue": "damage",
+      "kana": "ダメージ"
+    },
+    {
+      "sourceId": "79afc178-679e-11ef-89c9-3b0955f1365d",
+      "word": "カウンター",
+      "sourceValue": "counter",
+      "kana": "カウンター"
+    },
+    {
+      "sourceId": "79b10efc-679e-11ef-89c9-3b0955f1365d",
+      "word": "ライン",
+      "sourceValue": "line",
+      "kana": "ライン"
+    },
+    {
+      "sourceId": "79b83826-679e-11ef-89c9-3b0955f1365d",
+      "word": "ターゲット",
+      "sourceValue": "target",
+      "kana": "ターゲット"
+    },
+    {
+      "sourceId": "79bcdf98-679e-11ef-89c9-3b0955f1365d",
+      "word": "プライベート",
+      "sourceValue": "private",
+      "kana": "プライベート"
+    },
+    {
+      "sourceId": "79c0b56e-679e-11ef-89c9-3b0955f1365d",
+      "word": "ボス",
+      "sourceValue": "boss",
+      "kana": "ボス"
+    },
+    {
+      "sourceId": "79c66e6e-679e-11ef-89c9-3b0955f1365d",
+      "word": "ライブ",
+      "sourceValue": "live",
+      "kana": "ライブ"
+    },
+    {
+      "sourceId": "79c68660-679e-11ef-89c9-3b0955f1365d",
+      "word": "パンチ",
+      "sourceValue": "punch",
+      "kana": "パンチ"
+    },
+    {
+      "sourceId": "79ce44ae-679e-11ef-89c9-3b0955f1365d",
+      "word": "シフト",
+      "sourceValue": "shift",
+      "kana": "シフト"
+    },
+    {
+      "sourceId": "79edf812-679e-11ef-89c9-3b0955f1365d",
+      "word": "アイス",
+      "sourceValue": "ice",
+      "kana": "アイス"
+    },
+    {
+      "sourceId": "79b2c58a-679e-11ef-89c9-3b0955f1365d",
+      "word": "リアル",
+      "sourceValue": "real",
+      "kana": "リアル"
+    },
+    {
+      "sourceId": "c65dc690-4b96-11f1-b0cd-b78500d69791",
+      "word": "ファンタジー",
+      "sourceValue": "fantasy",
+      "kana": "ファンタジー"
+    },
+    {
+      "sourceId": "79cf5538-679e-11ef-89c9-3b0955f1365d",
+      "word": "ノイズ",
+      "sourceValue": "noise",
+      "kana": "ノイズ"
+    },
+    {
+      "sourceId": "e2c46aa6-4c62-11f1-9103-c10b58500570",
+      "word": "マネージャー",
+      "sourceValue": "manager",
+      "kana": "マネージャー"
+    },
+    {
+      "sourceId": "79d8dab8-679e-11ef-89c9-3b0955f1365d",
+      "word": "ボリューム",
+      "sourceValue": "volume",
+      "kana": "ボリューム"
+    },
+    {
+      "sourceId": "79e0c836-679e-11ef-89c9-3b0955f1365d",
+      "word": "タッチ",
+      "sourceValue": "touch",
+      "kana": "タッチ"
+    },
+    {
+      "sourceId": "79e33f30-679e-11ef-89c9-3b0955f1365d",
+      "word": "グッズ",
+      "sourceValue": "goods",
+      "kana": "グッズ"
+    },
+    {
+      "sourceId": "79e43548-679e-11ef-89c9-3b0955f1365d",
+      "word": "センサー",
+      "sourceValue": "sensor",
+      "kana": "センサー"
+    },
+    {
+      "sourceId": "79ea5626-679e-11ef-89c9-3b0955f1365d",
+      "word": "パネル",
+      "sourceValue": "panel",
+      "kana": "パネル"
+    },
+    {
+      "sourceId": "79eb57ec-679e-11ef-89c9-3b0955f1365d",
+      "word": "モチーフ",
+      "sourceValue": "(フ) motif",
+      "kana": "モチーフ"
+    },
+    {
+      "sourceId": "79ed06fa-679e-11ef-89c9-3b0955f1365d",
+      "word": "シェフ",
+      "sourceValue": "(フ) chef",
+      "kana": "シェフ"
+    },
+    {
+      "sourceId": "79f090a4-679e-11ef-89c9-3b0955f1365d",
+      "word": "フェア",
+      "sourceValue": "fair",
+      "kana": "フェア"
+    },
+    {
+      "sourceId": "79f1212c-679e-11ef-89c9-3b0955f1365d",
+      "word": "ギャラリー",
+      "sourceValue": "gallery",
+      "kana": "ギャラリー"
+    },
+    {
+      "sourceId": "79f12906-679e-11ef-89c9-3b0955f1365d",
+      "word": "カラフル",
+      "sourceValue": "colorful",
+      "kana": "カラフル"
+    },
+    {
+      "sourceId": "79f28df0-679e-11ef-89c9-3b0955f1365d",
+      "word": "パズル",
+      "sourceValue": "puzzle",
+      "kana": "パズル"
+    },
+    {
+      "sourceId": "79f40a72-679e-11ef-89c9-3b0955f1365d",
+      "word": "スパイス",
+      "sourceValue": "spice",
+      "kana": "スパイス"
+    },
+    {
+      "sourceId": "79f7faba-679e-11ef-89c9-3b0955f1365d",
+      "word": "ジェスチャー",
+      "sourceValue": "gesture",
+      "kana": "ジェスチャー"
+    },
+    {
+      "sourceId": "3cc17bf2-4ce5-11f1-90a9-0fc8163987fc",
+      "word": "セーブ",
+      "sourceValue": "save",
+      "kana": "セーブ"
+    },
+    {
+      "sourceId": "9e9b9a82-4ceb-11f1-90a9-0fc8163987fc",
+      "word": "マット",
+      "sourceValue": "mat",
+      "kana": "マット"
+    },
+    {
+      "sourceId": "7a0994b4-679e-11ef-89c9-3b0955f1365d",
+      "word": "スタンプ",
+      "sourceValue": "stamp",
+      "kana": "スタンプ"
+    },
+    {
+      "sourceId": "7a18ae18-679e-11ef-89c9-3b0955f1365d",
+      "word": "リハーサル",
+      "sourceValue": "rehearsal",
+      "kana": "リハーサル"
+    },
+    {
+      "sourceId": "7a1bef06-679e-11ef-89c9-3b0955f1365d",
+      "word": "キャンバス",
+      "sourceValue": "canvas",
+      "kana": "キャンバス"
+    },
+    {
+      "sourceId": "7a2952e0-679e-11ef-89c9-3b0955f1365d",
+      "word": "ミニ",
+      "sourceValue": "mini",
+      "kana": "ミニ"
+    },
+    {
+      "sourceId": "7a34ea9c-679e-11ef-89c9-3b0955f1365d",
+      "word": "ヘッドライト",
+      "sourceValue": "headlight",
+      "kana": "ヘッドライト"
+    },
+    {
+      "sourceId": "abc5b6ee-4d26-11f1-8acd-1921b1dbb6e1",
+      "word": "カウンセリング",
+      "sourceValue": "counseling",
+      "kana": "カウンセリング"
+    },
+    {
+      "sourceId": "7a38c2fc-679e-11ef-89c9-3b0955f1365d",
+      "word": "インスタント",
+      "sourceValue": "instant",
+      "kana": "インスタント"
+    },
+    {
+      "sourceId": "7a3c2cda-679e-11ef-89c9-3b0955f1365d",
+      "word": "エキスパート",
+      "sourceValue": "expert",
+      "kana": "エキスパート"
+    },
+    {
+      "sourceId": "bc7afe36-4da8-11f1-b81c-a57127b838b2",
+      "word": "グルメ",
+      "sourceValue": "(フ) gourment",
+      "kana": "グルメ"
+    },
+    {
+      "sourceId": "188aa374-4daa-11f1-b81c-a57127b838b2",
+      "word": "リュックサック",
+      "sourceValue": "(ド) Rucksack",
+      "kana": "リュックサック"
+    },
+    {
+      "sourceId": "cfc952f6-4daa-11f1-b81c-a57127b838b2",
+      "word": "ダイナミック",
+      "sourceValue": "dynamic",
+      "kana": "ダイナミック"
+    },
+    {
+      "sourceId": "dcc76bea-4dab-11f1-b81c-a57127b838b2",
+      "word": "スペア",
+      "sourceValue": "spare",
+      "kana": "スペア"
+    },
+    {
+      "sourceId": "c7becfe2-4dae-11f1-b81c-a57127b838b2",
+      "word": "インプット",
+      "sourceValue": "input",
+      "kana": "インプット"
+    },
+    {
+      "sourceId": "7a5568c6-679e-11ef-89c9-3b0955f1365d",
+      "word": "リフォーム",
+      "sourceValue": "reform",
+      "kana": "リフォーム"
+    },
+    {
+      "sourceId": "7a580f7c-679e-11ef-89c9-3b0955f1365d",
+      "word": "ピッチ",
+      "sourceValue": "pitch",
+      "kana": "ピッチ"
+    },
+    {
+      "sourceId": "ac2206cc-4df0-11f1-92ad-a9d8dc6c1b5c",
+      "word": "ドキュメンタリー",
+      "sourceValue": "documentary",
+      "kana": "ドキュメンタリー"
+    },
+    {
+      "sourceId": "7a7448cc-679e-11ef-89c9-3b0955f1365d",
+      "word": "クレヨン",
+      "sourceValue": "(フ) crayon",
+      "kana": "クレヨン"
+    },
+    {
+      "sourceId": "8897c2b2-4e79-11f1-beee-f9338ab5b368",
+      "word": "リアリティー",
+      "sourceValue": "reality",
+      "kana": "リアリティー"
+    },
+    {
+      "sourceId": "88982b3a-4e79-11f1-beee-f9338ab5b368",
+      "word": "インストラクター",
+      "sourceValue": "instructor",
+      "kana": "インストラクター"
+    },
+    {
+      "sourceId": "7a9c7fe0-679e-11ef-89c9-3b0955f1365d",
+      "word": "キャッチフレーズ",
+      "sourceValue": "catchphrase",
+      "kana": "キャッチフレーズ"
+    },
+    {
+      "sourceId": "889a82b8-4e79-11f1-beee-f9338ab5b368",
+      "word": "ガーデニング",
+      "sourceValue": "gardening",
+      "kana": "ガーデニング"
+    },
+    {
+      "sourceId": "889ac598-4e79-11f1-beee-f9338ab5b368",
+      "word": "サーキット",
+      "sourceValue": "circuit",
+      "kana": "サーキット"
+    },
+    {
+      "sourceId": "7aced10c-679e-11ef-89c9-3b0955f1365d",
+      "word": "エコノミー",
+      "sourceValue": "economy",
+      "kana": "エコノミー"
+    },
+    {
+      "sourceId": "6cd4887e-b061-11ef-b775-e7560ea47657",
+      "word": "スーパー",
+      "sourceValue": "super",
+      "kana": "スーパー"
+    },
+    {
+      "sourceId": "6cd517c6-b061-11ef-b775-e7560ea47657",
+      "word": "ストレート",
+      "sourceValue": "straight",
+      "kana": "ストレート"
+    },
+    {
+      "sourceId": "49ae2468-b061-11ef-b775-e7560ea47657",
+      "word": "リビング",
+      "sourceValue": "living",
+      "kana": "リビング"
+    },
+    {
+      "sourceId": "6cd87f92-b061-11ef-b775-e7560ea47657",
+      "word": "ヒロイン",
+      "sourceValue": "heroine",
+      "kana": "ヒロイン"
+    },
+    {
+      "sourceId": "6cda9ff2-b061-11ef-b775-e7560ea47657",
+      "word": "クッション",
+      "sourceValue": "cushion",
+      "kana": "クッション"
+    },
+    {
+      "sourceId": "49afb45e-b061-11ef-b775-e7560ea47657",
+      "word": "ロック",
+      "sourceValue": "lock",
+      "kana": "ロック"
+    },
+    {
+      "sourceId": "6cdcc516-b061-11ef-b775-e7560ea47657",
+      "word": "ジャケット",
+      "sourceValue": "jacket",
+      "kana": "ジャケット"
+    },
+    {
+      "sourceId": "6cdd9a54-b061-11ef-b775-e7560ea47657",
+      "word": "ストーリー",
+      "sourceValue": "story",
+      "kana": "ストーリー"
+    },
+    {
+      "sourceId": "6ce0ad48-b061-11ef-b775-e7560ea47657",
+      "word": "アスファルト",
+      "sourceValue": "asphalt",
+      "kana": "アスファルト"
+    },
+    {
+      "sourceId": "6ce0eaec-b061-11ef-b775-e7560ea47657",
+      "word": "ブラック",
+      "sourceValue": "black",
+      "kana": "ブラック"
+    },
+    {
+      "sourceId": "49b29958-b061-11ef-b775-e7560ea47657",
+      "word": "ライオン",
+      "sourceValue": "lion",
+      "kana": "ライオン"
+    },
+    {
+      "sourceId": "49b58adc-b061-11ef-b775-e7560ea47657",
+      "word": "パスタ",
+      "sourceValue": "(イ) pasta",
+      "kana": "パスタ"
+    },
+    {
+      "sourceId": "6ce6776e-b061-11ef-b775-e7560ea47657",
+      "word": "ペンダント",
+      "sourceValue": "pendant",
+      "kana": "ペンダント"
+    },
+    {
+      "sourceId": "6ce78ca8-b061-11ef-b775-e7560ea47657",
+      "word": "ニューヨーク",
+      "sourceValue": "New York",
+      "kana": "ニューヨーク"
+    },
+    {
+      "sourceId": "6cecd2c6-b061-11ef-b775-e7560ea47657",
+      "word": "ドクター",
+      "sourceValue": "doctor",
+      "kana": "ドクター"
+    },
+    {
+      "sourceId": "6cef1de2-b061-11ef-b775-e7560ea47657",
+      "word": "フレーム",
+      "sourceValue": "frame",
+      "kana": "フレーム"
+    },
+    {
+      "sourceId": "6cf01efe-b061-11ef-b775-e7560ea47657",
+      "word": "レーダー",
+      "sourceValue": "radar",
+      "kana": "レーダー"
+    },
+    {
+      "sourceId": "49bc31a2-b061-11ef-b775-e7560ea47657",
+      "word": "ピアス",
+      "sourceValue": "pierced earrings",
+      "kana": "ピアス"
+    },
+    {
+      "sourceId": "49bdbdd8-b061-11ef-b775-e7560ea47657",
+      "word": "ボックス",
+      "sourceValue": "box",
+      "kana": "ボックス"
+    },
+    {
+      "sourceId": "a132f032-4ce2-11f1-90a9-0fc8163987fc",
+      "word": "ドーナツ",
+      "sourceValue": "doughnut",
+      "kana": "ドーナツ"
+    },
+    {
+      "sourceId": "8ea817b6-4ce3-11f1-90a9-0fc8163987fc",
+      "word": "トースト",
+      "sourceValue": "toast",
+      "kana": "トースト"
+    },
+    {
+      "sourceId": "489c99ec-4ce6-11f1-90a9-0fc8163987fc",
+      "word": "スニーカー",
+      "sourceValue": "sneakers",
+      "kana": "スニーカー"
+    },
+    {
+      "sourceId": "6cfda722-b061-11ef-b775-e7560ea47657",
+      "word": "キャップ",
+      "sourceValue": "cap",
+      "kana": "キャップ"
+    },
+    {
+      "sourceId": "49c184f4-b061-11ef-b775-e7560ea47657",
+      "word": "コロッケ",
+      "sourceValue": "(フ) croquette",
+      "kana": "コロッケ"
+    },
+    {
+      "sourceId": "49c27eb8-b061-11ef-b775-e7560ea47657",
+      "word": "ペンギン",
+      "sourceValue": "penguin",
+      "kana": "ペンギン"
+    },
+    {
+      "sourceId": "8f4a4e52-4ceb-11f1-90a9-0fc8163987fc",
+      "word": "ソーセージ",
+      "sourceValue": "sausage",
+      "kana": "ソーセージ"
+    },
+    {
+      "sourceId": "07b781a4-4d21-11f1-8acd-1921b1dbb6e1",
+      "word": "データベース",
+      "sourceValue": "database",
+      "kana": "データベース"
+    },
+    {
+      "sourceId": "49c72652-b061-11ef-b775-e7560ea47657",
+      "word": "フライ",
+      "sourceValue": "fry",
+      "kana": "フライ"
+    },
+    {
+      "sourceId": "49c9297a-b061-11ef-b775-e7560ea47657",
+      "word": "レタス",
+      "sourceValue": "lettuce",
+      "kana": "レタス"
+    },
+    {
+      "sourceId": "6d182412-b061-11ef-b775-e7560ea47657",
+      "word": "ハウス",
+      "sourceValue": "house",
+      "kana": "ハウス"
+    },
+    {
+      "sourceId": "49cf74ba-b061-11ef-b775-e7560ea47657",
+      "word": "ホット",
+      "sourceValue": "hot",
+      "kana": "ホット"
+    },
+    {
+      "sourceId": "6d3dac8c-b061-11ef-b775-e7560ea47657",
+      "word": "ライトアップ",
+      "sourceValue": "light up",
+      "kana": "ライトアップ"
+    },
+    {
+      "sourceId": "f7fe2712-4dad-11f1-b81c-a57127b838b2",
+      "word": "シャトル",
+      "sourceValue": "shuttle",
+      "kana": "シャトル"
+    },
+    {
+      "sourceId": "9ba8be86-4def-11f1-92ad-a9d8dc6c1b5c",
+      "word": "パイナップル",
+      "sourceValue": "pineapple",
+      "kana": "パイナップル"
+    },
+    {
+      "sourceId": "d2097182-4def-11f1-92ad-a9d8dc6c1b5c",
+      "word": "イントネーション",
+      "sourceValue": "intonation",
+      "kana": "イントネーション"
+    },
+    {
+      "sourceId": "49e49f2a-b061-11ef-b775-e7560ea47657",
+      "word": "クリップ",
+      "sourceValue": "clip",
+      "kana": "クリップ"
+    },
+    {
+      "sourceId": "6d575d94-b061-11ef-b775-e7560ea47657",
+      "word": "コアラ",
+      "sourceValue": "koala",
+      "kana": "コアラ"
+    },
+    {
+      "sourceId": "49eac062-b061-11ef-b775-e7560ea47657",
+      "word": "シグナル",
+      "sourceValue": "signal",
+      "kana": "シグナル"
+    },
+    {
+      "sourceId": "4c0574e0-4e77-11f1-beee-f9338ab5b368",
+      "word": "スパゲッティ",
+      "sourceValue": "(イ) spaghetti",
+      "kana": "スパゲッティ"
+    },
+    {
+      "sourceId": "7d34d830-4e77-11f1-beee-f9338ab5b368",
+      "word": "シャーベット",
+      "sourceValue": "sherbet",
+      "kana": "シャーベット"
+    },
+    {
+      "sourceId": "49fb5ea4-b061-11ef-b775-e7560ea47657",
+      "word": "ブック",
+      "sourceValue": "book",
+      "kana": "ブック"
+    },
+    {
+      "sourceId": "88d1a9d2-4e79-11f1-beee-f9338ab5b368",
+      "word": "インターン",
+      "sourceValue": "intern",
+      "kana": "インターン"
+    },
+    {
+      "sourceId": "88d5ea74-4e79-11f1-beee-f9338ab5b368",
+      "word": "サイクリング",
+      "sourceValue": "cycling",
+      "kana": "サイクリング"
+    },
+    {
+      "sourceId": "88d93d96-4e79-11f1-beee-f9338ab5b368",
+      "word": "アウトプット",
+      "sourceValue": "output",
+      "kana": "アウトプット"
+    },
+    {
+      "sourceId": "4a115fb0-b061-11ef-b775-e7560ea47657",
+      "word": "コンドル",
+      "sourceValue": "condor",
+      "kana": "コンドル"
+    },
+    {
+      "sourceId": "4a1e5e0e-b061-11ef-b775-e7560ea47657",
+      "word": "ホチキス",
+      "sourceValue": "Hotchkiss",
+      "kana": "ホチキス"
+    },
+    {
+      "sourceId": "88e3d04e-4e79-11f1-beee-f9338ab5b368",
+      "word": "デモクラシー",
+      "sourceValue": "democracy",
+      "kana": "デモクラシー"
+    },
+    {
+      "sourceId": "6df29372-b061-11ef-b775-e7560ea47657",
+      "word": "ソフトウエア",
+      "sourceValue": "software",
+      "kana": "ソフトウエア"
+    },
+    {
+      "sourceId": "6e18d046-b061-11ef-b775-e7560ea47657",
+      "word": "メタンガス",
+      "sourceValue": "(ド) Methangas",
+      "kana": "メタンガス"
+    },
+    {
+      "sourceId": "6e38fdd0-b061-11ef-b775-e7560ea47657",
+      "word": "タンザニア",
+      "sourceValue": "Tanzania",
+      "kana": "タンザニア"
+    },
+    {
+      "sourceId": "f2152798-ce4b-11ef-9903-4d5df4b0073e",
+      "word": "プロセス",
+      "sourceValue": "process",
+      "kana": "プロセス"
+    },
+    {
+      "sourceId": "f2161a68-ce4b-11ef-9903-4d5df4b0073e",
+      "word": "ファクス",
+      "sourceValue": "fax",
+      "kana": "ファクス"
+    },
+    {
+      "sourceId": "7d577a9c-ce68-11ef-9903-4d5df4b0073e",
+      "word": "ムンバイ",
+      "sourceValue": "Mumbai",
+      "kana": "ムンバイ"
+    },
+    {
+      "sourceId": "7d579202-ce68-11ef-9903-4d5df4b0073e",
+      "word": "デフォルト",
+      "sourceValue": "default",
+      "kana": "デフォルト"
+    },
+    {
+      "sourceId": "7d579d2e-ce68-11ef-9903-4d5df4b0073e",
+      "word": "ネガティブ",
+      "sourceValue": "negative",
+      "kana": "ネガティブ"
+    },
+    {
+      "sourceId": "7d58a49e-ce68-11ef-9903-4d5df4b0073e",
+      "word": "マルチタスク",
+      "sourceValue": "multitask",
+      "kana": "マルチタスク"
+    },
+    {
+      "sourceId": "7d58ae6c-ce68-11ef-9903-4d5df4b0073e",
+      "word": "コンセンサス",
+      "sourceValue": "consensus",
+      "kana": "コンセンサス"
+    },
+    {
+      "sourceId": "5b7dc2a8-054c-11f0-80d4-175b5d01d6a0",
+      "word": "ホーム",
+      "sourceValue": "platform",
+      "kana": "ホーム"
+    },
+    {
+      "sourceId": "3a114dac-06d6-11f0-a977-0589cb933c5e",
+      "word": "ロック",
+      "sourceValue": "rock",
+      "kana": "ロック"
+    },
+    {
+      "sourceId": "5a84ff6a-5669-11f0-b1f4-c9c6936d5862",
+      "word": "ウエイト",
+      "sourceValue": "weight",
+      "kana": "ウエイト"
+    },
+    {
+      "sourceId": "e1c5d926-57b9-11f0-a71e-995f04a60375",
+      "word": "ナルシスト",
+      "sourceValue": "narcist",
+      "kana": "ナルシスト"
+    },
+    {
+      "sourceId": "451b7832-8d25-11f0-9dee-937538d5adfe",
+      "word": "ブログ",
+      "sourceValue": "blog",
+      "kana": "ブログ"
+    },
+    {
+      "sourceId": "77a7ebf8-4d20-11f1-8acd-1921b1dbb6e1",
+      "word": "アーティスト",
+      "sourceValue": "artist",
+      "kana": "アーティスト"
+    },
+    {
+      "sourceId": "3540a788-4db0-11f1-b81c-a57127b838b2",
+      "word": "イデオロギー",
+      "sourceValue": "(ド) Ideologie",
+      "kana": "イデオロギー"
+    },
+    {
+      "sourceId": "9bb6ba20-4dab-11f1-b81c-a57127b838b2",
+      "word": "イラストレーター",
+      "sourceValue": "illustrator",
+      "kana": "イラストレーター"
+    },
+    {
+      "sourceId": "890d6418-4e79-11f1-beee-f9338ab5b368",
+      "word": "インセンティブ",
+      "sourceValue": "incentive",
+      "kana": "インセンティブ"
+    },
+    {
+      "sourceId": "890d7110-4e79-11f1-beee-f9338ab5b368",
+      "word": "エレメント",
+      "sourceValue": "element",
+      "kana": "エレメント"
+    },
+    {
+      "sourceId": "b854fd00-4b57-11f1-a630-0ddc817ad47e",
+      "word": "オーラ",
+      "sourceValue": "aura",
+      "kana": "オーラ"
+    },
+    {
+      "sourceId": "890d833a-4e79-11f1-beee-f9338ab5b368",
+      "word": "クオリア",
+      "sourceValue": "qualia",
+      "kana": "クオリア"
+    },
+    {
+      "sourceId": "fef2b252-4df0-11f1-92ad-a9d8dc6c1b5c",
+      "word": "クラッシュ",
+      "sourceValue": "crash",
+      "kana": "クラッシュ"
+    },
+    {
+      "sourceId": "890d9096-4e79-11f1-beee-f9338ab5b368",
+      "word": "コメンテーター",
+      "sourceValue": "commentator",
+      "kana": "コメンテーター"
+    },
+    {
+      "sourceId": "890d9ec4-4e79-11f1-beee-f9338ab5b368",
+      "word": "コンプライアンス",
+      "sourceValue": "compliance",
+      "kana": "コンプライアンス"
+    },
+    {
+      "sourceId": "890dab6c-4e79-11f1-beee-f9338ab5b368",
+      "word": "ジェンダー",
+      "sourceValue": "gender",
+      "kana": "ジェンダー"
+    },
+    {
+      "sourceId": "890db5c6-4e79-11f1-beee-f9338ab5b368",
+      "word": "シナジー",
+      "sourceValue": "synergy",
+      "kana": "シナジー"
+    },
+    {
+      "sourceId": "890dbfe4-4e79-11f1-beee-f9338ab5b368",
+      "word": "シュレッダー",
+      "sourceValue": "shredder",
+      "kana": "シュレッダー"
+    },
+    {
+      "sourceId": "890dd66e-4e79-11f1-beee-f9338ab5b368",
+      "word": "ステレオタイプ",
+      "sourceValue": "stereotype",
+      "kana": "ステレオタイプ"
+    },
+    {
+      "sourceId": "4889d924-4dae-11f1-b81c-a57127b838b2",
+      "word": "ストール",
+      "sourceValue": "stole",
+      "kana": "ストール"
+    },
+    {
+      "sourceId": "890de23a-4e79-11f1-beee-f9338ab5b368",
+      "word": "スピーディー",
+      "sourceValue": "speedy",
+      "kana": "スピーディー"
+    },
+    {
+      "sourceId": "a0750e8e-4b5f-11f1-a630-0ddc817ad47e",
+      "word": "スマホ",
+      "sourceValue": "smartphone",
+      "kana": "スマホ"
+    },
+    {
+      "sourceId": "479894cc-4ce3-11f1-90a9-0fc8163987fc",
+      "word": "タブレット",
+      "sourceValue": "tablet",
+      "kana": "タブレット"
+    },
+    {
+      "sourceId": "890df5d6-4e79-11f1-beee-f9338ab5b368",
+      "word": "ニッチ",
+      "sourceValue": "niche",
+      "kana": "ニッチ"
+    },
+    {
+      "sourceId": "ad1473f6-4d25-11f1-8acd-1921b1dbb6e1",
+      "word": "ネーミング",
+      "sourceValue": "naming",
+      "kana": "ネーミング"
+    },
+    {
+      "sourceId": "890e0274-4e79-11f1-beee-f9338ab5b368",
+      "word": "ノスタルジー",
+      "sourceValue": "(フ) nostalgie",
+      "kana": "ノスタルジー"
+    },
+    {
+      "sourceId": "f1365baa-4daf-11f1-b81c-a57127b838b2",
+      "word": "ハイエナ",
+      "sourceValue": "hyena",
+      "kana": "ハイエナ"
+    },
+    {
+      "sourceId": "423b298c-4e72-11f1-beee-f9338ab5b368",
+      "word": "ファクター",
+      "sourceValue": "factor",
+      "kana": "ファクター"
+    },
+    {
+      "sourceId": "d5fa6ed0-4e77-11f1-beee-f9338ab5b368",
+      "word": "フリーランス",
+      "sourceValue": "free lance",
+      "kana": "フリーランス"
+    },
+    {
+      "sourceId": "890e196c-4e79-11f1-beee-f9338ab5b368",
+      "word": "ベンチャー",
+      "sourceValue": "venture",
+      "kana": "ベンチャー"
+    },
+    {
+      "sourceId": "890e2434-4e79-11f1-beee-f9338ab5b368",
+      "word": "メソッド",
+      "sourceValue": "method",
+      "kana": "メソッド"
+    },
+    {
+      "sourceId": "22e12a10-4d27-11f1-8acd-1921b1dbb6e1",
+      "word": "リーグ",
+      "sourceValue": "league",
+      "kana": "リーグ"
+    },
+    {
+      "sourceId": "890e3ce4-4e79-11f1-beee-f9338ab5b368",
+      "word": "リピーター",
+      "sourceValue": "repeater",
+      "kana": "リピーター"
+    },
+    {
+      "sourceId": "890e461c-4e79-11f1-beee-f9338ab5b368",
+      "word": "ワイパー",
+      "sourceValue": "wiper",
+      "kana": "ワイパー"
+    }
+  ],
+  "deckTagLevelMismatches": [],
+  "homographsWithDifferentReadings": [
+    {
+      "word": "〜人",
+      "readings": [
+        "〜じん",
+        "〜にん"
+      ]
+    },
+    {
+      "word": "〜通り",
+      "readings": [
+        "〜とおり",
+        "〜どおり"
+      ]
+    },
+    {
+      "word": "一日",
+      "readings": [
+        "いちにち",
+        "ついたち"
+      ]
+    },
+    {
+      "word": "上",
+      "readings": [
+        "うえ",
+        "かみ"
+      ]
+    },
+    {
+      "word": "中",
+      "readings": [
+        "ちゅう",
+        "なか"
+      ]
+    },
+    {
+      "word": "主",
+      "readings": [
+        "おも",
+        "ぬし"
+      ]
+    },
+    {
+      "word": "今",
+      "readings": [
+        "いま",
+        "こん"
+      ]
+    },
+    {
+      "word": "何",
+      "readings": [
+        "なに",
+        "なん"
+      ]
+    },
+    {
+      "word": "分",
+      "readings": [
+        "ふん",
+        "ぶ",
+        "ぶん"
+      ]
+    },
+    {
+      "word": "十",
+      "readings": [
+        "じゅう",
+        "とお"
+      ]
+    },
+    {
+      "word": "名",
+      "readings": [
+        "な",
+        "めい"
+      ]
+    },
+    {
+      "word": "味",
+      "readings": [
+        "あじ",
+        "み"
+      ]
+    },
+    {
+      "word": "品",
+      "readings": [
+        "しな",
+        "ひん"
+      ]
+    },
+    {
+      "word": "場",
+      "readings": [
+        "じょう",
+        "ば"
+      ]
+    },
+    {
+      "word": "島",
+      "readings": [
+        "しま",
+        "とう"
+      ]
+    },
+    {
+      "word": "市場",
+      "readings": [
+        "いちば",
+        "しじょう"
+      ]
+    },
+    {
+      "word": "帯",
+      "readings": [
+        "おび",
+        "たい"
+      ]
+    },
+    {
+      "word": "年月",
+      "readings": [
+        "としつき",
+        "ねんげつ"
+      ]
+    },
+    {
+      "word": "度",
+      "readings": [
+        "たび",
+        "ど"
+      ]
+    },
+    {
+      "word": "後",
+      "readings": [
+        "あと",
+        "ご"
+      ]
+    },
+    {
+      "word": "心",
+      "readings": [
+        "こころ",
+        "しん"
+      ]
+    },
+    {
+      "word": "手",
+      "readings": [
+        "しゅ",
+        "て"
+      ]
+    },
+    {
+      "word": "抱く",
+      "readings": [
+        "いだく",
+        "だく"
+      ]
+    },
+    {
+      "word": "描く",
+      "readings": [
+        "えがく",
+        "かく"
+      ]
+    },
+    {
+      "word": "方",
+      "readings": [
+        "かた",
+        "ほう"
+      ]
+    },
+    {
+      "word": "日",
+      "readings": [
+        "にち",
+        "ひ"
+      ]
+    },
+    {
+      "word": "明日",
+      "readings": [
+        "あした",
+        "あす"
+      ]
+    },
+    {
+      "word": "昨日",
+      "readings": [
+        "きのう",
+        "さくじつ"
+      ]
+    },
+    {
+      "word": "時",
+      "readings": [
+        "じ",
+        "とき"
+      ]
+    },
+    {
+      "word": "注ぐ",
+      "readings": [
+        "そそぐ",
+        "つぐ"
+      ]
+    },
+    {
+      "word": "生物",
+      "readings": [
+        "せいぶつ",
+        "なまもの"
+      ]
+    },
+    {
+      "word": "町",
+      "readings": [
+        "ちょう",
+        "まち"
+      ]
+    },
+    {
+      "word": "私",
+      "readings": [
+        "わたくし",
+        "わたし"
+      ]
+    },
+    {
+      "word": "空",
+      "readings": [
+        "から",
+        "そら"
+      ]
+    },
+    {
+      "word": "紙",
+      "readings": [
+        "かみ",
+        "し"
+      ]
+    },
+    {
+      "word": "縁",
+      "readings": [
+        "えん",
+        "ふち"
+      ]
+    },
+    {
+      "word": "罰",
+      "readings": [
+        "ばち",
+        "ばつ"
+      ]
+    },
+    {
+      "word": "脅かす",
+      "readings": [
+        "おどかす",
+        "おびやかす"
+      ]
+    },
+    {
+      "word": "色",
+      "readings": [
+        "いろ",
+        "しょく"
+      ]
+    },
+    {
+      "word": "街",
+      "readings": [
+        "がい",
+        "まち"
+      ]
+    },
+    {
+      "word": "表",
+      "readings": [
+        "おもて",
+        "ひょう"
+      ]
+    },
+    {
+      "word": "角",
+      "readings": [
+        "かく",
+        "かど",
+        "つの"
+      ]
+    },
+    {
+      "word": "質",
+      "readings": [
+        "しち",
+        "しつ"
+      ]
+    },
+    {
+      "word": "長",
+      "readings": [
+        "ちょう",
+        "なが"
+      ]
+    },
+    {
+      "word": "開く",
+      "readings": [
+        "あく",
+        "ひらく"
+      ]
+    },
+    {
+      "word": "間",
+      "readings": [
+        "あいだ",
+        "かん",
+        "ま"
+      ]
+    },
+    {
+      "word": "高",
+      "readings": [
+        "こう",
+        "たか"
+      ]
+    }
+  ],
+  "fieldMapping": {
+    "word": "column 4, remove Anki furigana and spacing",
+    "kana": "column 7, or kana word for loanword etymology",
+    "meaning": "column 9 (zh-Hant)",
+    "example": "first unlabelled/example item in columns 13/19/25/31",
+    "translation": "matching zh-Hant column 16/22/28/34",
+    "sourceId": "column 3",
+    "level": "column 39 tags (deck level cross-checked)"
+  },
+  "deduplication": "NFC 正規化並去除詞形的 Anki 注音後，以 word + kana 合併；保留最低難度、所有不同釋義、各來源級別與識別碼。同形異讀分開保留。",
+  "mediaImported": false,
+  "upstreamCodeExecuted": false,
+  "vocabularySha256": "479ca99c18cbd7f144e79e36cacc21aeccba5afdddf27ef4251a16548708dc6b",
+  "vocabularyBytes": 3882191
+}

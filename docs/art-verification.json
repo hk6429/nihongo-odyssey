@@ -1,0 +1,23 @@
+[
+  {
+    "asset": "assets/hero-ink.png",
+    "bytes": 3038143,
+    "sha256": "00477389d2072a7c96d964f78d393806c5e49a49a804bc001bf6af45cc83cfc0",
+    "downloadsCopyMatched": true,
+    "localhostResponseMatched": true
+  },
+  {
+    "asset": "assets/travelers-ink.png",
+    "bytes": 2742108,
+    "sha256": "609645d0ea1227c479c1524f82c8255a4e091832811f5664db13015a0aa2078e",
+    "downloadsCopyMatched": true,
+    "localhostResponseMatched": true
+  },
+  {
+    "asset": "assets/realms-ink.png",
+    "bytes": 3934978,
+    "sha256": "1948d8ee05b65bea15bbac41b1d5457dcfd4d285e335f53bd99e996afe0cc8bf",
+    "downloadsCopyMatched": true,
+    "localhostResponseMatched": true
+  }
+]
