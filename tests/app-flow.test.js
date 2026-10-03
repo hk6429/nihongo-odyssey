@@ -76,7 +76,7 @@ function harness(saved=engine.initial(),{voice=true}={}){
   mountKana(){throw Error('Kana is outside this regression harness.');}
  });
  vm.runInContext(source.replace(/^import .*;\s*$/gm,'')+`
- globalThis.app={begin,questionView,assessmentView,storyQuiz,submit,submitAssessment,finish,finishAssessment,navigate,shell,
+ globalThis.app={jaMarkup,glossaryFor,begin,questionView,assessmentView,storyQuiz,submit,submitAssessment,finish,finishAssessment,navigate,shell,
   get state(){return state},get session(){return session},get assessment(){return assessment},get view(){return view},
   get pendingStart(){return pendingStart},get activeEpisode(){return activeEpisode},
   setSession(value){session=value},setAssessment(value){assessment=value}};`,context,{filename:'app.js'});
@@ -191,3 +191,21 @@ for(const voice of [true,false]){
   assert.equal(record.mode,'listening');assert.equal(record.actualMode,'reading');assert.equal(record.fallback,true);
  });
 }
+
+
+test('振假名不把未知複合詞中的人切成ひと，已知旅人標たびびと',()=>{
+ const {app}=harness();app.glossaryFor('N1-1');const html=app.jaMarkup('旅人と仕事人と人');
+ assert.match(html,/<ruby>旅人<rt>たびびと<\/rt><\/ruby>/);
+ assert.match(html,/仕事人と<button/);
+ assert.equal((html.match(/data-gloss="人"/g)??[]).length,1);
+});
+
+test('N5實際振假名渲染涵蓋故事、微劇情及情境材料的漢字',()=>{
+ const {app}=harness(),missing=[];for(const chapter of curriculum.chapters.filter(c=>c.level==='N5')){
+  app.glossaryFor(chapter.id);const l=lessonData.lessons[chapter.id];
+  const texts=[...chapter.paragraphs,...chapter.dialogue,...Object.values(l.beats).flat()].map(x=>x.ja);
+  texts.push(l.grammar.example,...Object.values(l.checks).flat().flatMap(x=>[x.ja,...x.options]));
+  for(const text of texts){const remainder=app.jaMarkup(text).replace(/<button[\s\S]*?<\/button>/g,'');if(/[\p{Script=Han}々]/u.test(remainder))missing.push(chapter.id+' '+text+' → '+remainder);}
+ }
+ assert.deepEqual(missing,[]);
+});

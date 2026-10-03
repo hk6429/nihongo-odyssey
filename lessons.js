@@ -1,6 +1,12 @@
 // 原創課程補充；AI協助編寫，未經真人日語教師審定。
 // 故事級別是教學安排，核心詞可跨級；來源分級保留在原詞庫。
 export const commonGlossary = [
+  {"surface":"旅人","reading":"たびびと","meaning":"旅人"},
+  {
+    "surface": "一度確かめたい",
+    "reading": "いちどたしかめたい",
+    "meaning": "想確認一次"
+  },
   {
     "surface": "何ですか",
     "reading": "なんですか",
