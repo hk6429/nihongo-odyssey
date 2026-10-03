@@ -1,13 +1,28 @@
 {
-  "date": "2026-10-03T15:34:13.676Z",
-  "words": 10629,
-  "learned": 10629,
-  "quests": 2127,
-  "completedQuests": 2127,
-  "chapters": 25,
-  "cleared": 25,
-  "choices": 25,
-  "answers": 21258,
+  "date": "2026-10-03T16:40:28.573Z",
+  "availableWords": 10629,
+  "runs": [
+    {
+      "branch": 0,
+      "completedWords": 250,
+      "coreQuests": 50,
+      "chapters": 25,
+      "cleared": 25,
+      "choices": 25,
+      "answers": 500,
+      "checks": 75
+    },
+    {
+      "branch": 1,
+      "completedWords": 250,
+      "coreQuests": 50,
+      "chapters": 25,
+      "cleared": 25,
+      "choices": 25,
+      "answers": 500,
+      "checks": 75
+    }
+  ],
   "kind": "automated-engine-simulation",
   "humanLearningEvidence": false
 }

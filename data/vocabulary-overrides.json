@@ -1,0 +1,647 @@
+{
+  "schemaVersion": 1,
+  "metadata": {
+    "date": "2026-10-04",
+    "scope": "122筆原始資料缺例句的原創日中補充，以及彼氏、苦言、マスク的語義與語用修訂；未變更原CSV或原始匯入JSON。",
+    "authorship": "AI協助編寫之原創教材；未經真人日語教師審定。",
+    "missingExamplesSupplied": 122,
+    "originalCount": 10629,
+    "review": "逐筆檢視目標詞、完整句與日中對應；辭義修訂另參照文件所列辭典。"
+  },
+  "entries": {
+    "jlpt-7fc81b0ddd17b89fb8e5": {
+      "example": "二番のバスに乗ります。",
+      "translation": "我搭二號公車。",
+      "exampleSource": "original"
+    },
+    "jlpt-1bedf722c04a58fa218d": {
+      "example": "答えは三です。",
+      "translation": "答案是三。",
+      "exampleSource": "original"
+    },
+    "jlpt-b066e78531d60a4661c3": {
+      "example": "番号は四です。",
+      "translation": "號碼是四。",
+      "exampleSource": "original"
+    },
+    "jlpt-d4473f87e438c0a5ba32": {
+      "example": "五ページを開いてください。",
+      "translation": "請翻到第五頁。",
+      "exampleSource": "original"
+    },
+    "jlpt-06ef406f5569339223e1": {
+      "example": "六時に起きます。",
+      "translation": "我六點起床。",
+      "exampleSource": "original"
+    },
+    "jlpt-eda9a40b0c9108b0c4cb": {
+      "example": "七人で机を運びます。",
+      "translation": "我們七個人一起搬桌子。",
+      "exampleSource": "original"
+    },
+    "jlpt-f6ed7c17c0d5bb3cb164": {
+      "example": "八時に店が開きます。",
+      "translation": "店八點開門。",
+      "exampleSource": "original"
+    },
+    "jlpt-d33ed6be2a486443821f": {
+      "example": "九人が教室にいます。",
+      "translation": "教室裡有九個人。",
+      "exampleSource": "original"
+    },
+    "jlpt-877b9ba07a479f23af36": {
+      "example": "十時に会いましょう。",
+      "translation": "我們十點見面吧。",
+      "exampleSource": "original"
+    },
+    "jlpt-48c23a8107d7ea5acf6f": {
+      "example": "教室に椅子が二十脚あります。",
+      "translation": "教室裡有二十張椅子。",
+      "exampleSource": "original"
+    },
+    "jlpt-277587e6fa0780885e34": {
+      "example": "箱にりんごが一つあります。",
+      "translation": "箱子裡有一個蘋果。",
+      "exampleSource": "original"
+    },
+    "jlpt-bb85f028d94439bdea3f": {
+      "example": "箱にりんごが二つあります。",
+      "translation": "箱子裡有兩個蘋果。",
+      "exampleSource": "original"
+    },
+    "jlpt-8b887bc8af0c7c28fc48": {
+      "example": "箱にりんごが三つあります。",
+      "translation": "箱子裡有三個蘋果。",
+      "exampleSource": "original"
+    },
+    "jlpt-947395f42397cea73915": {
+      "example": "箱にりんごが四つあります。",
+      "translation": "箱子裡有四個蘋果。",
+      "exampleSource": "original"
+    },
+    "jlpt-084edf1fdd10c54bd40b": {
+      "example": "箱にりんごが五つあります。",
+      "translation": "箱子裡有五個蘋果。",
+      "exampleSource": "original"
+    },
+    "jlpt-df70a01acaec8c0ff4b7": {
+      "example": "箱にりんごが六つあります。",
+      "translation": "箱子裡有六個蘋果。",
+      "exampleSource": "original"
+    },
+    "jlpt-f6bc974a7405656462fc": {
+      "example": "箱にりんごが七つあります。",
+      "translation": "箱子裡有七個蘋果。",
+      "exampleSource": "original"
+    },
+    "jlpt-6c9351ae67e6dab8b254": {
+      "example": "箱にりんごが八つあります。",
+      "translation": "箱子裡有八個蘋果。",
+      "exampleSource": "original"
+    },
+    "jlpt-0d0163a40587b65d48de": {
+      "example": "箱にりんごが九つあります。",
+      "translation": "箱子裡有九個蘋果。",
+      "exampleSource": "original"
+    },
+    "jlpt-d921e51f8a8f904f8399": {
+      "example": "箱にりんごが十あります。",
+      "translation": "箱子裡有十個蘋果。",
+      "exampleSource": "original"
+    },
+    "jlpt-367ca325e078e7029380": {
+      "example": "会議は来月の一日です。",
+      "translation": "會議在下個月1號。",
+      "exampleSource": "original"
+    },
+    "jlpt-56d52b7869ab2c9c3ad9": {
+      "example": "会議は来月の二日です。",
+      "translation": "會議在下個月2號。",
+      "exampleSource": "original"
+    },
+    "jlpt-b0489d42833929613197": {
+      "example": "会議は来月の三日です。",
+      "translation": "會議在下個月3號。",
+      "exampleSource": "original"
+    },
+    "jlpt-13ea3220cde0d4be6e2f": {
+      "example": "会議は来月の四日です。",
+      "translation": "會議在下個月4號。",
+      "exampleSource": "original"
+    },
+    "jlpt-a02edbda9f4c0c12f283": {
+      "example": "会議は来月の五日です。",
+      "translation": "會議在下個月5號。",
+      "exampleSource": "original"
+    },
+    "jlpt-7b23512104620967d892": {
+      "example": "会議は来月の六日です。",
+      "translation": "會議在下個月6號。",
+      "exampleSource": "original"
+    },
+    "jlpt-0655c242d1db76f31168": {
+      "example": "会議は来月の七日です。",
+      "translation": "會議在下個月7號。",
+      "exampleSource": "original"
+    },
+    "jlpt-f50fcf40e898ba5de88e": {
+      "example": "会議は来月の八日です。",
+      "translation": "會議在下個月8號。",
+      "exampleSource": "original"
+    },
+    "jlpt-9acbf1542642c1b99f29": {
+      "example": "会議は来月の九日です。",
+      "translation": "會議在下個月9號。",
+      "exampleSource": "original"
+    },
+    "jlpt-da2913ad7e4cba12ec80": {
+      "example": "会議は来月の十日です。",
+      "translation": "會議在下個月10號。",
+      "exampleSource": "original"
+    },
+    "jlpt-61c02e7f4acc5da3e5a0": {
+      "example": "月曜日に図書館へ行きます。",
+      "translation": "我週一去圖書館。",
+      "exampleSource": "original"
+    },
+    "jlpt-9ba01fdc98978fb1be9c": {
+      "example": "火曜日に図書館へ行きます。",
+      "translation": "我週二去圖書館。",
+      "exampleSource": "original"
+    },
+    "jlpt-2c216f91511681696dd5": {
+      "example": "水曜日に図書館へ行きます。",
+      "translation": "我週三去圖書館。",
+      "exampleSource": "original"
+    },
+    "jlpt-8b1ba4846f9734cec101": {
+      "example": "木曜日に図書館へ行きます。",
+      "translation": "我週四去圖書館。",
+      "exampleSource": "original"
+    },
+    "jlpt-8f0a38919b77ef754c78": {
+      "example": "金曜日に図書館へ行きます。",
+      "translation": "我週五去圖書館。",
+      "exampleSource": "original"
+    },
+    "jlpt-440290628fd622bf558c": {
+      "example": "土曜日に図書館へ行きます。",
+      "translation": "我週六去圖書館。",
+      "exampleSource": "original"
+    },
+    "jlpt-b7519a0f57a78ffcb562": {
+      "example": "日曜日に図書館へ行きます。",
+      "translation": "我週日去圖書館。",
+      "exampleSource": "original"
+    },
+    "jlpt-ed82bb95d4cc42b60bfd": {
+      "example": "この写真は一月に撮りました。",
+      "translation": "這張照片是1月拍的。",
+      "exampleSource": "original"
+    },
+    "jlpt-6eed6b905b8e61da3681": {
+      "example": "この写真は二月に撮りました。",
+      "translation": "這張照片是2月拍的。",
+      "exampleSource": "original"
+    },
+    "jlpt-6fcaf66208f11ae3843f": {
+      "example": "この写真は三月に撮りました。",
+      "translation": "這張照片是3月拍的。",
+      "exampleSource": "original"
+    },
+    "jlpt-7dddc1af4eb59b103c25": {
+      "example": "この写真は四月に撮りました。",
+      "translation": "這張照片是4月拍的。",
+      "exampleSource": "original"
+    },
+    "jlpt-2850d52ee4d218c1a768": {
+      "example": "この写真は五月に撮りました。",
+      "translation": "這張照片是5月拍的。",
+      "exampleSource": "original"
+    },
+    "jlpt-8ffa8462a4794c870312": {
+      "example": "この写真は六月に撮りました。",
+      "translation": "這張照片是6月拍的。",
+      "exampleSource": "original"
+    },
+    "jlpt-36a561c028a5cd508426": {
+      "example": "この写真は七月に撮りました。",
+      "translation": "這張照片是7月拍的。",
+      "exampleSource": "original"
+    },
+    "jlpt-9f36975aada6b24d7908": {
+      "example": "この写真は八月に撮りました。",
+      "translation": "這張照片是8月拍的。",
+      "exampleSource": "original"
+    },
+    "jlpt-7d4ec17d27f02697c947": {
+      "example": "この写真は九月に撮りました。",
+      "translation": "這張照片是9月拍的。",
+      "exampleSource": "original"
+    },
+    "jlpt-cacf3a45ed07f39542eb": {
+      "example": "この写真は十月に撮りました。",
+      "translation": "這張照片是10月拍的。",
+      "exampleSource": "original"
+    },
+    "jlpt-4dd90c580e827c9831ad": {
+      "example": "この写真は十一月に撮りました。",
+      "translation": "這張照片是11月拍的。",
+      "exampleSource": "original"
+    },
+    "jlpt-960be8ae7c29ca0a4cff": {
+      "example": "この写真は十二月に撮りました。",
+      "translation": "這張照片是12月拍的。",
+      "exampleSource": "original"
+    },
+    "jlpt-336eb0ee43c68cdcd9d2": {
+      "example": "パパ、いっしょに遊ぼう。",
+      "translation": "爸爸，一起玩吧。",
+      "exampleSource": "original"
+    },
+    "jlpt-f9eb212fb36c3d52b2c4": {
+      "example": "人差し指で地図の駅を指しました。",
+      "translation": "我用食指指了地圖上的車站。",
+      "exampleSource": "original"
+    },
+    "jlpt-a3a233f18e3a8dca3adc": {
+      "example": "親指を立てて、準備ができたと伝えました。",
+      "translation": "我豎起大拇指，表示已經準備好了。",
+      "exampleSource": "original"
+    },
+    "jlpt-2e32875a7f420a832519": {
+      "example": "家族は居間で話しています。",
+      "translation": "家人正在客廳聊天。",
+      "exampleSource": "original"
+    },
+    "jlpt-bc6f3cc401b514121bdb": {
+      "example": "会議の資料は明後日お送りします。",
+      "translation": "會議資料將於後天寄給您。",
+      "exampleSource": "original"
+    },
+    "jlpt-09b3c6d3cd826d6e7dab": {
+      "example": "お客様と話すときは敬語を使います。",
+      "translation": "和客人說話時會使用敬語。",
+      "exampleSource": "original"
+    },
+    "jlpt-6a1719a840877dd7b706": {
+      "example": "一昨日、担当者から連絡がありました。",
+      "translation": "前天，負責人聯絡了我。",
+      "exampleSource": "original"
+    },
+    "jlpt-ebf726896862461a8d2c": {
+      "example": "ドアに小指をぶつけました。",
+      "translation": "我的小拇指撞到了門。",
+      "exampleSource": "original"
+    },
+    "jlpt-cbee09d8ca608cb8c32d": {
+      "example": "雨の日はブーツを履きます。",
+      "translation": "下雨天我會穿靴子。",
+      "exampleSource": "original"
+    },
+    "jlpt-13f715ad675a09881047": {
+      "example": "中指に小さな傷があります。",
+      "translation": "中指上有一個小傷口。",
+      "exampleSource": "original"
+    },
+    "jlpt-4fa8f629dbadd2d6894f": {
+      "example": "漁師が朝早く船で海へ出ました。",
+      "translation": "漁夫一大早就搭船出海了。",
+      "exampleSource": "original"
+    },
+    "jlpt-abe476539443c6128f6b": {
+      "example": "日曜日に公園でピクニックをします。",
+      "translation": "星期日要去公園野餐。",
+      "exampleSource": "original"
+    },
+    "jlpt-875cdf1811f3cc174252": {
+      "example": "家族とテレビでオリンピックを見ました。",
+      "translation": "我和家人一起看了電視轉播的奧運。",
+      "exampleSource": "original"
+    },
+    "jlpt-071fa1b1f19cc02546e6": {
+      "example": "旅館の和室でお茶を飲みました。",
+      "translation": "我在旅館的和室裡喝了茶。",
+      "exampleSource": "original"
+    },
+    "jlpt-528e746552150c98f8d7": {
+      "example": "父は朝刊を読んでいます。",
+      "translation": "爸爸正在看早報。",
+      "exampleSource": "original"
+    },
+    "jlpt-dd734e70eb76f75c5b5b": {
+      "example": "姉は院生として言語を研究しています。",
+      "translation": "姐姐是研究生，正在研究語言。",
+      "exampleSource": "original"
+    },
+    "jlpt-091853b798ec6201b3b4": {
+      "example": "昨日、申請書を受け取りました。",
+      "translation": "昨天已收到申請書。",
+      "exampleSource": "original"
+    },
+    "jlpt-0b6a4b39ba5f8896dbae": {
+      "example": "鏡に上半身が映っています。",
+      "translation": "鏡子裡映出了上半身。",
+      "exampleSource": "original"
+    },
+    "jlpt-41d0b0f37307d2158a45": {
+      "example": "電車とバスなら、後者のほうが安いです。",
+      "translation": "電車和公車相比，後者比較便宜。",
+      "exampleSource": "original"
+    },
+    "jlpt-cee1e2cfc17a2d80d689": {
+      "example": "春から髪型を変えました。",
+      "translation": "我從春天開始換了髮型。",
+      "exampleSource": "original"
+    },
+    "jlpt-839cc5cc51db74c5808f": {
+      "example": "赤い箱と青い箱では、前者が重いです。",
+      "translation": "紅箱和藍箱之中，前者比較重。",
+      "exampleSource": "original"
+    },
+    "jlpt-3128d07129b4dcb49a5e": {
+      "example": "寝る前にパジャマに着替えます。",
+      "translation": "睡覺前會換上睡衣。",
+      "exampleSource": "original"
+    },
+    "jlpt-34ce7b171b18c6333e83": {
+      "example": "校長が新しい図書室を案内しました。",
+      "translation": "校長帶大家參觀了新的圖書室。",
+      "exampleSource": "original"
+    },
+    "jlpt-be57f340403c67a2a128": {
+      "example": "駅の隣に小さな劇場があります。",
+      "translation": "車站旁有一間小劇場。",
+      "exampleSource": "original"
+    },
+    "jlpt-81f6214dbc5eb683e4cd": {
+      "example": "友達が引っ越して、少しさみしいです。",
+      "translation": "朋友搬走了，我有點寂寞。",
+      "exampleSource": "original"
+    },
+    "jlpt-972643e6a600f71ff56d": {
+      "example": "封筒に差出人の名前がありません。",
+      "translation": "信封上沒有寄件人的姓名。",
+      "exampleSource": "original"
+    },
+    "jlpt-69d3fe9ffbc879653667": {
+      "example": "このバスは長距離を走ります。",
+      "translation": "這輛公車行駛的距離很長。",
+      "exampleSource": "original"
+    },
+    "jlpt-4e42f8c9b520992d48a2": {
+      "example": "駅前の書店で辞書を買いました。",
+      "translation": "我在車站前的書店買了字典。",
+      "exampleSource": "original"
+    },
+    "jlpt-3a69c288e5388cdafa31": {
+      "example": "紙を長方形に切ってください。",
+      "translation": "請把紙剪成長方形。",
+      "exampleSource": "original"
+    },
+    "jlpt-c396e047e0a3f83451b1": {
+      "example": "作文に題名をつけました。",
+      "translation": "我替作文取了標題。",
+      "exampleSource": "original"
+    },
+    "jlpt-59c428829602f274dd1f": {
+      "example": "食事の後に緑茶を飲みます。",
+      "translation": "用餐後我會喝綠茶。",
+      "exampleSource": "original"
+    },
+    "jlpt-5419ffef83600593981a": {
+      "example": "空港で大きな航空機を見ました。",
+      "translation": "我在機場看到了大型飛機。",
+      "exampleSource": "original"
+    },
+    "jlpt-135acb207737e0684820": {
+      "example": "水を一リットル用意してください。",
+      "translation": "請準備一公升的水。",
+      "exampleSource": "original"
+    },
+    "jlpt-29de63f51dd5667e9fab": {
+      "example": "研究室で細菌を観察しました。",
+      "translation": "我在研究室觀察了細菌。",
+      "exampleSource": "original"
+    },
+    "jlpt-cffda74fd9192265774c": {
+      "example": "弊社の商品についてご説明します。",
+      "translation": "由我來說明敝公司的商品。",
+      "exampleSource": "original"
+    },
+    "jlpt-79822eae871b4802b860": {
+      "example": "この装置は音声をインプットできます。",
+      "translation": "這個裝置可以輸入語音。",
+      "exampleSource": "original"
+    },
+    "jlpt-0496104e240dc0f10349": {
+      "example": "改まった手紙の書き出しに「拝啓」を使いました。",
+      "translation": "我在正式書信的開頭使用了「敬啟者」。",
+      "exampleSource": "original"
+    },
+    "jlpt-f9aa09f0a95b9792338c": {
+      "example": "母は休日にガーデニングを楽しんでいます。",
+      "translation": "媽媽假日會享受園藝活動。",
+      "exampleSource": "original"
+    },
+    "jlpt-4cb03bbc9f5d21023121": {
+      "example": "計算の結果を画面にアウトプットします。",
+      "translation": "將計算結果輸出到畫面上。",
+      "exampleSource": "original"
+    },
+    "jlpt-925841cdfb47c945b78a": {
+      "example": "再来月、新しい店が開きます。",
+      "translation": "下下個月會開一家新店。",
+      "exampleSource": "original"
+    },
+    "jlpt-a1a4b88a49d4f48d29d6": {
+      "example": "話し手の顔を見ながら聞きました。",
+      "translation": "我看著說話者的臉聽他說話。",
+      "exampleSource": "original"
+    },
+    "jlpt-5fe3e02a87b948e7f964": {
+      "example": "旅行の前に下着をかばんに入れました。",
+      "translation": "旅行前，我把內衣放進了包包。",
+      "exampleSource": "original"
+    },
+    "jlpt-10feb3d63f20ceb137c6": {
+      "example": "小説の主人公は中年の男性です。",
+      "translation": "小說的主角是一位中年男性。",
+      "exampleSource": "original"
+    },
+    "jlpt-a494fa827516d94c6b6f": {
+      "example": "この物語では、悪人も最後に自分の過ちを認めます。",
+      "translation": "在這個故事裡，壞人最後也承認了自己的過錯。",
+      "exampleSource": "original"
+    },
+    "jlpt-fed7e82436d7c7aec69d": {
+      "example": "父は友人に「女房と旅行した」と話していました。",
+      "translation": "爸爸對朋友說：「我和老婆去旅行了。」",
+      "exampleSource": "original"
+    },
+    "jlpt-45164a0ae98e2da0c752": {
+      "example": "この動物園には雄のライオンが二頭います。",
+      "translation": "這座動物園裡有兩隻公獅子。",
+      "exampleSource": "original"
+    },
+    "jlpt-d4971d7a5d585891a189": {
+      "example": "上級生が新入生に教室を教えてくれました。",
+      "translation": "學長姐告訴新生教室在哪裡。",
+      "exampleSource": "original"
+    },
+    "jlpt-9169e9fee9b165a70b70": {
+      "example": "この猫は雌です。",
+      "translation": "這隻貓是母的。",
+      "exampleSource": "original"
+    },
+    "jlpt-09863ef94c361b2bc3c7": {
+      "example": "洗面台の横にタオルを掛けました。",
+      "translation": "我把毛巾掛在洗手台旁邊。",
+      "exampleSource": "original"
+    },
+    "jlpt-7501dd21a276626cef7f": {
+      "example": "祖母は畑の世話を毎日する働き者です。",
+      "translation": "祖母每天照顧田地，是個勤勞的人。",
+      "exampleSource": "original"
+    },
+    "jlpt-7dcb4c7ce0149801d4f9": {
+      "example": "学長が大学の卒業式で挨拶しました。",
+      "translation": "大學校長在畢業典禮上致詞。",
+      "exampleSource": "original"
+    },
+    "jlpt-9f0f16a24930c7bc8f75": {
+      "example": "友達はオーストラリアで日本語を教えています。",
+      "translation": "朋友在澳洲教日語。",
+      "exampleSource": "original"
+    },
+    "jlpt-64a9d2554490f215b046": {
+      "example": "この本は小学校の低学年向けです。",
+      "translation": "這本書適合國小低年級閱讀。",
+      "exampleSource": "original"
+    },
+    "jlpt-d156b7ff118312b3d3d1": {
+      "example": "お菓子を入れる入れ物を探しています。",
+      "translation": "我正在找裝點心的容器。",
+      "exampleSource": "original"
+    },
+    "jlpt-2fb0825e11bea8671bba": {
+      "example": "広場でミュージシャンがギターを弾いていました。",
+      "translation": "音樂家在廣場上彈吉他。",
+      "exampleSource": "original"
+    },
+    "jlpt-ccf23ddce448dd16a51b": {
+      "example": "高学年の児童が運動会の準備を手伝いました。",
+      "translation": "高年級學生幫忙準備運動會。",
+      "exampleSource": "original"
+    },
+    "jlpt-ce69e6bfa2cc75e9773a": {
+      "example": "彼は自分でも「僕はナルシストだ」と冗談を言います。",
+      "translation": "他自己也會開玩笑說：「我是個自戀的人。」",
+      "exampleSource": "original"
+    },
+    "jlpt-56ec31b5a5608c81471a": {
+      "example": "コアラが木の上で寝ています。",
+      "translation": "無尾熊正在樹上睡覺。",
+      "exampleSource": "original"
+    },
+    "jlpt-faab68c19bdf75c284ea": {
+      "example": "大学で社会科学を学んでいます。",
+      "translation": "我在大學學習社會科學。",
+      "exampleSource": "original"
+    },
+    "jlpt-aa992f61aeb5db6714d2": {
+      "example": "授業で大脳の働きについて学びました。",
+      "translation": "我在課堂上學習了大腦的功能。",
+      "exampleSource": "original"
+    },
+    "jlpt-8853cde52b5316d6f480": {
+      "example": "庭でチョウの成虫を見つけました。",
+      "translation": "我在庭院裡發現了蝴蝶成蟲。",
+      "exampleSource": "original"
+    },
+    "jlpt-023d32d6055155f57e66": {
+      "example": "夏至の日に、家族で夕方の散歩をしました。",
+      "translation": "夏至那天，我和家人傍晚一起散步。",
+      "exampleSource": "original"
+    },
+    "jlpt-4687c85dab67a46fc1c2": {
+      "example": "親しい先輩への手紙を「前略」で書き始めました。",
+      "translation": "寫信給熟識的學長時，我以「前略」起頭，省略寒暄。",
+      "exampleSource": "original"
+    },
+    "jlpt-843729268553180b88eb": {
+      "example": "駅員がベビーカーを押す人を案内しました。",
+      "translation": "站務員引導了推嬰兒車的人。",
+      "exampleSource": "original"
+    },
+    "jlpt-092fd4b99fdfcdf8f8a8": {
+      "example": "冬至の夜に、家で温かいスープを飲みました。",
+      "translation": "冬至的晚上，我在家喝了熱湯。",
+      "exampleSource": "original"
+    },
+    "jlpt-05a86c982ca6ec457409": {
+      "example": "先々週、図書館でこの本を借りました。",
+      "translation": "上上週，我在圖書館借了這本書。",
+      "exampleSource": "original"
+    },
+    "jlpt-65b1b2e23ff316cefb06": {
+      "example": "冬枯れの庭に、小鳥が一羽来ました。",
+      "translation": "一隻小鳥來到了冬日草木枯萎的庭院。",
+      "exampleSource": "original"
+    },
+    "jlpt-faf5dfed486b11cf73f3": {
+      "example": "フライパンにサラダ油を少し入れます。",
+      "translation": "在平底鍋裡加入少許沙拉油。",
+      "exampleSource": "original"
+    },
+    "jlpt-e40a5caf6926a77bd750": {
+      "example": "オーストラリアは南半球にあります。",
+      "translation": "澳洲位於南半球。",
+      "exampleSource": "original"
+    },
+    "jlpt-e268a7193d6255d8a8a6": {
+      "example": "犬の大便は飼い主が片づけてください。",
+      "translation": "請飼主清理狗的排泄物。",
+      "exampleSource": "original"
+    },
+    "jlpt-5c3d23b7456337bc79c9": {
+      "example": "まず本文を三分間、黙読してください。",
+      "translation": "請先默讀課文三分鐘。",
+      "exampleSource": "original"
+    },
+    "jlpt-0d8aea4566af1d42bcb9": {
+      "example": "旅の思い出を短いエッセーに書きました。",
+      "translation": "我把旅行回憶寫成一篇短隨筆。",
+      "exampleSource": "original"
+    },
+    "jlpt-63acc4d1b1370fc14437": {
+      "example": "長ねぎを細かく切って、スープに入れました。",
+      "translation": "我把大蔥切細，放進湯裡。",
+      "exampleSource": "original"
+    },
+    "jlpt-0b9dac8c793b81960f4a": {
+      "example": "姉は彼氏と映画を見に行きました。",
+      "translation": "姐姐和男朋友去看電影了。",
+      "exampleSource": "original",
+      "meaning": "男朋友；（帶戲謔語氣的指稱）他、那傢伙",
+      "usageNote": "一般日常語境多指男性戀人。作為「他」的代名詞用法帶有戲謔或打趣語氣，不宜當作中性的「彼」直接替換。",
+      "reference": "https://kotobank.jp/word/彼氏-468384"
+    },
+    "jlpt-3350fac63dc47317ea2f": {
+      "example": "安全確認を省いた同僚に、先輩が苦言を呈しました。",
+      "translation": "前輩對省略安全確認的同事提出了逆耳的忠告。",
+      "exampleSource": "original",
+      "meaning": "逆耳的忠言；為對方著想而提出的嚴厲勸告",
+      "usageNote": "苦言帶有對方聽來不舒服、卻為其好而勸告的語意；不只是一般中性建議。",
+      "reference": "https://www.kanjipedia.jp/kotoba/0001659100"
+    },
+    "jlpt-2657a16063e4530e06a6": {
+      "example": "電車に乗る前に、マスクをつけました。",
+      "translation": "我在搭電車前戴上了口罩。",
+      "exampleSource": "original",
+      "meaning": "口罩；面具（依情境判斷）",
+      "usageNote": "マスクをつける：戴上口罩／面具。交通、衛生情境通常指口罩；舞會等情境可能指面具。中文配戴用品用「戴」。",
+      "reference": "https://kotobank.jp/word/ますく-3171200"
+    }
+  }
+}

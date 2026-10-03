@@ -4,8 +4,8 @@ const root = new URL('../', import.meta.url);
 const output = new URL('dist/', root);
 const files = [
   'index.html', 'style.css', 'app.js', 'engine.js', 'curriculum.js',
-  'story.js', 'legacy-data.js', 'voice.js', 'question-helpers.js',
-  'data/vocabulary.json', 'assets/hero-ink.png',
+  'story.js', 'lessons.js', 'kana.js', 'legacy-data.js', 'voice.js', 'question-helpers.js',
+  'data/vocabulary.json', 'data/vocabulary-overrides.json', 'assets/hero-ink.png',
   'assets/travelers-ink.png', 'assets/realms-ink.png',
   'THIRD-PARTY-NOTICES.md', 'sources/README.md',
   'sources/anki-jlpt-decks/LICENSE', 'sources/anki-jlpt-decks/README.md',

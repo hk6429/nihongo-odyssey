@@ -11,3 +11,9 @@
 詞彙級別採用上游社群分類，供學習參考；**不是 JLPT 官方詞彙表，也不保證涵蓋考試全部詞彙**。原作者及資料提供者沒有為本網站背書。原始來源聲明內容包含公開網路資源及個人創作；本專案保留其授權與免責條款。
 
 可重跑匯入方式、來源 SHA-256 與完整性報告，見 [sources/README.md](sources/README.md) 及 [docs/vocabulary-audit.json](docs/vocabulary-audit.json)。
+
+## 本站教材補充層
+
+[data/vocabulary-overrides.json](data/vocabulary-overrides.json) 為本站新增的原創例句及抽查校訂，依來源識別碼套用；原始來源快照不改寫。122 個原來源缺例句詞已補原創例句；另修正部分釋義、語用提示與中文錯字。介面標示原創補充，與來源語例分開。這些改作不改變上游詞庫的 CC BY-NC 4.0 限制，也不代表來源作者或真人日語教師審定本站課程。
+
+25 章情境目標、句型、兩分支微劇情及新情境練習存於 [lessons.js](lessons.js)，為本站原創教學設計；非 JLPT 官方分級認證。
