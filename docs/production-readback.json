@@ -1,0 +1,244 @@
+{
+  "assets": [
+    {
+      "bytes": 1677,
+      "cacheControl": "no-cache",
+      "mime": "text/html",
+      "nosniff": "nosniff",
+      "path": "index.html",
+      "sha256": "a257441d4795a8ece8640d20b7b0268c3a8852b1813a483479c93b94b7d04307",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "bytes": 16147,
+      "cacheControl": "no-cache",
+      "mime": "text/css",
+      "nosniff": "nosniff",
+      "path": "style.css",
+      "sha256": "36c4953cc29b5a896665d8419274177a67e0cef08347ec6de39d9c4c43b0e5a7",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "bytes": 29815,
+      "cacheControl": "no-cache",
+      "mime": "text/javascript",
+      "nosniff": "nosniff",
+      "path": "app.js",
+      "sha256": "6a5a3d3ea72df26609fd9c8946a505211d1e88b3b432ea71eeb5e4eff2f70fbe",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "bytes": 4656,
+      "cacheControl": "no-cache",
+      "mime": "text/javascript",
+      "nosniff": "nosniff",
+      "path": "engine.js",
+      "sha256": "9b87df84f7bdfee9043d7873c93aa1900c82c92eaee15e5f480364c616ad913d",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "bytes": 1197,
+      "cacheControl": "no-cache",
+      "mime": "text/javascript",
+      "nosniff": "nosniff",
+      "path": "curriculum.js",
+      "sha256": "cb3e2243645a9300ce92d7ce3f92e8f36a40d22c42d9c4ba70591d95955447a9",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "bytes": 84940,
+      "cacheControl": "no-cache",
+      "mime": "text/javascript",
+      "nosniff": "nosniff",
+      "path": "story.js",
+      "sha256": "af9f103a6dfce51b89e84da29d091f5105d4c406bd4bcea0567446bc14624c5a",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "bytes": 9312,
+      "cacheControl": "no-cache",
+      "mime": "text/javascript",
+      "nosniff": "nosniff",
+      "path": "legacy-data.js",
+      "sha256": "4b06fe84f1f7103b4f1be345f45767274a632cf1368fb20c1382158e5916d358",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "bytes": 1056,
+      "cacheControl": "no-cache",
+      "mime": "text/javascript",
+      "nosniff": "nosniff",
+      "path": "voice.js",
+      "sha256": "b5aa9cf0a50b83d2881cab37212e4b20ace3886d6f0350b39d58ba333960b20c",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "bytes": 403,
+      "cacheControl": "no-cache",
+      "mime": "text/javascript",
+      "nosniff": "nosniff",
+      "path": "question-helpers.js",
+      "sha256": "de5317f0d41927b084b114d75fa1e627ab83675273a01c2d41c4b7615ba606b5",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "bytes": 3882191,
+      "cacheControl": "no-cache",
+      "mime": "application/json",
+      "nosniff": "nosniff",
+      "path": "data/vocabulary.json",
+      "sha256": "479ca99c18cbd7f144e79e36cacc21aeccba5afdddf27ef4251a16548708dc6b",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "bytes": 3038143,
+      "cacheControl": "no-cache",
+      "mime": "image/png",
+      "nosniff": "nosniff",
+      "path": "assets/hero-ink.png",
+      "sha256": "00477389d2072a7c96d964f78d393806c5e49a49a804bc001bf6af45cc83cfc0",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "bytes": 2742108,
+      "cacheControl": "no-cache",
+      "mime": "image/png",
+      "nosniff": "nosniff",
+      "path": "assets/travelers-ink.png",
+      "sha256": "609645d0ea1227c479c1524f82c8255a4e091832811f5664db13015a0aa2078e",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "bytes": 3934978,
+      "cacheControl": "no-cache",
+      "mime": "image/png",
+      "nosniff": "nosniff",
+      "path": "assets/realms-ink.png",
+      "sha256": "1948d8ee05b65bea15bbac41b1d5457dcfd4d285e335f53bd99e996afe0cc8bf",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "bytes": 1806,
+      "cacheControl": "no-cache",
+      "mime": "text/markdown",
+      "nosniff": "nosniff",
+      "path": "THIRD-PARTY-NOTICES.md",
+      "sha256": "b0387b56749650ae4f47e0e64763ff3296c62a1f759f078d7d5839d353cd9a49",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "bytes": 2470,
+      "cacheControl": "no-cache",
+      "mime": "text/markdown",
+      "nosniff": "nosniff",
+      "path": "sources/README.md",
+      "sha256": "21c0914d3d18a1ac0ef21347ea94f78a56f6fc5a0782443f4c6ef56fb7e12e7e",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "bytes": 19346,
+      "cacheControl": "no-cache",
+      "mime": null,
+      "nosniff": "nosniff",
+      "path": "sources/anki-jlpt-decks/LICENSE",
+      "sha256": "3711f963c05d0be80d53e5923308a6dee31b203da23435c9cfb7c7b6e4dd5e19",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "bytes": 25075,
+      "cacheControl": "no-cache",
+      "mime": "text/markdown",
+      "nosniff": "nosniff",
+      "path": "sources/anki-jlpt-decks/README.md",
+      "sha256": "d0dbf94148d4af79e262a20004f654d32c68587ed1f61a28527ebedc4dc3d243",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "bytes": 171220,
+      "cacheControl": "no-cache",
+      "mime": "application/json",
+      "nosniff": "nosniff",
+      "path": "docs/vocabulary-audit.json",
+      "sha256": "7d6ce8e2c1f7b5d9db860ce0eff38b3f271abebf6d9ccabe5f0de5b1f0457462",
+      "status": 200,
+      "matches": true
+    }
+  ],
+  "excludedPaths": [
+    {
+      "path": "/does-not-exist",
+      "status": 404
+    },
+    {
+      "path": "/sources/anki-jlpt-decks/notes.csv",
+      "status": 404
+    },
+    {
+      "path": "/artifacts/before-last-quiz.json",
+      "status": 404
+    },
+    {
+      "path": "/server.mjs",
+      "status": 404
+    },
+    {
+      "path": "/.env",
+      "status": 404
+    },
+    {
+      "path": "/wrangler.jsonc",
+      "status": 404
+    },
+    {
+      "path": "/data.js",
+      "status": 404
+    },
+    {
+      "path": "/_headers",
+      "status": 404
+    }
+  ],
+  "url": "https://nihongo-odyssey.hk6429.workers.dev",
+  "verifiedAt": "2026-10-03T15:47:28.648Z",
+  "versionId": "81403f1a-4697-4c1f-9f5e-fcedc517b6ee",
+  "sourceCommit": "9004bf4",
+  "method": "Chrome same-origin fetch and SHA-256 readback",
+  "browserChecks": {
+    "isolatedTestQuery": "?test=1",
+    "role": "燈",
+    "storyChoice": "先幫老闆向大家介紹店名",
+    "firstWord": "一／いち",
+    "n1Count": 4044,
+    "n1Search": {
+      "query": "感謝",
+      "word": "謝礼"
+    },
+    "mobile": {
+      "viewport": 390,
+      "documentWidth": 376,
+      "noHorizontalOverflow": true
+    },
+    "screenshots": [
+      "artifacts/production-desktop.jpg",
+      "artifacts/production-mobile.jpg"
+    ],
+    "applicationErrors": []
+  }
+}
