@@ -1,0 +1,13 @@
+{
+  "name": "nihongo-odyssey",
+  "compatibility_date": "2026-07-15",
+  "workers_dev": true,
+  "preview_urls": false,
+  "build": {
+    "command": "npm run build"
+  },
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "none"
+  }
+}
