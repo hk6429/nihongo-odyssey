@@ -12,6 +12,21 @@ npm start
 
 網址 http://localhost:8793/ 。伺服器僅監聽本機，不等於公開部署。`PORT` 環境變數可指定其他連接埠。原英文字旅專案未變更。
 
+## 部署
+
+使用 Cloudflare Workers Static Assets，設定在 `wrangler.jsonc`。需先安裝 Wrangler 並完成 Cloudflare 登入。
+
+```sh
+npm test
+wrangler whoami
+wrangler deploy --dry-run
+wrangler deploy
+```
+
+Wrangler 自動執行 `npm run build`，只將指定的網站檔案、圖片、詞庫與來源授權說明複製到 `dist/`。原始 CSV、測試存檔及開發文件不會上傳；不存在的網址回傳 404。
+
+公開網址與本機網址的瀏覽器存檔互相獨立。搬移進度時，先在原網址匯出備份，再到公開網址匯入。
+
 ## 課程與故事
 
 | 國度 | 分級 | 唯一詞條 |
