@@ -1,0 +1,256 @@
+{
+  "date": "2026-10-04T00:57:21.482216+08:00",
+  "url": "https://nihongo-odyssey.hk6429.workers.dev/",
+  "versionId": "a0d987f8-7a8f-4036-9829-1b721e6659a9",
+  "sourceCommit": "1012b52",
+  "method": "Chrome same-origin fetch with SHA-256 comparison to final dist",
+  "assets": [
+    {
+      "bytes": 2445,
+      "matches": true,
+      "mime": "text/markdown",
+      "nosniff": "nosniff",
+      "path": "THIRD-PARTY-NOTICES.md",
+      "sha256": "e3da41805cb2911dc9455b546c263e10b5bec62f0560783a1c2030283967d67e",
+      "status": 200
+    },
+    {
+      "bytes": 46280,
+      "matches": true,
+      "mime": "text/javascript",
+      "nosniff": "nosniff",
+      "path": "app.js",
+      "sha256": "275d19a3cb056615fe154a19e99c5fc5a20de3825a56a5390d94126122534294",
+      "status": 200
+    },
+    {
+      "bytes": 3038143,
+      "matches": true,
+      "mime": "image/png",
+      "nosniff": "nosniff",
+      "path": "assets/hero-ink.png",
+      "sha256": "00477389d2072a7c96d964f78d393806c5e49a49a804bc001bf6af45cc83cfc0",
+      "status": 200
+    },
+    {
+      "bytes": 3934978,
+      "matches": true,
+      "mime": "image/png",
+      "nosniff": "nosniff",
+      "path": "assets/realms-ink.png",
+      "sha256": "1948d8ee05b65bea15bbac41b1d5457dcfd4d285e335f53bd99e996afe0cc8bf",
+      "status": 200
+    },
+    {
+      "bytes": 2742108,
+      "matches": true,
+      "mime": "image/png",
+      "nosniff": "nosniff",
+      "path": "assets/travelers-ink.png",
+      "sha256": "609645d0ea1227c479c1524f82c8255a4e091832811f5664db13015a0aa2078e",
+      "status": 200
+    },
+    {
+      "bytes": 2040,
+      "matches": true,
+      "mime": "text/javascript",
+      "nosniff": "nosniff",
+      "path": "curriculum.js",
+      "sha256": "3e6436f10f00572ae8f05b136b14613acdb1fa38d1d0b9cd70998c7da3ffd2b2",
+      "status": 200
+    },
+    {
+      "bytes": 26428,
+      "matches": true,
+      "mime": "application/json",
+      "nosniff": "nosniff",
+      "path": "data/vocabulary-overrides.json",
+      "sha256": "05d84568ad290811105342ce8c5d874b57ee2527991773034a7c9a5920517b38",
+      "status": 200
+    },
+    {
+      "bytes": 3882191,
+      "matches": true,
+      "mime": "application/json",
+      "nosniff": "nosniff",
+      "path": "data/vocabulary.json",
+      "sha256": "479ca99c18cbd7f144e79e36cacc21aeccba5afdddf27ef4251a16548708dc6b",
+      "status": 200
+    },
+    {
+      "bytes": 171220,
+      "matches": true,
+      "mime": "application/json",
+      "nosniff": "nosniff",
+      "path": "docs/vocabulary-audit.json",
+      "sha256": "7d6ce8e2c1f7b5d9db860ce0eff38b3f271abebf6d9ccabe5f0de5b1f0457462",
+      "status": 200
+    },
+    {
+      "bytes": 24989,
+      "matches": true,
+      "mime": "text/javascript",
+      "nosniff": "nosniff",
+      "path": "engine.js",
+      "sha256": "bd6c98e06492a0baeebdd241b874ce84edf06799c58e67da078bd06ca84161e3",
+      "status": 200
+    },
+    {
+      "bytes": 1735,
+      "matches": true,
+      "mime": "text/html",
+      "nosniff": "nosniff",
+      "path": "index.html",
+      "sha256": "ef9541ec3b73c5a0e0c403b2b6ed8a9121eed157fc3f8333f0d52b6192469147",
+      "status": 200
+    },
+    {
+      "bytes": 24149,
+      "matches": true,
+      "mime": "text/javascript",
+      "nosniff": "nosniff",
+      "path": "kana.js",
+      "sha256": "e36a5724362d00be789c503f25b19c221329b06a65ea63e7555b85805eda5a66",
+      "status": 200
+    },
+    {
+      "bytes": 9312,
+      "matches": true,
+      "mime": "text/javascript",
+      "nosniff": "nosniff",
+      "path": "legacy-data.js",
+      "sha256": "4b06fe84f1f7103b4f1be345f45767274a632cf1368fb20c1382158e5916d358",
+      "status": 200
+    },
+    {
+      "bytes": 391023,
+      "matches": true,
+      "mime": "text/javascript",
+      "nosniff": "nosniff",
+      "path": "lessons.js",
+      "sha256": "eb31317409ddfc5c676efd784e4eced0b0cfc812f0ba536c2f0d277518f3b3b4",
+      "status": 200
+    },
+    {
+      "bytes": 403,
+      "matches": true,
+      "mime": "text/javascript",
+      "nosniff": "nosniff",
+      "path": "question-helpers.js",
+      "sha256": "de5317f0d41927b084b114d75fa1e627ab83675273a01c2d41c4b7615ba606b5",
+      "status": 200
+    },
+    {
+      "bytes": 2470,
+      "matches": true,
+      "mime": "text/markdown",
+      "nosniff": "nosniff",
+      "path": "sources/README.md",
+      "sha256": "21c0914d3d18a1ac0ef21347ea94f78a56f6fc5a0782443f4c6ef56fb7e12e7e",
+      "status": 200
+    },
+    {
+      "bytes": 19346,
+      "matches": true,
+      "mime": null,
+      "nosniff": "nosniff",
+      "path": "sources/anki-jlpt-decks/LICENSE",
+      "sha256": "3711f963c05d0be80d53e5923308a6dee31b203da23435c9cfb7c7b6e4dd5e19",
+      "status": 200
+    },
+    {
+      "bytes": 25075,
+      "matches": true,
+      "mime": "text/markdown",
+      "nosniff": "nosniff",
+      "path": "sources/anki-jlpt-decks/README.md",
+      "sha256": "d0dbf94148d4af79e262a20004f654d32c68587ed1f61a28527ebedc4dc3d243",
+      "status": 200
+    },
+    {
+      "bytes": 85763,
+      "matches": true,
+      "mime": "text/javascript",
+      "nosniff": "nosniff",
+      "path": "story.js",
+      "sha256": "b65b304c4a6acdde9570cf1dca817bbb84a300a74faf58643e32ae12b0778c97",
+      "status": 200
+    },
+    {
+      "bytes": 19905,
+      "matches": true,
+      "mime": "text/css",
+      "nosniff": "nosniff",
+      "path": "style.css",
+      "sha256": "c99c03b95c97783853fbff833081579fb656eb67795a1bdfe2779ae0e4fc0b1b",
+      "status": 200
+    },
+    {
+      "bytes": 1056,
+      "matches": true,
+      "mime": "text/javascript",
+      "nosniff": "nosniff",
+      "path": "voice.js",
+      "sha256": "b5aa9cf0a50b83d2881cab37212e4b20ace3886d6f0350b39d58ba333960b20c",
+      "status": 200
+    }
+  ],
+  "excludedPaths": [
+    {
+      "mime": null,
+      "path": "/package.json",
+      "status": 404
+    },
+    {
+      "mime": null,
+      "path": "/server.mjs",
+      "status": 404
+    },
+    {
+      "mime": null,
+      "path": "/tests/app-flow.test.js",
+      "status": 404
+    },
+    {
+      "mime": null,
+      "path": "/docs/HANDOFF-20261004.md",
+      "status": 404
+    },
+    {
+      "mime": null,
+      "path": "/docs/REVISION-20261004.md",
+      "status": 404
+    },
+    {
+      "mime": null,
+      "path": "/artifacts/v2-full-migration-fixture.json",
+      "status": 404
+    },
+    {
+      "mime": null,
+      "path": "/scripts/import-vocabulary.py",
+      "status": 404
+    },
+    {
+      "mime": null,
+      "path": "/.git/config",
+      "status": 404
+    }
+  ],
+  "excludedPathsNote": "404 checked on first v0.3 deployment; final patch changed only app.js and lessons.js, with identical allowlist.",
+  "typedAssetsMimeVerified": 20,
+  "extensionlessLicense": "HTTP 200 and SHA-256 verified; no Content-Type header",
+  "tests": {
+    "passed": 60,
+    "failed": 0
+  },
+  "uiEvidence": [
+    "first chapter 10 words, 2 micro-stories, 3 assessment questions with one retry",
+    "kana sokuon demonstration, recognition, ordering, recall; first mistake retained",
+    "v2 full progress import and reload: 10629 words, 25 legacy chapters, zero invented new results",
+    "production direct N1 entry with 20 skipped chapters and zero completion",
+    "production corrected mask example and tabibito furigana",
+    "1280 CSS px desktop and 390 CSS px mobile, no horizontal overflow"
+  ],
+  "humanLearningEvidence": false
+}
