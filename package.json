@@ -1,0 +1,1 @@
+{"name":"nihongo-odyssey","version":"0.1.0","private":true,"type":"module","description":"和風字旅：零基礎日語旅行學習","scripts":{"start":"node server.mjs","test":"node --test tests/*.test.js"},"engines":{"node":">=22"}}
