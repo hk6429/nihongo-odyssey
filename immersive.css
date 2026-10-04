@@ -33,3 +33,36 @@ body{background:#e2e0cf url('assets/hero-ink.png') 65% center/cover fixed no-rep
 
 .world-tools{width:auto;border:0;padding:0;order:initial}
 @media(max-width:700px){.world-landscape{background-size:auto 145%;background-position:76% bottom}.world-shade{background:linear-gradient(180deg,#fff6e94d,transparent 50%,#17352420)}}
+
+/* Chapter artwork follows the selected story into reading and practice. */
+body{background-image:var(--chapter-scene,url('assets/hero-ink.png'));background-position:65% center}
+.world-landscape{background-image:var(--chapter-scene,url('assets/hero-ink.png'));background-size:cover;background-position:65% center}
+.world-shade{background:linear-gradient(90deg,#faf2ddab,transparent 65%),linear-gradient(180deg,#fff5e333,transparent 55%,#132f3233)}
+.world-heading{max-width:56%;top:165px}
+.world-heading h1{font-size:clamp(32px,4vw,58px)}
+.world-dialogue{background:#193d34ed;width:min(590px,50vw)}
+.world-drawer .drawer-heading{position:static;margin:0 0 20px;padding:0 0 14px;background:#faf7eb}
+.world-drawer .journey-progress{color:#284436;position:static}
+.realm-description{padding:0 4px;overflow-wrap:anywhere}
+.realm-description .actions{margin:12px 0}
+.world-drawer .chapter{min-width:0;width:100%;overflow-wrap:anywhere}
+.world-drawer .chapter>span:nth-child(2){min-width:0}
+@media(max-width:700px){
+ body,.world-landscape{background-position:67% center;background-size:cover}
+ .world-stage{min-height:830px}
+ .world-heading{top:170px;max-width:none}
+ .world-heading h1{font-size:29px}
+ .world-dialogue{width:calc(100% - 24px);bottom:18px;padding:16px 18px}
+ .world-dialogue>p{font-size:17px;line-height:1.6}
+ .world-dialogue>small{font-size:11px}
+ .world-drawer .level-tabs{gap:5px}
+ .world-drawer .level-tabs button{min-width:0;padding:10px 2px}
+ .world-drawer .level-tabs small{display:none}
+ .world-drawer .chapter{padding:14px 10px;align-items:flex-start}
+ .world-drawer .chapter-state{flex:0 0 48px}
+ .world-drawer .chapter-number{font-size:24px}
+ .realm-description .actions button{font-size:12px;padding:9px}
+}
+
+img.world-landscape{width:100%;height:100%;object-fit:cover;object-position:65% center;background:none}
+@media(max-width:700px){img.world-landscape{object-position:67% center}}

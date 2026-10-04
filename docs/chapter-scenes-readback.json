@@ -1,0 +1,229 @@
+{
+  "checkedAt": "2026-10-04T09:35:03.452639+00:00",
+  "assets": [
+    {
+      "file": "index.html",
+      "status": 200,
+      "sha256": "280e6cc3dbe2df4134071323c234ebaf5a7134d74ac33107df60b7c18db9a79b",
+      "matches": true,
+      "mime": "text/html",
+      "nosniff": "nosniff"
+    },
+    {
+      "file": "app.js",
+      "status": 200,
+      "sha256": "f4fb134b8cc1597997e2808058f53ff8ec85111aea2c9c468f37384506cdacb0",
+      "matches": true,
+      "mime": "text/javascript",
+      "nosniff": "nosniff"
+    },
+    {
+      "file": "immersive.css",
+      "status": 200,
+      "sha256": "76faa19effc149f1a6af0f509153f56e15a7eb2bef2b41f93fb8637e3226572a",
+      "matches": true,
+      "mime": "text/css",
+      "nosniff": "nosniff"
+    },
+    {
+      "file": "assets/scenes/N1-1.webp",
+      "status": 200,
+      "sha256": "13a6873f02722d4fab5d287328998f67f6226251457912044165c9580954b6bc",
+      "matches": true,
+      "mime": "image/webp",
+      "nosniff": "nosniff"
+    },
+    {
+      "file": "assets/scenes/N1-2.webp",
+      "status": 200,
+      "sha256": "e5ecec63df50f74c47c951c5ed219baa398ff6e8af52b32496b706fbdfd1b445",
+      "matches": true,
+      "mime": "image/webp",
+      "nosniff": "nosniff"
+    },
+    {
+      "file": "assets/scenes/N1-3.webp",
+      "status": 200,
+      "sha256": "4d475bfa630b0926e764967df5c4dd619db75fb1863af5b8be84ba09adf70e3b",
+      "matches": true,
+      "mime": "image/webp",
+      "nosniff": "nosniff"
+    },
+    {
+      "file": "assets/scenes/N1-4.webp",
+      "status": 200,
+      "sha256": "7acbcec3ebae9b2b53196e0e8a21f7dd684e21b1828704fea8ab37b3556242a4",
+      "matches": true,
+      "mime": "image/webp",
+      "nosniff": "nosniff"
+    },
+    {
+      "file": "assets/scenes/N1-5.webp",
+      "status": 200,
+      "sha256": "c533ccd9d4ab85650ce35e63681dd679256474958f2b9270580884489806b6ec",
+      "matches": true,
+      "mime": "image/webp",
+      "nosniff": "nosniff"
+    },
+    {
+      "file": "assets/scenes/N2-1.webp",
+      "status": 200,
+      "sha256": "54dad77d64bc1b564b56ceb82c2ef5ab2ba1d7ae485647c425c4603f57204fab",
+      "matches": true,
+      "mime": "image/webp",
+      "nosniff": "nosniff"
+    },
+    {
+      "file": "assets/scenes/N2-2.webp",
+      "status": 200,
+      "sha256": "d62c4216e8e5b75368b66b0e21ee070a99fa3be7eef3da0a05d376322fb7ae63",
+      "matches": true,
+      "mime": "image/webp",
+      "nosniff": "nosniff"
+    },
+    {
+      "file": "assets/scenes/N2-3.webp",
+      "status": 200,
+      "sha256": "3df3cf65efec0758b067c88a2c965625482fc933d17d8e6ba2ff0e01cc3693f6",
+      "matches": true,
+      "mime": "image/webp",
+      "nosniff": "nosniff"
+    },
+    {
+      "file": "assets/scenes/N2-4.webp",
+      "status": 200,
+      "sha256": "1376314b371b1a08915dc7b8af713f4d5620ace5c21d6e3bea17df8b39214a00",
+      "matches": true,
+      "mime": "image/webp",
+      "nosniff": "nosniff"
+    },
+    {
+      "file": "assets/scenes/N2-5.webp",
+      "status": 200,
+      "sha256": "b8e57c4d3153c24cae3ec25edb2d4ec6eaa130f55899884380c28216400483a5",
+      "matches": true,
+      "mime": "image/webp",
+      "nosniff": "nosniff"
+    },
+    {
+      "file": "assets/scenes/N3-1.webp",
+      "status": 200,
+      "sha256": "15e16379edb372b09c77bc23a373783391617e1838e912f114fa4a34178cc188",
+      "matches": true,
+      "mime": "image/webp",
+      "nosniff": "nosniff"
+    },
+    {
+      "file": "assets/scenes/N3-2.webp",
+      "status": 200,
+      "sha256": "601a5deaf21af022d07a91b339c735abb32e4c99a4ed7e2ce423b6383a01835c",
+      "matches": true,
+      "mime": "image/webp",
+      "nosniff": "nosniff"
+    },
+    {
+      "file": "assets/scenes/N3-3.webp",
+      "status": 200,
+      "sha256": "b5c00e2d16e77c566441764e7f37c029870b29d1055cfe8ae4581f25d06d3760",
+      "matches": true,
+      "mime": "image/webp",
+      "nosniff": "nosniff"
+    },
+    {
+      "file": "assets/scenes/N3-4.webp",
+      "status": 200,
+      "sha256": "7e769a750fb59c68da415c0b1a7a62657d5742255ffc0006fc84458b5e53dfc2",
+      "matches": true,
+      "mime": "image/webp",
+      "nosniff": "nosniff"
+    },
+    {
+      "file": "assets/scenes/N3-5.webp",
+      "status": 200,
+      "sha256": "a69b6eca888270322fc56de79bda90b6e17b38a2e879b6f8180e21f90092792e",
+      "matches": true,
+      "mime": "image/webp",
+      "nosniff": "nosniff"
+    },
+    {
+      "file": "assets/scenes/N4-1.webp",
+      "status": 200,
+      "sha256": "523e601eabc4a3ab5511647f599e27bfad1ff225d63d5aa9cb48c3cd425b4b8e",
+      "matches": true,
+      "mime": "image/webp",
+      "nosniff": "nosniff"
+    },
+    {
+      "file": "assets/scenes/N4-2.webp",
+      "status": 200,
+      "sha256": "d24b8c1e153ee43dc69f59f711b386032f7fced4ab1dfc4f77c4626a48dcb62b",
+      "matches": true,
+      "mime": "image/webp",
+      "nosniff": "nosniff"
+    },
+    {
+      "file": "assets/scenes/N4-3.webp",
+      "status": 200,
+      "sha256": "e97e8d2c5850db00a8e55cdd6b3e253feda1b5d78b61bd26c28f4972d4b84d42",
+      "matches": true,
+      "mime": "image/webp",
+      "nosniff": "nosniff"
+    },
+    {
+      "file": "assets/scenes/N4-4.webp",
+      "status": 200,
+      "sha256": "3780d57f754a6b112fcddfcf212b8b52441864e00e57455c5efcdcd537d0166f",
+      "matches": true,
+      "mime": "image/webp",
+      "nosniff": "nosniff"
+    },
+    {
+      "file": "assets/scenes/N4-5.webp",
+      "status": 200,
+      "sha256": "ae9769e5854ce173df20e37d5d0a42bbaffbe47a2881e3453c9c227b74faa34a",
+      "matches": true,
+      "mime": "image/webp",
+      "nosniff": "nosniff"
+    },
+    {
+      "file": "assets/scenes/N5-1.webp",
+      "status": 200,
+      "sha256": "b12eb95c9fc6173fcfbad051ba226de115cc1477eebd18bb5575bd916b5fbf2c",
+      "matches": true,
+      "mime": "image/webp",
+      "nosniff": "nosniff"
+    },
+    {
+      "file": "assets/scenes/N5-2.webp",
+      "status": 200,
+      "sha256": "7d27e23094dcb8578473eecbebb47b9e0dfcd930a12b2078be9244f109f2f4ad",
+      "matches": true,
+      "mime": "image/webp",
+      "nosniff": "nosniff"
+    },
+    {
+      "file": "assets/scenes/N5-3.webp",
+      "status": 200,
+      "sha256": "f6336a55abae0b18246a8810a70c9731b427d2d6dc7ae1f61a9616b22772e7da",
+      "matches": true,
+      "mime": "image/webp",
+      "nosniff": "nosniff"
+    },
+    {
+      "file": "assets/scenes/N5-4.webp",
+      "status": 200,
+      "sha256": "0ea4b6f2b4ad77a1c0123517866f7f0f74dc4be7f5d0259640c51e6fa7f37c4d",
+      "matches": true,
+      "mime": "image/webp",
+      "nosniff": "nosniff"
+    },
+    {
+      "file": "assets/scenes/N5-5.webp",
+      "status": 200,
+      "sha256": "08aa2c51e109534fd2c45d0aefd3eee526fd5a2aef8de5f783f3ab84c5004944",
+      "matches": true,
+      "mime": "image/webp",
+      "nosniff": "nosniff"
+    }
+  ]
+}

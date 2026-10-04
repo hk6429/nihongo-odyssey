@@ -1,8 +1,11 @@
 import {copyFile, mkdir, rm, writeFile} from 'node:fs/promises';
 
+import {episodes} from '../story.js';
+
 const root = new URL('../', import.meta.url);
 const output = new URL('dist/', root);
 const files = [
+  ...episodes.map(e=>`assets/scenes/${e.id}.webp`),
   'index.html', 'style.css','immersive.css', 'app.js', 'choice-keyboard.js', 'engine.js', 'curriculum.js',
   'story.js', 'lessons.js', 'kana.js', 'legacy-data.js', 'voice.js', 'question-helpers.js',
   'data/vocabulary.json', 'data/vocabulary-overrides.json', 'assets/hero-ink.png',

@@ -238,3 +238,20 @@ test('進度分清兩組詞彙與情境考驗，部分完成不誤報小關過�
  h.app.storyQuiz();while(h.app.assessment.queue.length){const q=h.app.assessment.queue[0];engine.answerAssessment(h.app.assessment,q.answer);}
  await h.app.finishAssessment();assert.match(h.root.textContent,/已過 1 \/ 5 小關/);assert.match(h.root.textContent,/完成 3 \/ 3 個步驟/);assert.match(h.root.textContent,/下一小關/);
 });
+
+test('25 小關各有獨立滿版場景，切換國度與預覽不改動學習紀錄',async()=>{
+ const saved={...engine.initial(),role:'sora'},h=harness(saved),before=engine.serialize(h.saved());
+ for(const region of story.regions){
+  await h.click(`[data-level="${region.id}"]`);
+  for(const e of curriculum.chapters.filter(c=>c.level===region.id)){
+   await h.click(`[data-scene="${e.id}"]`);
+   assert.ok(h.root.innerHTML.includes(`assets/scenes/${e.id}.webp`));
+   assert.equal(h.root.querySelector('#world-title').textContent,e.title);
+   assert.equal(engine.serialize(h.saved()),before);
+   await h.click(`[data-episode="${e.id}"]`);
+   assert.ok(h.root.innerHTML.includes(`assets/scenes/${e.id}.webp`));
+   assert.ok(h.root.querySelector('.story-paper'));
+   await h.click('[data-nav="map"]');
+  }
+ }
+});
