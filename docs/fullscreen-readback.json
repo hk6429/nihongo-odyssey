@@ -1,0 +1,32 @@
+{
+  "checkedAt": "2026-10-04T09:19:14.114371+00:00",
+  "assets": [
+    {
+      "file": "index.html",
+      "url": "https://nihongo-odyssey.hk6429.workers.dev/?release=fullscreen-20261004-final",
+      "status": 200,
+      "sha256": "280e6cc3dbe2df4134071323c234ebaf5a7134d74ac33107df60b7c18db9a79b",
+      "matches": true,
+      "mime": "text/html",
+      "nosniff": "nosniff"
+    },
+    {
+      "file": "app.js",
+      "url": "https://nihongo-odyssey.hk6429.workers.dev/app.js?release=fullscreen-20261004-final",
+      "status": 200,
+      "sha256": "688d1139818fedb5019fe7436e30bafa96ba5e72cebf5c68287799560c7473dc",
+      "matches": true,
+      "mime": "text/javascript",
+      "nosniff": "nosniff"
+    },
+    {
+      "file": "immersive.css",
+      "url": "https://nihongo-odyssey.hk6429.workers.dev/immersive.css?release=fullscreen-20261004-final",
+      "status": 200,
+      "sha256": "26f7197a7dacc37681fa5133d4c95823e2fed911e5781b9c4d1e2a6102333cba",
+      "matches": true,
+      "mime": "text/css",
+      "nosniff": "nosniff"
+    }
+  ]
+}
