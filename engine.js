@@ -259,3 +259,31 @@ export function commitAssessment(s,session,now=Date.now()){
  const n={...s,assessments:{...s.assessments},pendingSessions:structuredClone(s.pendingSessions),cleared:[...s.cleared],committedSessions:[...s.committedSessions]};const evidence=mergeAssessmentEvidence(s,session);n.assessments[c.id]={choice:session.choice,answers:checks.map(q=>({...Object.fromEntries(['id','mode','firstCorrect','hints','mistakes','attempts','correct','fallback'].map(k=>[k,evidence[q.id][k]])),actualMode:q.mode==='listening'&&evidence[q.id].fallback?'reading':q.mode})),completedAt:now};
  if(!n.cleared.includes(c.id))n.cleared.push(c.id);discardPending(n,session);n.committedSessions.push(session.id);n.revision++;return sync(n);
 }
+
+// Merge only validated account snapshots; evidence counters are never added twice.
+export function mergeCloudProgress(local,remote,{preferLocalProfile=false}={}){
+ local=restore(local,{strict:true});if(!remote)return local;remote=restore(remote,{strict:true});
+ const profile=preferLocalProfile?local:remote,other=profile===local?remote:local;
+ const merged=structuredClone(profile);
+ merged.completed=[...new Set([...local.completed,...remote.completed])];
+ for(const id of merged.completed){const a=local.stats[id],b=remote.stats[id];merged.stats[id]=structuredClone(!a?b:!b?a:(a.lastReviewed??0)>(b.lastReviewed??0)?a:(a.lastReviewed??0)<(b.lastReviewed??0)?b:a.attempts>b.attempts?a:b);}
+ merged.choices={...other.choices,...profile.choices};
+ merged.assessments={...other.assessments,...profile.assessments};
+ for(const [id,a] of Object.entries(merged.assessments))merged.choices[id]=a.choice;
+ merged.legacyImported=structuredClone((local.legacyImported?.completed??0)>(remote.legacyImported?.completed??0)?local.legacyImported:remote.legacyImported);
+ merged.cleared=[...new Set([...(merged.legacyImported?.cleared??[]),...Object.keys(merged.assessments)])];
+ merged.committedSessions=[...new Set([...local.committedSessions,...remote.committedSessions])];
+ merged.pendingSessions={...other.pendingSessions,...profile.pendingSessions};
+ for(const [id,p] of Object.entries(other.pendingSessions))if(p.lastAt>(merged.pendingSessions[id]?.lastAt??0))merged.pendingSessions[id]=p;
+ for(const id of merged.committedSessions)delete merged.pendingSessions[id];
+ merged.kanaDone=local.kanaDone||remote.kanaDone;
+ merged.kana.units=structuredClone(other.kana.units);
+ for(const [id,u] of Object.entries(profile.kana.units)){
+  const o=merged.kana.units[id];if(!o){merged.kana.units[id]=structuredClone(u);continue;}
+  const items={...o.items};for(const [key,r] of Object.entries(u.items))if(!items[key]||(r.lastAt??0)>=(items[key].lastAt??0))items[key]=r;
+  merged.kana.units[id]={...u,demoSeen:u.demoSeen||o.demoSeen,completedAt:u.completedAt||o.completedAt,practiceCount:Math.max(u.practiceCount,o.practiceCount),items};
+ }
+ merged.kana=normalizeKanaProgress(merged.kana);
+ merged.revision=Math.max(local.revision,remote.revision);
+ return restore(sync(merged),{strict:true});
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "path": "cloud-auth.js",
+    "status": 200,
+    "nosniff": true,
+    "match": true
+  },
+  {
+    "path": "cloud-state.js",
+    "status": 200,
+    "nosniff": true,
+    "match": true
+  },
+  {
+    "path": "cloud-model.js",
+    "status": 200,
+    "nosniff": true,
+    "match": true
+  },
+  {
+    "path": "cloud-auth.css",
+    "status": 200,
+    "nosniff": true,
+    "match": true
+  },
+  {
+    "path": "app.js",
+    "status": 200,
+    "nosniff": true,
+    "match": true
+  },
+  {
+    "path": "index.html",
+    "status": 200,
+    "nosniff": true,
+    "match": true
+  },
+  {
+    "path": "api/config",
+    "status": 200,
+    "nosniff": true,
+    "configured": true
+  },
+  {
+    "path": "api/session",
+    "status": 200,
+    "nosniff": true,
+    "guest": true
+  },
+  {
+    "path": "api/progress",
+    "status": 401,
+    "nosniff": true
+  },
+  {
+    "path": "worker.mjs",
+    "status": 404,
+    "nosniff": false
+  },
+  {
+    "path": "store-schema.js",
+    "status": 404,
+    "nosniff": false
+  }
+]

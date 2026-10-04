@@ -6,7 +6,7 @@ const root = new URL('../', import.meta.url);
 const output = new URL('dist/', root);
 const files = [
   ...episodes.map(e=>`assets/scenes/${e.id}.webp`),
-  'index.html', 'style.css','immersive.css', 'app.js', 'choice-keyboard.js', 'engine.js', 'curriculum.js',
+  'cloud-auth.js','cloud-state.js','cloud-model.js','cloud-auth.css','index.html', 'style.css','immersive.css', 'app.js', 'choice-keyboard.js', 'engine.js', 'curriculum.js',
   'story.js', 'lessons.js', 'kana.js', 'legacy-data.js', 'voice.js', 'question-helpers.js',
   'data/vocabulary.json', 'data/vocabulary-overrides.json', 'assets/hero-ink.png',
   'assets/travelers-ink.png', 'assets/realms-ink.png',

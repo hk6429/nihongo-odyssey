@@ -65,8 +65,9 @@ class Element {
 function harness(saved=engine.initial(),{voice=true}={}){
  const root=new Element('main',{id:'app'}),notice=new Element('p',{id:'notice'}),status=new Element('span',{id:'status'});
  const staticElements=new Map([['#app',root],['#notice',notice],['#status',status]]),listeners=new Map(),storage=new Map([[key,engine.serialize(saved)]]);
- let hold=false;const waiting=[];
+ let hold=false,generation=0;const waiting=[];
  const context=vm.createContext({
+  initCloud:async()=>{},saveCloud:()=>{},cloudReady:()=>true,cloudGeneration:()=>generation,
   ...engine,...curriculum,...story,...lessonData,...questionHelpers,installChoiceKeyboard,choiceHint,
   URLSearchParams,location:{search:'?test'},structuredClone,
   localStorage:{getItem:name=>storage.get(name)??null,setItem:(name,value)=>storage.set(name,value)},
@@ -83,6 +84,7 @@ function harness(saved=engine.initial(),{voice=true}={}){
   setSession(value){session=value},setAssessment(value){assessment=value}};`,context,{filename:'app.js'});
  return {
   app:context.app,root,notice,
+  switchAccount(){generation++;},
   saved:()=>engine.restore(storage.get(key),{strict:true}),
   pause(){assert.equal(waiting.length,0);hold=true;},
   get pending(){return waiting.length;},
@@ -254,4 +256,12 @@ test('25 小關各有獨立滿版場景，切換國度與預覽不改動學習�
    await h.click('[data-nav="map"]');
   }
  }
+});
+
+
+test('帳號切換後，不把排隊中的舊帳號作答寫入新帳號',async()=>{
+ const h=harness(ready()),before=h.saved();h.app.begin();h.app.questionView();
+ h.pause();const pending=h.app.submit(answerFor(h.app.session));h.switchAccount();
+ await h.release();await pending;
+ assert.deepEqual(h.saved(),before);assert.match(h.notice.textContent,/帳號已變更/);
 });

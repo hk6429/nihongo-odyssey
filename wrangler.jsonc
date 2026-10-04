@@ -8,6 +8,30 @@
   },
   "assets": {
     "directory": "./dist",
-    "not_found_handling": "none"
-  }
+    "not_found_handling": "none",
+    "run_worker_first": [
+      "/api/*"
+    ]
+  },
+  "main": "edge.mjs",
+  "vars": {
+    "APP_ORIGIN": "https://nihongo-odyssey.hk6429.workers.dev",
+    "GOOGLE_CLIENT_ID": "980957938007-ci9cs6tb1khar0fdl6mlchu4u2165bqv.apps.googleusercontent.com"
+  },
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "PROGRESS_STORE",
+        "class_name": "ProgressStore"
+      }
+    ]
+  },
+  "migrations": [
+    {
+      "tag": "v1",
+      "new_sqlite_classes": [
+        "ProgressStore"
+      ]
+    }
+  ]
 }
