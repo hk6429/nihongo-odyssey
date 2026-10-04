@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-05",
+  "originsConfirmed": true,
+  "readback": {
+    "site": "nihongo",
+    "http": 200,
+    "signedIn": true,
+    "revision": 1,
+    "learned": 0,
+    "draft": false,
+    "entryLevel": "N5"
+  },
+  "method": "Google account chooser, page reload, observed same-origin /api/session response",
+  "answersSubmitted": false
+}
