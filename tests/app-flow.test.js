@@ -227,3 +227,14 @@ for(const assessment of [false,true])test(`${assessment?'情境':'詞彙'}：答
  await h.click(assessment?'#assessment-next':'#next');
  assert.equal(active.awaitingExplanation,false);
 });
+
+test('進度分清兩組詞彙與情境考驗，部分完成不誤報小關過關',async()=>{
+ const h=harness(ready());h.app.begin();
+ assert.match(h.root.textContent,/已過 0 \/ 5 小關/);assert.match(h.root.textContent,/完成 0 \/ 3 個步驟/);
+ solve(h.app.session);await h.app.finish();
+ assert.match(h.root.textContent,/任務一 5\/5 詞/);assert.match(h.root.textContent,/完成 1 \/ 3 個步驟/);assert.match(h.root.textContent,/前情與你的決定/);assert.match(h.root.textContent,/第 2 組五個核心詞/);
+ h.app.begin();solve(h.app.session);await h.app.finish();
+ assert.match(h.root.textContent,/已過 0 \/ 5 小關/);assert.match(h.root.textContent,/完成 2 \/ 3 個步驟/);assert.match(h.root.textContent,/兩組詞彙已完成/);
+ h.app.storyQuiz();while(h.app.assessment.queue.length){const q=h.app.assessment.queue[0];engine.answerAssessment(h.app.assessment,q.answer);}
+ await h.app.finishAssessment();assert.match(h.root.textContent,/已過 1 \/ 5 小關/);assert.match(h.root.textContent,/完成 3 \/ 3 個步驟/);assert.match(h.root.textContent,/下一小關/);
+});

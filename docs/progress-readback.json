@@ -1,0 +1,23 @@
+{
+  "checkedAt": "2026-10-04T09:00:40.955444+00:00",
+  "assets": [
+    {
+      "file": "app.js",
+      "url": "https://nihongo-odyssey.hk6429.workers.dev/app.js",
+      "status": 200,
+      "sha256": "6ba6f55d906e27c798651756c22f1ef39c19f9570c1c8456c66f2b116c7e1357",
+      "matches": true,
+      "mime": "text/javascript",
+      "nosniff": "nosniff"
+    },
+    {
+      "file": "style.css",
+      "url": "https://nihongo-odyssey.hk6429.workers.dev/style.css",
+      "status": 200,
+      "sha256": "2cbbf939455ceb536855eb9c8ae49b15cf446ed8c183d9711e3e16db3a3ba1a8",
+      "matches": true,
+      "mime": "text/css",
+      "nosniff": "nosniff"
+    }
+  ]
+}
