@@ -5,6 +5,7 @@ import {episodes} from '../story.js';
 const root = new URL('../', import.meta.url);
 const output = new URL('dist/', root);
 const files = [
+  'assets/favicon.svg',
   ...episodes.map(e=>`assets/scenes/${e.id}.webp`),
   'cloud-auth.js','cloud-state.js','cloud-model.js','cloud-auth.css','index.html', 'style.css','immersive.css', 'app.js', 'choice-keyboard.js', 'engine.js', 'curriculum.js',
   'story.js', 'lessons.js', 'kana.js', 'legacy-data.js', 'voice.js', 'question-helpers.js',
