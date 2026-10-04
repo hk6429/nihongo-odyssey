@@ -1,0 +1,34 @@
+[
+  {
+    "file": "app.js",
+    "status": 200,
+    "sha256": "a36be51a278634a9a5af7b40f2f320bf5aee9200389b063b847800e81a8eb497",
+    "match": true,
+    "mime": "text/javascript",
+    "nosniff": "nosniff"
+  },
+  {
+    "file": "choice-keyboard.js",
+    "status": 200,
+    "sha256": "28bc0e0b354d2918318ae58dced98fb85f464874730ac12431d21077eed08c2c",
+    "match": true,
+    "mime": "text/javascript",
+    "nosniff": "nosniff"
+  },
+  {
+    "file": "engine.js",
+    "status": 200,
+    "sha256": "bd6c98e06492a0baeebdd241b874ce84edf06799c58e67da078bd06ca84161e3",
+    "match": true,
+    "mime": "text/javascript",
+    "nosniff": "nosniff"
+  },
+  {
+    "file": "kana.js",
+    "status": 200,
+    "sha256": "3d66237ef0629408024a467ded61684bb1117417e58771ce936068b77c9f7f12",
+    "match": true,
+    "mime": "text/javascript",
+    "nosniff": "nosniff"
+  }
+]

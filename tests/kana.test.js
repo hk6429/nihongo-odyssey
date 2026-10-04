@@ -162,12 +162,13 @@ test('無日語聲線的實際畫面標示文字模式，可選單元、錯答�
   assert.match(view.root.html, /看拼音，選出對應的假名/);
   assert.doesNotMatch(view.root.html, /data-kana-play=/);
   await view.root.click('[data-kana-answer="キッテ"]');
-  assert.match(view.root.html, /還沒對上，再試一次/);
+  assert.match(view.root.html, /正確答案是「キテ」/);
+  assert.equal(view.root.querySelector('[data-kana-answer="キテ"]').disabled,true);
+  await view.root.click('[data-kana-retry]');
   assert.equal(view.root.querySelector('[data-kana-next]'), null);
   await view.root.click('[data-kana-hint]');
   assert.match(view.root.html, /提示：<span lang="ja">キテ/);
   await view.root.click('[data-kana-answer="キテ"]');
-  await view.root.click('[data-kana-next]');
   assert.equal(view.progress().units['kata-sokuon'].items['recognize-0'].firstAnswer, 'wrong');
   await view.root.click('[data-kana-continue]');
   assert.equal(view.continued(), 1);
@@ -180,19 +181,18 @@ test('拼排含重複字卡可個別選取，撤提示回想不提供選項', as
   await view.root.click('[data-kana-start]');
   for (const task of kanaTasks('hira-row-5').filter(task => task.stage === 'recognize')) {
     await view.root.click(`[data-kana-answer="${task.answer}"]`);
-    await view.root.click('[data-kana-next]');
   }
   assert.match(view.root.html, /第三步・拼排詞語/);
   await view.root.click('[data-kana-tile="0"]');
   await view.root.click('[data-kana-tile="1"]');
   await view.root.click('[data-kana-check]');
-  await view.root.click('[data-kana-next]');
   assert.match(view.root.html, /第四步・撤提示回想/);
   assert.equal(view.root.querySelectorAll('[data-kana-answer]').length, 0);
   assert.equal(view.root.querySelectorAll('[data-kana-tile]').length, 0);
   view.root.querySelector('[data-kana-input]').value = 'は';
   await view.root.click('[data-kana-check]');
-  assert.match(view.root.html, /答對了/);
+  assert.match(view.root.html, /讀音：hi/);
+  assert.equal(view.root.querySelector('[data-kana-next]'),null);
 });
 
 test('保存失敗時不假裝前進，使用者仍可重試', async () => {

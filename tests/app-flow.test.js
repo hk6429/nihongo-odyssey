@@ -1,3 +1,4 @@
+import {installChoiceKeyboard,choiceHint} from '../choice-keyboard.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -66,11 +67,11 @@ function harness(saved=engine.initial(),{voice=true}={}){
  const staticElements=new Map([['#app',root],['#notice',notice],['#status',status]]),listeners=new Map(),storage=new Map([[key,engine.serialize(saved)]]);
  let hold=false;const waiting=[];
  const context=vm.createContext({
-  ...engine,...curriculum,...story,...lessonData,...questionHelpers,
+  ...engine,...curriculum,...story,...lessonData,...questionHelpers,installChoiceKeyboard,choiceHint,
   URLSearchParams,location:{search:'?test'},structuredClone,
   localStorage:{getItem:name=>storage.get(name)??null,setItem:(name,value)=>storage.set(name,value)},
   navigator:{locks:{request:(_name,run)=>hold?new Promise((resolve,reject)=>waiting.push({run,resolve,reject})):Promise.resolve().then(run)}},
-  document:{querySelector:selector=>staticElements.get(selector)??root.querySelector(selector),addEventListener:(type,callback)=>listeners.set(type,callback)},
+  document:{querySelector:selector=>staticElements.get(selector)??root.querySelector(selector),addEventListener:(type,callback,capture)=>listeners.set(capture?type+':capture':type,callback)},
   window:{scrollTo(){},addEventListener(){}},confirm:()=>true,setTimeout:()=>0,clearTimeout(){},
   stopVoice(){},speak(){},japaneseVoice:()=>voice?{name:'Test Japanese'}:null,
   mountKana(){throw Error('Kana is outside this regression harness.');}
@@ -178,7 +179,7 @@ test('詞彙聽力文字替代保留原題模式與證據，答完後以文字�
 for(const voice of [true,false]){
  test(`情境聽力${voice?'手動':'無聲線自動'}文字替代保留原模式，完成後記閱讀證據`,async()=>{
   const h=harness(assessmentReady(),{voice});h.app.storyQuiz();const active=h.app.assessment;
-  while(active.queue[0].mode!=='listening'){await h.app.submitAssessment(active.queue[0].answer);await h.click('#assessment-next');}
+  while(active.queue[0].mode!=='listening'){await h.app.submitAssessment(active.queue[0].answer);}
   const q=active.queue[0];
   if(voice)await h.click('#assessment-text');else await new Promise(setImmediate);
   assert.equal(q.mode,'listening');assert.equal(q.uiFallback,true);assert.equal(h.root.querySelector('#assessment-text'),null);
@@ -208,4 +209,21 @@ test('N5實際振假名渲染涵蓋故事、微劇情及情境材料的漢字',(
   for(const text of texts){const remainder=app.jaMarkup(text).replace(/<button[\s\S]*?<\/button>/g,'');if(/[\p{Script=Han}々]/u.test(remainder))missing.push(chapter.id+' '+text+' → '+remainder);}
  }
  assert.deepEqual(missing,[]);
+});
+
+for(const assessment of [false,true])test(`${assessment?'情境':'詞彙'}：答對直接換題，答錯停留解析且不接受第二次送出`,async()=>{
+ const h=harness(assessment?assessmentReady():ready()),{app}=h;
+ if(assessment)app.storyQuiz();else{app.begin();app.questionView();}
+ const active=assessment?app.assessment:app.session;
+ const oldHTML=h.root.innerHTML;
+ if(assessment)await app.submitAssessment(active.queue[0].answer);else await app.submit(answerFor(active));
+ assert.notEqual(h.root.innerHTML,oldHTML);
+ assert.equal(h.root.querySelector(assessment?'#assessment-next':'#next').hidden,true);
+ if(assessment)await app.submitAssessment(-1);else await app.submit('wrong');
+ const queue=JSON.stringify(active.queue),html=h.root.innerHTML;
+ assert.equal(h.root.querySelector(assessment?'#assessment-next':'#next').hidden,false);
+ if(assessment)await app.submitAssessment(-1);else await app.submit('wrong');
+ assert.equal(JSON.stringify(active.queue),queue);assert.equal(h.root.innerHTML,html);
+ await h.click(assessment?'#assessment-next':'#next');
+ assert.equal(active.awaitingExplanation,false);
 });

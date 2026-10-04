@@ -1,3 +1,4 @@
+import {choiceHint} from './choice-keyboard.js';
 import {kanaRows, katakana} from './legacy-data.js';
 
 const rowNames = ['母音', 'か行', 'さ行', 'た行', 'な行', 'は行', 'ま行', 'や行', 'ら行', 'わ行', 'ん', 'が行・濁音', 'ざ行・濁音', 'だ行・濁音', 'ば行・濁音', 'ぱ行・半濁音'];
@@ -243,12 +244,16 @@ export function mountKana({root, shell, esc, speak, stopVoice, notify, getProgre
     });
   }
   async function event(type, value) {
-    const result = applyKanaEvent(snapshot(), session, {type, value});
+    if(pending)return;
+    let result = applyKanaEvent(snapshot(), session, {type, value});
     if (!result.accepted) return;
+    const correct=type==='answer'&&result.ok;
+    const task=kanaTasks(session.unitId)[session.index];
+    if(correct)result=applyKanaEvent(result.progress,result.session,{type:'next'});
     await persist(result.progress, () => {
       session = result.session;
-      if (type === 'next') {feedback = ''; chosen = [];}
-      if (type === 'answer') feedback = result.ok ? '答對了。準備好再往下一步。' : '還沒對上，再試一次。需要時可以看提示。';
+      if (type === 'next'||correct) {feedback = ''; chosen = [];}
+      if (type === 'answer'&&!correct) feedback = `正確答案是「${task.answer}」，讀音是 ${task.target.rom}。${task.target.meaning?`意思是「${task.target.meaning}」。`:''}請對照字形與讀音，再試一次。`;
       session.finished ? finish() : practice();
     });
   }
@@ -259,14 +264,15 @@ export function mountKana({root, shell, esc, speak, stopVoice, notify, getProgre
     const stage = {recognize: '第二步・辨讀', assemble: '第三步・拼排詞語', recall: '第四步・撤提示回想'}[task.stage];
     const heard = task.stage === 'recognize' && listening;
     let body = '';
-    if (task.stage === 'recognize') body = `<h2>${heard ? '聽讀音，選出對應的假名' : '看拼音，選出對應的假名'}</h2><p>${heard ? '先按「播放題目」再作答。' : `讀音：${esc(task.target.rom)}`}${selected.id.endsWith('row-13') ? `（限${convert('だ', selected.script)}行）` : ''}</p>${heard ? playButton(task.target.kana, '播放題目') : ''}${available() ? `<button data-kana-mode>${listening ? '切換文字辨讀' : '切換聽音選字'}</button>` : `<p class="tip">${esc(kanaMode(false).message)}</p>`}<div class="choices">${task.options.map(option => `<button data-kana-answer="${esc(option)}" lang="ja" ${session.solved ? 'disabled' : ''}>${esc(option)}</button>`).join('')}</div>`;
-    if (task.stage === 'assemble') body = `<h2>把假名排成剛才見過的詞</h2><p>${esc(task.target.meaning)} · 讀音 ${esc(task.target.rom)}</p><p>點字卡依序放入；小假名、促音與長音符號都要放對位置。</p><p class="word" lang="ja" aria-live="polite">${esc(chosen.map(index => task.tiles[index]).join('')) || '＿＿'}</p><div class="actions">${task.tiles.map((tile, index) => `<button data-kana-tile="${index}" lang="ja" ${chosen.includes(index) || session.solved ? 'disabled' : ''}>${esc(tile)}</button>`).join('')}</div><div class="actions"><button data-kana-undo ${!chosen.length || session.solved ? 'disabled' : ''}>退回一格</button><button data-kana-clear ${!chosen.length || session.solved ? 'disabled' : ''}>重新排</button><button class="primary" data-kana-check ${chosen.length !== task.tiles.length || session.solved ? 'disabled' : ''}>檢查拼排</button></div>`;
-    if (task.stage === 'recall') body = `<h2>收起字卡，回想假名</h2><p>讀音：${esc(task.target.rom)}${task.target.meaning ? ` · ${esc(task.target.meaning)}` : ''}</p><p>輸入${scriptName(selected.script)}，可以使用裝置的日文鍵盤。畫面先不給字形與選項；看提示會如實留下紀錄。</p><label for="kana-recall-input">你的假名</label><input id="kana-recall-input" data-kana-input lang="ja" autocomplete="off" autocapitalize="off" spellcheck="false" ${session.solved ? 'disabled' : ''}><button class="primary" data-kana-check ${session.solved ? 'disabled' : ''}>檢查回想</button>`;
-    show(`<p class="eyebrow">${scriptName(selected.script)}・${esc(selected.title)} · ${stage}</p><p>本單元第 ${session.index + 1} / ${tasks.length} 題</p><div class="progress" role="progressbar" aria-label="本次單元練習" aria-valuemin="0" aria-valuemax="${tasks.length}" aria-valuenow="${session.index}"><span style="width:${session.index / tasks.length * 100}%"></span></div>${body}<p class="feedback" role="status">${esc(feedback)}</p>${session.usedHint ? `<p class="tip">提示：<span lang="ja">${esc(task.answer)}</span> · ${esc(task.target.rom)}</p>` : `<button data-kana-hint ${session.solved ? 'disabled' : ''}>看字形提示（會留下紀錄）</button>`}<div class="actions">${session.solved ? '<button class="primary" data-kana-next>下一步</button>' : ''}</div>${exits()}`);
+    if (task.stage === 'recognize') body = `<h2>${heard ? '聽讀音，選出對應的假名' : '看拼音，選出對應的假名'}</h2><p>${heard ? '先按「播放題目」再作答。' : `讀音：${esc(task.target.rom)}`}${selected.id.endsWith('row-13') ? `（限${convert('だ', selected.script)}行）` : ''}</p>${heard ? playButton(task.target.kana, '播放題目') : ''}${available() ? `<button data-kana-mode>${listening ? '切換文字辨讀' : '切換聽音選字'}</button>` : `<p class="tip">${esc(kanaMode(false).message)}</p>`}<p class="muted">${choiceHint}</p><div class="choices" data-quiz-options>${task.options.map((option,i) => `<button data-quiz-choice data-kana-answer="${esc(option)}" lang="ja" ${session.solved || feedback ? 'disabled' : ''}><small>${'ABCD'[i]}</small> ${esc(option)}</button>`).join('')}</div>`;
+    if (task.stage === 'assemble') body = `<h2>把假名排成剛才見過的詞</h2><p>${esc(task.target.meaning)} · 讀音 ${esc(task.target.rom)}</p><p>點字卡依序放入；小假名、促音與長音符號都要放對位置。</p><p class="word" lang="ja" aria-live="polite">${esc(chosen.map(index => task.tiles[index]).join('')) || '＿＿'}</p><div class="actions">${task.tiles.map((tile, index) => `<button data-kana-tile="${index}" lang="ja" ${chosen.includes(index) || session.solved || feedback ? 'disabled' : ''}>${esc(tile)}</button>`).join('')}</div><div class="actions"><button data-kana-undo ${!chosen.length || session.solved ? 'disabled' : ''}>退回一格</button><button data-kana-clear ${!chosen.length || session.solved ? 'disabled' : ''}>重新排</button><button class="primary" data-kana-check ${chosen.length !== task.tiles.length || session.solved || feedback ? 'disabled' : ''}>檢查拼排</button></div>`;
+    if (task.stage === 'recall') body = `<h2>收起字卡，回想假名</h2><p>讀音：${esc(task.target.rom)}${task.target.meaning ? ` · ${esc(task.target.meaning)}` : ''}</p><p>輸入${scriptName(selected.script)}，可以使用裝置的日文鍵盤。畫面先不給字形與選項；看提示會如實留下紀錄。</p><label for="kana-recall-input">你的假名</label><input id="kana-recall-input" data-kana-input lang="ja" autocomplete="off" autocapitalize="off" spellcheck="false" ${session.solved || feedback ? 'disabled' : ''}><button class="primary" data-kana-check ${session.solved || feedback ? 'disabled' : ''}>檢查回想</button>`;
+    show(`<p class="eyebrow">${scriptName(selected.script)}・${esc(selected.title)} · ${stage}</p><p>本單元第 ${session.index + 1} / ${tasks.length} 題</p><div class="progress" role="progressbar" aria-label="本次單元練習" aria-valuemin="0" aria-valuemax="${tasks.length}" aria-valuenow="${session.index}"><span style="width:${session.index / tasks.length * 100}%"></span></div>${body}<p class="feedback" role="status">${esc(feedback)}</p>${session.usedHint ? `<p class="tip">提示：<span lang="ja">${esc(task.answer)}</span> · ${esc(task.target.rom)}</p>` : `<button data-kana-hint ${session.solved || feedback ? 'disabled' : ''}>看字形提示（會留下紀錄）</button>`}<div class="actions">${feedback ? '<button class="primary" data-kana-retry>看懂了，再試一次</button>' : ''}${session.solved ? '<button class="primary" data-kana-next>下一步</button>' : ''}</div>${exits()}`);
     bind('[data-kana-answer]', button => event('answer', button.dataset.kanaAnswer));
     bind('[data-kana-mode]', () => {listening = !listening; practice();});
     bind('[data-kana-hint]', () => event('hint'));
     bind('[data-kana-next]', () => event('next'));
+    bind('[data-kana-retry]',()=>{feedback='';chosen=[];practice();});
     bind('[data-kana-tile]', button => {chosen.push(Number(button.dataset.kanaTile)); feedback = ''; practice();});
     bind('[data-kana-undo]', () => {chosen.pop(); feedback = ''; practice();});
     bind('[data-kana-clear]', () => {chosen = []; feedback = ''; practice();});
